@@ -1,6 +1,6 @@
 <!-- MarkdownTOC -->
 
-- [1、什么是Redis，Redis有哪些特点？](#1%E3%80%81%E4%BB%80%E4%B9%88%E6%98%AFredis%EF%BC%8Credis%E6%9C%89%E5%93%AA%E4%BA%9B%E7%89%B9%E7%82%B9%EF%BC%9F)
+- [1 什么是Redis，Redis有哪些特点？](#1-%E4%BB%80%E4%B9%88%E6%98%AFredis%EF%BC%8Credis%E6%9C%89%E5%93%AA%E4%BA%9B%E7%89%B9%E7%82%B9%EF%BC%9F)
 - [2、Redis有哪些数据结构？](#2%E3%80%81redis%E6%9C%89%E5%93%AA%E4%BA%9B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%EF%BC%9F)
 - [3、一个字符串类型的值能存储最大容量是多少？](#3%E3%80%81%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B%E7%9A%84%E5%80%BC%E8%83%BD%E5%AD%98%E5%82%A8%E6%9C%80%E5%A4%A7%E5%AE%B9%E9%87%8F%E6%98%AF%E5%A4%9A%E5%B0%91%EF%BC%9F)
 - [4、能说一下Redis每种数据结构的使用场景吗？](#4%E3%80%81%E8%83%BD%E8%AF%B4%E4%B8%80%E4%B8%8Bredis%E6%AF%8F%E7%A7%8D%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%E5%90%97%EF%BC%9F)
@@ -33,7 +33,7 @@
 <!-- /MarkdownTOC -->
 
 
-# 1、什么是Redis，Redis有哪些特点？
+# 1 什么是Redis，Redis有哪些特点？
 
 Redis全称为：Remote Dictionary Server（远程数据服务），Redis是一种支持key-value等多种数据结构的存储系统。可用于缓存，事件发布或订阅，高速队列等场景。支持网络，提供字符串，哈希，列表，队列，集合结构直接存取，基于内存，可持久化。
 
