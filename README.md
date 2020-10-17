@@ -1,12 +1,11 @@
-> 作者简介：
->
-> 毕业于华中科技大学，几年间浪迹于多个一线互联网大厂，具有十年开发实战经验。公司里同事崇尚技术，彼此间以架构师互称，大家后面可以叫我『雷架』。
->
-> 如果你热爱技术或者你不满足现状喜欢搞事情，那你不妨关注我，让我们一路同行，一起分享技术干货、交流面试技巧、吐槽职场故事。
->
-> 我有技术和故事，你来吗？:heart: [与雷架深度交流](#公众号)
+> 关于JavaFullStack项目：点这里  
+> 关于我：[点这里](#关于我)  
+> 阅读有障碍：如果 Github 访问速度比较慢或者图片无法刷新出来的话，[建议跳转到码云在线阅读]()。    
+> 
+> 转载须知：转载需要[联系我授权](#微信公众号)，恶意抄袭我会不惜一切代价维护权益，希望大家一起维护良好的创作环境，拒绝内卷。  
 
 <div align="center">
+		<a href="#关于我" target="_blank"> <img src="https://badgen.net/badge/%E5%85%B3%E4%BA%8E%E6%88%91/Who%20I%20am/ef8b00"></a>
     <a href="" target="_blank"> <img src="https://badgen.net/badge/%E7%A0%81%E4%BA%91/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB/ef8b00"></a>
     <a href="#微信公众号"> <img src="https://badgen.net/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88/ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://badgen.net/badge/CSDN/csdn.net/ef8b00"></a>
@@ -16,16 +15,17 @@
 </div>
 
 <p align="center">
-<a href="#" target="_blank">
-	<img src="https://images-cdn.shimo.im/NHhTcMQduW8C3Bn6__thumbnail.jpg" width="180"/>
+<a href="#关于我" target="_blank">
+	<img src="https://images-cdn.shimo.im/L4K3bUOe6t6W8uy5__thumbnail.png" width="200"/>
 </a>
 </p>
 
-> 表格中列出了 Java 后端相关技术栈纲要，其中大部分内容还未完成，雷架计划用几年的时间补全这些知识点（工作比较忙只能牺牲业余时间），希望能给小伙伴们在今后的学习和工作中带来帮助。
+# Java后端技术成长之路(JavaFullStack)
+> :information_source: 表格中列出了 Java 后端相关技术栈纲要，其中大部分内容还未完成，雷架计划用几年的时间补全这些知识点（工作比较忙只能牺牲业余时间），希望能给小伙伴们在今后的学习和工作中带来帮助。
 >
-> 祝愿大家都能成长为技术大牛，年薪百万迎娶白富美走上人生巅峰。
+> :dart: 祝愿大家都能成长为技术大牛，年薪百万迎娶白富美走上人生巅峰。
 >
-> 备注：表格中西瓜越多代表内容越丰富。
+> :memo: 表格中西瓜数量越多代表内容越丰富。
 
 |类别|子项|标签 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |完整度 &nbsp;&nbsp;&nbsp;&nbsp; |
 |-----|:----|:----|:----|
@@ -46,9 +46,9 @@
 |    |机器学习&AI人工智能|    |    |
 |:wrench: [工具软件](#工具软件)|开发工具&效率提升|    |:watermelon:|
 |    |部署和运维|    |    |
-|:gun: [我要进大厂and面经](#我要进大厂and面经)|    |    |:watermelon:|
+|:gun: [我要进大厂面经](#我要进大厂面经)|    |    |:watermelon:|
 |:crescent_moon: [程序员的故事](#程序员的故事)|    |    |:watermelon:|
-|:earth_americas: [瞎扯and互联网热点](#瞎扯and互联网热点)|    |    |:watermelon:|
+|:earth_americas: [瞎扯or互联网热点](#瞎扯or互联网热点)|    |    |:watermelon:|
 
 <br>
 
@@ -112,19 +112,26 @@
 ### Nginx
 ### Tomcat
 
-# 我要进大厂and面经
+# 我要进大厂面经
 
 # 程序员的故事
 
-# 瞎扯and互联网热点
+# 瞎扯or互联网热点
 
-# 公众号
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
+# 关于我
+> 毕业于华中科技大学，几年间浪迹于多个一线互联网大厂，具有十年开发实战经验。公司里同事崇尚技术，彼此间以架构师互称，大家后面可以叫我『雷架』。
+>
+> 如果你热爱技术或者你不满足现状喜欢搞事情，那你不妨关注我，让我们一路同行，一起分享技术干货、交流面试技巧、吐槽职场故事。
+>
+> 我有技术和故事，等你来搞基。
 
-如果想找雷架咨询问题、交流、聊天，关注公众号即可找到个人二维码。
+公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。:point_down:
 
+或者你仅仅想找雷架咨询问题、交流、聊天，关注公众号可找到私人二维码。:point_down:
+
+<a name="微信公众号"></a>
 <div align="center">
-    <img width="500px" src="https://images-cdn.shimo.im/SDQwWddJZBvS7EfA__thumbnail.png"></img>
+    <img width="500px" src="https://images-cdn.shimo.im/o78Zx2wMPD3xSZWL__thumbnail.png"></img>
 </div>
 
 
