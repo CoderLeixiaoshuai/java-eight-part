@@ -86,9 +86,10 @@
 # 技术大牛
 
 ## 常用中间件
-### NOSQL数据库
+### Redis缓存
+[硬核万字长文，看完这20道Redis面试题，女朋友都学会Redis了](docs/expert/middleware/redis/硬核万字长文，看完这20道Redis面试题，女朋友都学会Redis了.md)
 
-### 消息队列
+### Kafka消息队列
 
 ### 数据库中间件
 
