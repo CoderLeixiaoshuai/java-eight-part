@@ -36,7 +36,7 @@
 |    |计算机网络|    |    |
 |    |操作系统|    |    |
 |    |计算机组成原理|    |    |
-|:rocket: :rocket: [技术进阶](#技术进阶)|Java高级特性| #Java8新特性 |:watermelon::watermelon::watermelon:|
+|:rocket: :rocket: [技术进阶](#技术进阶)|Java高级特性| [#Java8实战系列](#Java8实战系列) |:watermelon::watermelon::watermelon:|
 |    |基础框架|    |    |
 |    |微服务框架|    |    |
 |    |设计模式|    |    |
@@ -65,7 +65,12 @@
 # 技术进阶
 
 ## Java 高级特性
-### Java8 语法糖
+### Java8实战系列
+- [实战系列01：Java8函数式接口和Lambda表达式你真的会了吗?](docs/advanced/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
+- [实战系列02：包学会，教你用Java函数式编程重构烂代码](docs/advanced/java8/包学会，教你用Java函数式编程重构烂代码.md)
+- [实战系列03：请避开Stream流式编程常见的坑](docs/advanced/java8/请避开Stream流式编程常见的坑.md)
+- [实战系列04：使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8 Optional类优雅解决空指针问题.md)
+
 ### Java 集合
 ### Java 并发编程
 ### JVM 深入理解Java虚拟机
