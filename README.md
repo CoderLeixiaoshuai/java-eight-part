@@ -87,7 +87,8 @@
 
 ## 常用中间件
 ### Redis缓存
-[看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
+- [Redis核心技术知识点全集:+1::+1::+1:](docs/expert/middleware/redis/Redis核心技术知识点全集.md)
+- [看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
 ### Kafka消息队列
 
