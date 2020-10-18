@@ -47,7 +47,7 @@
 |    |机器学习&AI人工智能|    |    |
 |:wrench: [工具软件](#工具软件)|[开发工具和效率提升](#开发工具和效率提升)| [#IDEA插件](docs/tools/idea/推荐十款精选IntelliJIdea插件.md) |:watermelon:|
 |    |部署和运维|    |    |
-|:gun: [我要进大厂面经](#我要进大厂面经)|    |    |:watermelon:|
+|:gun: [我要进大厂面经](#我要进大厂面经)|    | [#网易招聘](#我要进大厂面经) |:watermelon:|
 |:crescent_moon: [程序员的故事](#程序员的故事)|    | [#30岁的程序员](#程序员的故事) [#国企程序员](#程序员的故事) [#离开华为](#程序员的故事)<br> [#女程序员](#程序员的故事) [#我和我的家乡](#程序员的故事) |:watermelon::watermelon::watermelon:|
 |:earth_americas: [瞎扯or互联网热点](#瞎扯or互联网热点)|    | [#鸿蒙OS软总线](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md) |:watermelon:|
 
@@ -118,6 +118,12 @@
 ### Tomcat
 
 # 我要进大厂面经
+面试前你必须得了解
+- [网易面试干货之HR解密网易招聘（上篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=1&sn=d0c73f80b6ee92aebc12dbdbcb41d8ec&chksm=8f09cfb2b87e46a4afa541bb198c0bca3acdb9067c269406447587c3c8cfd135bea0ec701bd8&scene=178&cur_album_id=1531431564587417601#rd)
+- [网易面试干货之HR解密网易招聘（下篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=2&sn=21940f268890e43032434b628fc08819&chksm=8f09cfb2b87e46a4e6c94b8b94667f036be9e8a3e6780e7ca8b714d18b53e0f1b96c67d07781&scene=178&cur_album_id=1531431564587417601#rd)
+
+面试经验
+
 
 # 程序员的故事
 - [程序员版《我和我的家乡》，拼搏奋斗的IT人是家乡的骄傲！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321444&idx=1&sn=17f3ce6c05b40afc3c18bdb23ee2f6d7&chksm=8f09cc3eb87e45289fd1e51055a4acb7d9689a8e3d4ffc598fc7fd1ca1e918f1628ee67d55c6&scene=178&cur_album_id=1531431564587417601#rd)
