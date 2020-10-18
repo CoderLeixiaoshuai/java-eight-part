@@ -70,7 +70,7 @@ Redis是key-value数据库，key的类型只能是String，但是value的数据�
 * Set
 * Sorted Set
 
-![图片](https://uploader.shimo.im/f/WSnWh6fkpZLksyOX.png!thumbnail)
+![图片](https://uploader.shimo.im/f/CERkoGalNeSDSydq.png!thumbnail)
 
 **（1）String字符串**
 
@@ -181,7 +181,8 @@ zset的成员是唯一的,但分数(score)却可以重复。
 
 以购物车为例子，用户id设置为key，那么购物车里所有的商品就是用户key对应的值了，每个商品有id和购买数量，对应hash的结构就是商品id为field，商品数量为value。如图所示：
 
-![图片](https://uploader.shimo.im/f/GiuqBqTTDGf1k2dn.png!thumbnail)
+![图片](https://uploader.shimo.im/f/ZB08uPrAOrQcLBIf.png!thumbnail)
+
 
 如果将商品id和商品数量序列化成json字符串，那么也可以用上面讲的string类型存储。下面对比一下这两种数据结构：
 
@@ -204,7 +205,7 @@ zset的成员是唯一的,但分数(score)却可以重复。
 
 list类型的lrange命令可以分页查看队列中的数据。可将每隔一段时间计算一次的排行榜存储在list类型中，如QQ音乐内地排行榜，每周计算一次存储再list类型中，访问接口时通过page和size分页转化成lrange命令获取排行榜数据。
 
-![图片](https://uploader.shimo.im/f/0W7u2AVqc0XZjaec.jpeg!thumbnail)
+![图片](https://uploader.shimo.im/f/oUXsIsgDLDgBDGeh.jpeg!thumbnail)
 
 但是，并不是所有的排行榜都能用list类型实现，只有定时计算的排行榜才适合使用list类型存储，与定时计算的排行榜相对应的是实时计算的排行榜，list类型不能支持实时计算的排行榜，下面介绍有序集合sorted set的应用场景时会详细介绍实时计算的排行榜的实现。
 
@@ -218,7 +219,8 @@ list类型的lrange命令可以分页查看队列中的数据。可将每隔一�
 
 key为用户id，value为歌曲id的集合。
 
-![图片](https://uploader.shimo.im/f/bK4vieCv2LslXVIq.jpeg!thumbnail)
+![图片](https://uploader.shimo.im/f/BKNE6fYpMTozbjbK.jpeg!thumbnail)
+
 
 **（5）Sorted Set的使用场景**
 
@@ -228,7 +230,7 @@ key为用户id，value为歌曲id的集合。
 
 QQ音乐中有多种实时榜单，比如飙升榜、热歌榜、新歌榜，可以用redis key存储榜单类型，score为点击量，value为歌曲id，用户每点击一首歌曲会更新redis数据，sorted set会依据score即点击量将歌曲id排序。
 
-![图片](https://uploader.shimo.im/f/mEoD3Zsd0R910sL6.jpeg!thumbnail)
+![图片](https://uploader.shimo.im/f/jlZkDDk1SC8NyL0H.jpeg!thumbnail)
 
 # 5、Redis如何做持久化的？能说一下RDB和AOF的实现原理吗？
 
@@ -287,7 +289,7 @@ save ""
 
 **bgsave工作机制**
 
-![图片](https://uploader.shimo.im/f/0xV52bqdNVfJ7fKB.png!thumbnail)
+![图片](https://uploader.shimo.im/f/vMYV8daaofPe1Zwk.png!thumbnail)
 
 （1）执行bgsave命令，Redis父进程判断当前是否存在正在执行的子进 程，如RDB/AOF子进程，如果存在，bgsave命令直接返回。
 
@@ -313,7 +315,9 @@ AOF文件名 通过appendfilename配置设置，默认文件名是appendonly.aof
 
 AOF的工作流程操作：命令写入 （append）、文件同步（sync）、文件重写（rewrite）、重启加载 （load）。
 
-![图片](https://uploader.shimo.im/f/UDiS8d0jjBKhsR3W.png!thumbnail)
+
+
+![图片](https://uploader.shimo.im/f/Sf4fs5pwrKd1TmFq.png!thumbnail)
 
 （1）所有的写入命令会追加到aof_buf（缓冲区）中。
 
@@ -347,7 +351,7 @@ auto-aof-rewrite-percentage：代表当前AOF文件空间 （aof_current_size）
 
 其中aof_current_size和aof_base_size可以在info Persistence统计信息中查看。
 
-![图片](https://uploader.shimo.im/f/debsx48n43gNlnEp.png!thumbnail)
+![图片](https://uploader.shimo.im/f/Wq4qJuHHwZHT125y.png!thumbnail)
 
 AOF文件重写后为什么会变小？
 
@@ -357,7 +361,7 @@ AOF文件重写后为什么会变小？
 
 **AOF文件数据恢复**
 
-![图片](https://uploader.shimo.im/f/YwlQ7wtH4Hpm7EWP.png!thumbnail)
+![图片](https://uploader.shimo.im/f/Jew03ZvhiVZmupLV.png!thumbnail)
 
 数据恢复流程说明：
 
@@ -586,7 +590,6 @@ redis 内部使用文件事件处理器 file event handler，这个文件事件�
 
 降级一般是有损的操作，所以尽量减少降级对于业务的影响程度。
 
-
 # 8、Redis的内存淘汰机制
 
 Redis内存淘汰策略是指当缓存内存不足时，通过淘汰旧数据处理新加入数据选择的策略。
@@ -611,7 +614,6 @@ Redis支持运行时通过命令动态修改内存大小：
 1) "maxmemory"
 2) "209715200"
 ```
-
 **淘汰策略的分类**
 
 Redis最大占用内存用完之后，如果继续添加数据，如何处理这种情况呢？实际上Redis官方已经定义了八种策略来处理这种情况：
@@ -866,7 +868,7 @@ Redis Sentinel 是一个特殊的 Redis 节点。在哨兵模式创建时，需�
 
 Redis-Cluster采用无中心结构，每个节点都保存数据，节点之间互相连接从而知道整个集群状态。
 
-![图片](https://uploader.shimo.im/f/PNyUtVh8fsi0Hcan.png!thumbnail)
+![图片](https://uploader.shimo.im/f/8LhCp2FunBDqBo7b.png!thumbnail)
 
 如图所示Cluster模式其实就是多个主从复制的结构组合起来的，每一个主从复制结构可以看成一个节点，那么上面的Cluster集群中就有三个节点。
 
@@ -892,8 +894,11 @@ Redis直接自己构建了VM 机制 ，因为一般的系统调用系统函数�
 
 # 17、假如Redis里面有1亿个key，其中有10w个key是以某个固定的已知的前缀开头的，如果将它们全部找出来？
 
-使用keys指令可以扫出指定模式的key列表：keys pre*，这个时候面试官会追问该命令对线上业务有什么影响，直接看下一个问题。
-
+```plain
+使用keys指令可以扫出指定模式的key列表：
+keys pre*
+```
+这个时候面试官会追问该命令对线上业务有什么影响，直接看下一个问题。
 # 18、如果这个redis正在给线上的业务提供服务，那使用keys指令会有什么问题？
 
 redis 的单线程的。keys 指令会导致线 程阻塞一段时间，线上服务会停顿，直到指令执行完毕，服务才能恢复。这个时 候可以使用 scan 指令，scan 指令可以无阻塞的提取出指定模式的 key 列表，但是会有一定的重复概率，在客户端做一次去重就可以了，但是整体所花费的时间 会比直接用 keys 指令长。
