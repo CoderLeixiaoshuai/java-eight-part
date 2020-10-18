@@ -1201,3 +1201,8 @@ master0:name=mymaster,status=ok,address=172.17.0.3:6379,slaves=2,sentinels=3
 根据回显可以看出主ip已经换为172.17.0.3
 --- 至此哨兵模式已经测试完毕。
 
+# 公众号
+
+公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
+
+<div align="center">  <img src="https://uploader.shimo.im/f/zZcm5ufFQNgAN5q4.jpg!thumbnail" width=""/> </div><br>

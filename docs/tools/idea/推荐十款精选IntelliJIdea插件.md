@@ -135,3 +135,9 @@ Lombok是一个充满争议的工具，大家可以结合它的优缺点谨慎�
 第二步：选择下载好的插件包；
 
 第三步：重启idea即可生效。
+
+# 公众号
+
+公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
+
+<div align="center">  <img src="https://uploader.shimo.im/f/zZcm5ufFQNgAN5q4.jpg!thumbnail" width=""/> </div><br>

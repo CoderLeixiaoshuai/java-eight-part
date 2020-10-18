@@ -45,7 +45,7 @@
 |    |大数据|    |    |
 |    |搜索引擎|    |    |
 |    |机器学习&AI人工智能|    |    |
-|:wrench: [工具软件](#工具软件)|[开发工具和效率提升](#开发工具和效率提升)| [#IDEA插件](#IntelliJ IDEA Java开发利器) |:watermelon:|
+|:wrench: [工具软件](#工具软件)|[开发工具和效率提升](#开发工具和效率提升)| [#IDEA插件](#docs/tools/idea/推荐十款精选IntelliJIdea插件.md) |:watermelon:|
 |    |部署和运维|    |    |
 |:gun: [我要进大厂面经](#我要进大厂面经)|    |    |:watermelon:|
 |:crescent_moon: [程序员的故事](#程序员的故事)|    | [#30岁的程序员](#程序员的故事) [#国企程序员](#程序员的故事) [#离开华为](#程序员的故事)<br> [#女程序员](#程序员的故事) [#我和我的家乡](#程序员的故事) |:watermelon::watermelon::watermelon:|
@@ -106,7 +106,7 @@
 # 工具软件
 ## 开发工具和效率提升
 ### IntelliJ IDEA Java开发利器 
-- [开发效率不高？推荐这十款精选IntelliJ Idea插件:+1:](docs/tools/idea/开发效率不高？推荐这十款精选IntelliJ Idea插件.md)
+- [开发效率不高？推荐这十款精选IntelliJ Idea插件:+1:](docs/tools/idea/推荐十款精选IntelliJIdea插件.md)
 
 ### GIT 版本管理工具
 ### Maven 项目依赖管理
