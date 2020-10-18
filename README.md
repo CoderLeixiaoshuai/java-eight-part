@@ -69,7 +69,7 @@
 - [实战系列01：Java8函数式接口和Lambda表达式你真的会了吗?](docs/advanced/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
 - [实战系列02：包学会，教你用Java函数式编程重构烂代码](docs/advanced/java8/包学会，教你用Java函数式编程重构烂代码.md)
 - [实战系列03：请避开Stream流式编程常见的坑](docs/advanced/java8/请避开Stream流式编程常见的坑.md)
-- [实战系列04：使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8 Optional类优雅解决空指针问题.md)
+- [实战系列04：使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8-Optional类优雅解决空指针问题.md)
 
 ### Java 集合
 ### Java 并发编程
