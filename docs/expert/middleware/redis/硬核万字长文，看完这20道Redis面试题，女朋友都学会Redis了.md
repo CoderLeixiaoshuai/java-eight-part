@@ -28,9 +28,9 @@
 - [18、如果这个redis正在给线上的业务提供服务，那使用keys指令会有什么问题？](#18如果这个redis正在给线上的业务提供服务那使用keys指令会有什么问题)
 - [19、如果有大量的key需要设置同一时间过期，一般需要注意什么？](#19如果有大量的key需要设置同一时间过期一般需要注意什么)
 - [20、Redis常用的客户端有哪些？](#20redis常用的客户端有哪些)
+- [公众号](#公众号)
 
 <!-- /MarkdownTOC -->
-
 
 # 1、什么是Redis，Redis有哪些特点？
 
@@ -70,7 +70,7 @@ Redis是key-value数据库，key的类型只能是String，但是value的数据�
 * Set
 * Sorted Set
 
-![图片](https://uploader.shimo.im/f/CERkoGalNeSDSydq.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/WSnWh6fkpZLksyOX.png!thumbnail" width=""/> </div><br>
 
 **（1）String字符串**
 
@@ -137,7 +137,7 @@ zset的成员是唯一的,但分数(score)却可以重复。
 
 查询官方文档（[https://redis.io/topics/data-types](https://redis.io/topics/data-types)）可以看到String类型的value值最多支持的长度为512M，所以正确的答案是512M。
 
-![图片](https://uploader.shimo.im/f/gU92Q7bdeYO7zARB.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/gU92Q7bdeYO7zARB.png!thumbnail" width=""/> </div><br>
 
 # 4、能说一下Redis每种数据结构的使用场景吗？
 
@@ -181,8 +181,7 @@ zset的成员是唯一的,但分数(score)却可以重复。
 
 以购物车为例子，用户id设置为key，那么购物车里所有的商品就是用户key对应的值了，每个商品有id和购买数量，对应hash的结构就是商品id为field，商品数量为value。如图所示：
 
-![图片](https://uploader.shimo.im/f/ZB08uPrAOrQcLBIf.png!thumbnail)
-
+<div align="center">  <img src="](https://uploader.shimo.im/f/GiuqBqTTDGf1k2dn.png!thumbnail" width=""/> </div><br>
 
 如果将商品id和商品数量序列化成json字符串，那么也可以用上面讲的string类型存储。下面对比一下这两种数据结构：
 
@@ -205,7 +204,7 @@ zset的成员是唯一的,但分数(score)却可以重复。
 
 list类型的lrange命令可以分页查看队列中的数据。可将每隔一段时间计算一次的排行榜存储在list类型中，如QQ音乐内地排行榜，每周计算一次存储再list类型中，访问接口时通过page和size分页转化成lrange命令获取排行榜数据。
 
-![图片](https://uploader.shimo.im/f/oUXsIsgDLDgBDGeh.jpeg!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/0W7u2AVqc0XZjaec.jpeg!thumbnail" width=""/> </div><br>
 
 但是，并不是所有的排行榜都能用list类型实现，只有定时计算的排行榜才适合使用list类型存储，与定时计算的排行榜相对应的是实时计算的排行榜，list类型不能支持实时计算的排行榜，下面介绍有序集合sorted set的应用场景时会详细介绍实时计算的排行榜的实现。
 
@@ -219,8 +218,7 @@ list类型的lrange命令可以分页查看队列中的数据。可将每隔一�
 
 key为用户id，value为歌曲id的集合。
 
-![图片](https://uploader.shimo.im/f/BKNE6fYpMTozbjbK.jpeg!thumbnail)
-
+<div align="center">  <img src="](https://uploader.shimo.im/f/bK4vieCv2LslXVIq.jpeg!thumbnail" width=""/> </div><br>
 
 **（5）Sorted Set的使用场景**
 
@@ -230,7 +228,7 @@ key为用户id，value为歌曲id的集合。
 
 QQ音乐中有多种实时榜单，比如飙升榜、热歌榜、新歌榜，可以用redis key存储榜单类型，score为点击量，value为歌曲id，用户每点击一首歌曲会更新redis数据，sorted set会依据score即点击量将歌曲id排序。
 
-![图片](https://uploader.shimo.im/f/jlZkDDk1SC8NyL0H.jpeg!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/mEoD3Zsd0R910sL6.jpeg!thumbnail" width=""/> </div><br>
 
 # 5、Redis如何做持久化的？能说一下RDB和AOF的实现原理吗？
 
@@ -238,7 +236,7 @@ QQ音乐中有多种实时榜单，比如飙升榜、热歌榜、新歌榜，可
 
 持久化（Persistence），即把数据（如内存中的对象）保存到可永久保存的存储设备中（如磁盘）。持久化的主要应用是将内存中的对象存储在数据库中，或者存储在磁盘文件中、XML数据文件中等等。
 
-![图片](https://uploader.shimo.im/f/a4vVKqLuU7ABjtJE.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/a4vVKqLuU7ABjtJE.png!thumbnail" width=""/> </div><br>
 
 还可以从如下两个层面简单的理解持久化 ：
 
@@ -289,7 +287,7 @@ save ""
 
 **bgsave工作机制**
 
-![图片](https://uploader.shimo.im/f/vMYV8daaofPe1Zwk.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/0xV52bqdNVfJ7fKB.png!thumbnail" width=""/> </div><br>
 
 （1）执行bgsave命令，Redis父进程判断当前是否存在正在执行的子进 程，如RDB/AOF子进程，如果存在，bgsave命令直接返回。
 
@@ -315,9 +313,7 @@ AOF文件名 通过appendfilename配置设置，默认文件名是appendonly.aof
 
 AOF的工作流程操作：命令写入 （append）、文件同步（sync）、文件重写（rewrite）、重启加载 （load）。
 
-
-
-![图片](https://uploader.shimo.im/f/Sf4fs5pwrKd1TmFq.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/UDiS8d0jjBKhsR3W.png!thumbnail" width=""/> </div><br>
 
 （1）所有的写入命令会追加到aof_buf（缓冲区）中。
 
@@ -351,7 +347,7 @@ auto-aof-rewrite-percentage：代表当前AOF文件空间 （aof_current_size）
 
 其中aof_current_size和aof_base_size可以在info Persistence统计信息中查看。
 
-![图片](https://uploader.shimo.im/f/Wq4qJuHHwZHT125y.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/debsx48n43gNlnEp.png!thumbnail" width=""/> </div><br>
 
 AOF文件重写后为什么会变小？
 
@@ -361,7 +357,7 @@ AOF文件重写后为什么会变小？
 
 **AOF文件数据恢复**
 
-![图片](https://uploader.shimo.im/f/Jew03ZvhiVZmupLV.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/YwlQ7wtH4Hpm7EWP.png!thumbnail" width=""/> </div><br>
 
 数据恢复流程说明：
 
@@ -473,7 +469,7 @@ redis 内部使用文件事件处理器 file event handler，这个文件事件�
 
 举个例子：下图是一个布隆过滤器，共有18个比特位，3个哈希函数。集合中三个元素x，y，z通过三个哈希函数散列到不同的比特位，并将比特位置为1。当查询元素w时，通过三个哈希函数计算，发现有一个比特位的值为0，可以肯定认为该元素不在集合中。
 
-![图片](https://uploader.shimo.im/f/2hd9rhfvp8QyexvO.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/2hd9rhfvp8QyexvO.png!thumbnail" width=""/> </div><br>
 
 **布隆过滤器优缺点**
 
@@ -517,7 +513,7 @@ redis 内部使用文件事件处理器 file event handler，这个文件事件�
 
 这种思路比较简单，就是让一个线程回写缓存，其他线程等待回写缓存线程执行完，重新读缓存即可。
 
-![图片](https://uploader.shimo.im/f/l1i9taQTV2iNv8qm.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/l1i9taQTV2iNv8qm.png!thumbnail" width=""/> </div><br>
 
 同一时间只有一个线程读数据库然后回写缓存，其他线程都处于阻塞状态。如果是高并发场景，大量线程阻塞势必会降低吞吐量。这种情况如何解决？大家可以在留言区讨论。
 
@@ -530,7 +526,7 @@ redis 内部使用文件事件处理器 file event handler，这个文件事件�
 * 物理不过期，针对热点key不设置过期时间
 * 逻辑过期，把过期时间存在key对应的value里，如果发现要过期了，通过一个后台的异步线程进行缓存的构建
 
-![图片](https://uploader.shimo.im/f/FMBCoGpJV86UMniL.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/FMBCoGpJV86UMniL.png!thumbnail" width=""/> </div><br>
 
 从实战看这种方法对于性能非常友好，唯一不足的就是构建缓存时候，其余线程(非构建缓存的线程)可能访问的是老数据，对于不追求严格强一致性的系统是可以接受的。
 
@@ -626,9 +622,7 @@ Redis最大占用内存用完之后，如果继续添加数据，如何处理这
 
 lru(less recently used), 最近最少使用。从所有的key中使用近似LRU算法进行淘汰。
 
-**volatile-lru**
-
-lru(less recently used), 最近最少使用。从设置了过期时间的key中使用近似LRU算法进行淘汰。
+**volatile-lru**lru(less recently used), 最近最少使用。从设置了过期时间的key中使用近似LRU算法进行淘汰。
 
 **allkeys-random**
 
@@ -680,16 +674,13 @@ LFU算法能更好的表示一个key被访问的热度。假如你使用的是LR
 
 # 9、Redis有事务机制吗？
 
-有事务机制。Redis事务生命周期：
-
-* 开启事务：使用MULTI开启一个事务
+* 有事务机制。Redis事务生命周期：
+开启事务：使用MULTI开启一个事务
 * 命令入队列：每次操作的命令都会加入到一个队列中，但命令此时不会真正被执行
 * 提交事务：使用EXEC命令提交事务，开始顺序执行队列中的命令
 # 10、Redis事务到底是不是原子性的？
 
-先看关系型数据库ACID 中关于原子性的定义：
-
-**原子性：**一个事务(transaction)中的所有操作，要么全部完成，要么全部不完成，不会结束在中间某个环节。事务在执行过程中发生错误，会被恢复(Rollback)到事务开始前的状态，就像这个事务从来没有执行过一样。
+先看关系型数据库ACID 中关于原子性的定义：**原子性：**一个事务(transaction)中的所有操作，要么全部完成，要么全部不完成，不会结束在中间某个环节。事务在执行过程中发生错误，会被恢复(Rollback)到事务开始前的状态，就像这个事务从来没有执行过一样。
 
 官方文档对事务的定义：
 
@@ -700,9 +691,8 @@ LFU算法能更好的表示一个key被访问的热度。假如你使用的是LR
 
 # 11、Redis为什么不支持回滚（roll back）？
 
-在事务运行期间虽然Redis命令可能会执行失败，但是Redis依然会执行事务内剩余的命令而不会执行回滚操作。如果你熟悉mysql关系型数据库事务，你会对此非常疑惑，Redis官方的理由如下：
-
->只有当被调用的Redis命令有语法错误时，这条命令才会执行失败（在将这个命令放入事务队列期间，Redis能够发现此类问题），或者对某个键执行不符合其数据类型的操作：实际上，这就意味着只有程序错误才会导致Redis命令执行失败，这种错误很有可能在程序开发期间发现，一般很少在生产环境发现。
+>在事务运行期间虽然Redis命令可能会执行失败，但是Redis依然会执行事务内剩余的命令而不会执行回滚操作。如果你熟悉mysql关系型数据库事务，你会对此非常疑惑，Redis官方的理由如下：
+只有当被调用的Redis命令有语法错误时，这条命令才会执行失败（在将这个命令放入事务队列期间，Redis能够发现此类问题），或者对某个键执行不符合其数据类型的操作：实际上，这就意味着只有程序错误才会导致Redis命令执行失败，这种错误很有可能在程序开发期间发现，一般很少在生产环境发现。
 >支持事务回滚能力会导致设计复杂，这与Redis的初衷相违背，Redis的设计目标是功能简化及确保更快的运行速度。
 >
 
@@ -710,9 +700,7 @@ LFU算法能更好的表示一个key被访问的热度。假如你使用的是LR
 
 # 12、Redis事务相关的命令有哪几个？
 
-**（1）WATCH**
-
-可以为Redis事务提供 check-and-set （CAS）行为。被WATCH的键会被监视，并会发觉这些键是否被改动过了。 如果有至少一个被监视的键在 EXEC 执行之前被修改了， 那么整个事务都会被取消， EXEC 返回nil-reply来表示事务已经失败。
+**（1）WATCH**可以为Redis事务提供 check-and-set （CAS）行为。被WATCH的键会被监视，并会发觉这些键是否被改动过了。 如果有至少一个被监视的键在 EXEC 执行之前被修改了， 那么整个事务都会被取消， EXEC 返回nil-reply来表示事务已经失败。
 
 **（2）MULTI**
 
@@ -809,7 +797,7 @@ Redis Sentinel 是 Redis 高可用的实现方案。Sentinel 是一个管理多�
 
 Redis Sentinel架构图如下：
 
-![图片](https://uploader.shimo.im/f/WSboj3FYK3kO96X2.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/WSboj3FYK3kO96X2.png!thumbnail" width=""/> </div><br>
 
 **哨兵模式的原理**
 
@@ -863,20 +851,17 @@ Redis Sentinel 是一个特殊的 Redis 节点。在哨兵模式创建时，需�
 # 15、Cluster（集群）的原理你能讲一下吗？
 
 引入Cluster模式的原因：
-
 不管是主从模式还是哨兵模式都只能由一个master在写数据，在海量数据高并发场景，一个节点写数据容易出现瓶颈，引入Cluster模式可以实现多个节点同时写数据。
 
 Redis-Cluster采用无中心结构，每个节点都保存数据，节点之间互相连接从而知道整个集群状态。
 
-![图片](https://uploader.shimo.im/f/8LhCp2FunBDqBo7b.png!thumbnail)
+<div align="center">  <img src="](https://uploader.shimo.im/f/PNyUtVh8fsi0Hcan.png!thumbnail" width=""/> </div><br>
 
 如图所示Cluster模式其实就是多个主从复制的结构组合起来的，每一个主从复制结构可以看成一个节点，那么上面的Cluster集群中就有三个节点。
 
 # 16、Memcache与Redis的区别都有哪些？
 
-**存储方式**
-
-Memecache把数据全部存在内存之中，断电后会挂掉，数据不能超过内存大小。
+**存储方式**Memecache把数据全部存在内存之中，断电后会挂掉，数据不能超过内存大小。
 
 Redis有部份存在硬盘上，这样能保证数据的持久性。
 
@@ -922,4 +907,10 @@ Jedis：比较全面的提供了Redis的操作特性。
 Redisson：促使使用者对Redis的关注分离，提供很多分布式相关操作服务，例如，分布式锁，分布式集合，可通过Redis支持延迟队列。
 
 Lettuce：基于Netty框架的事件驱动的通信层，其方法调用是异步的。Lettuce的API是线程安全的，所以可以操   作单个Lettuce连接来完成各种操作。
+
+# 公众号
+
+公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
+
+<div align="center">  <img src="](https://uploader.shimo.im/f/zZcm5ufFQNgAN5q4.jpg!thumbnail" width=""/> </div><br>
 
