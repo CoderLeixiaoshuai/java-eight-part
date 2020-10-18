@@ -10,7 +10,7 @@
     <a href="http://smilelioncoder.gitee.io/javafullstack/" target="_blank"> <img src="https://badgen.net/badge/%E7%A0%81%E4%BA%91/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB/ef8b00"></a>
     <a href="#微信公众号"> <img src="https://badgen.net/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88/ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://badgen.net/badge/CSDN/csdn.net/ef8b00"></a>
-    <a href="https://www.zhihu.com/people/ray-xiao-1" target="_blank"> <img src="https://badgen.net/badge/%E7%9F%A5%E4%B9%8E/zhihu.com/ef8b00"></a>
+    <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://badgen.net/badge/%E7%9F%A5%E4%B9%8E/zhihu.com/ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://badgen.net/badge/%E6%8E%98%E9%87%91/juejin.im/ef8b00"></a>
     <a href="https://www.cnblogs.com/DancingOnYourCode/" target="_blank"> <img src="https://badgen.net/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD/cnblogs.com/ef8b00"></a>
 </div>
