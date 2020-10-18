@@ -36,7 +36,7 @@
 |    |计算机网络|    |    |
 |    |操作系统|    |    |
 |    |计算机组成原理|    |    |
-|:rocket: :rocket: [技术进阶](#技术进阶)|Java高级特性| [#Java8实战系列](#Java8实战系列) |:watermelon::watermelon::watermelon:|
+|:rocket: :rocket: [技术进阶](#技术进阶)|[Java高级特性](#Java高级特性)| [#Java8实战系列](#Java8实战系列) |:watermelon::watermelon::watermelon:|
 |    |基础框架|    |    |
 |    |微服务框架|    |    |
 |    |设计模式|    |    |
