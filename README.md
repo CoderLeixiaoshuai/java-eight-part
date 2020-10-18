@@ -14,12 +14,12 @@
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://badgen.net/badge/%E6%8E%98%E9%87%91/juejin.im/ef8b00"></a>
     <a href="https://www.cnblogs.com/DancingOnYourCode/" target="_blank"> <img src="https://badgen.net/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD/cnblogs.com/ef8b00"></a>
 </div>
-
 <p align="center">
 <a href="#关于我" target="_blank">
-	<img src="https://images-cdn.shimo.im/L4K3bUOe6t6W8uy5__thumbnail.png" width="200"/>
+	<img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018220144.png" width="200"/>
 </a>
 </p>
+
 
 # Java后端技术成长之路(JavaFullStack)
 > :information_source: 表格中列出了 Java 后端相关技术栈纲要，其中大部分内容还未完成，雷架计划用几年的时间补全这些知识点（工作比较忙只能牺牲业余时间），希望能给小伙伴们在今后的学习和工作中带来帮助。
@@ -164,9 +164,11 @@
 或者你仅仅想找雷架咨询问题、交流、聊天，关注公众号可找到私人二维码。:point_down:
 
 <a name="微信公众号"></a>
+
 <div align="center">
-    <img width="500px" src="https://images-cdn.shimo.im/o78Zx2wMPD3xSZWL__thumbnail.png"></img>
+    <img width="500px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018220114.png"></img>
 </div>
+
 
 
 

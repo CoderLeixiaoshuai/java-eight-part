@@ -19,8 +19,7 @@
 
 “没有人能够熄灭满天星光，每一位开发者，都是华为要汇聚的星星之火”，华为消费者业务CEO余承东说，华为将全面开放核心技术、软硬件能力，与开发者们共同驱动全场景智慧生态的蓬勃发展。
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018212847.jpeg
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018212847.jpeg" width="500"/> </div><br>
 
 
 在这场发布会上也详细讲解了分布式软总线的概念，下面我们来看一下分布式软总线是不是真的硬核，会给我们以后的生活带来什么影响？
@@ -31,8 +30,7 @@
 
 总线是一种内部结构，它是cpu、内存、输入、输出设备传递信息的公用通道，主机的各个部件通过总线相连接，外部设备通过相应的接口电路再与总线相连接，从而形成了计算机硬件系统。
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213203.png
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213203.png" width="500"/> </div><br>
 
 在计算机系统中，各个部件之间传送信息的公共通路叫总线，微型计算机是以总线结构来连接各个功能部件的。按照计算机所传输的信息种类，计算机的总线可以划分为数据总线、地址总线和控制总线，分别用来传输数据、数据地址和控制信号。
 
@@ -55,8 +53,7 @@
 >8代表车机、音箱、耳机、手表/手环、平板、大屏、PC、AR/VR
 >N泛指其他IOT设备
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213514.png
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213514.png" width="500"/> </div><br>
 
 HarmonyOS分布式软总线
 
@@ -73,8 +70,7 @@ HarmonyOS分布式软总线
 
 ## 4.1 分布式软总线的架构
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213358.jpg
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213358.jpg" width="500"/> </div><br>
 
 通过协议货架和软硬协同层屏蔽各种设备的协议差别，总线中枢模块负责解析命令完成设备间发现和连接，通过任务和数据两条总线实现设备间文件传输、消息传输等功能。
 
@@ -96,8 +92,7 @@ HarmonyOS分布式软总线
 
 在分享照片这个场景中有很多人为的动作：开启蓝牙发现功能、搜索设备、配对授权，这确实有点麻烦，耗费了很多时间，可能会降低分享的意愿。
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213613.png
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213613.png" width="500"/> </div><br>
 
 软总线提出了自动发现的概念，实现用户零等待的自发现体验，附近同账号的设备自动发现无需等待。
 
@@ -105,15 +100,13 @@ HarmonyOS分布式软总线
 
 上面的例子中手机传照片是通过蓝牙，假如PC没有蓝牙功能只有WIFI，在传统的场景中这种可能就不能实现分享传输了。
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213638.png
-" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213638.png" width="300"/> </div><br>
 
 软总线能否做到手机通过蓝牙传输，PC通过WIFI接收照片呢？
 
 答案是：当然可以。软总线提出了异构网络组网可以很好解决设备间不同协议如何交互的问题。
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213727.png
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213727.png" width="500"/> </div><br>
 
 设备上线后会向网络层注册，同时网络层会与设备建立通道连接，实时检测设备的变换。网络层负责管理设备的上线下线变换，设备间可以监听自己感兴趣的设备，设备上线后可以立即与其建立连接，实现零等待体验。
 
@@ -143,8 +136,7 @@ HarmonyOS分布式软总线
 
 软总线要实现的这三大目标的尖刀武器是：极简协议。
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213758.png
-" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213758.png" width="500"/> </div><br>
 
 将中间的四层协议栈精简为一层提升有效载荷，有效传输带宽提升20%
 
