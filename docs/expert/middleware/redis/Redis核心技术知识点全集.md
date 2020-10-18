@@ -781,7 +781,7 @@ Write-Through 策略下，当发生数据更新(Write)时，缓存提供程序 C
 
 ### 缓存击穿危害
 
-数据库瞬时压力骤增，造成大量请求阻塞。
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>
 
 ### 如何解决
 
@@ -1134,7 +1134,7 @@ docker exec -it redis-server-02 redis-cli # 连接实例2
 --- 至此redis主从复制实例搭建和测试完毕，小伙伴们学会了吗。
 ## 使用docker搭建redis主从复制+哨兵模式
 
-<div align="center">  <img src="https://uploader.shimo.im/f/WSboj3FYK3kO96X2.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018221921.png" width="500"/> </div><br>
 
 搭建三个Sentinel实例+Redis实例
 
@@ -1206,4 +1206,4 @@ master0:name=mymaster,status=ok,address=172.17.0.3:6379,slaves=2,sentinels=3
 
 公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/zZcm5ufFQNgAN5q4.jpg!thumbnail" width=""/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>
