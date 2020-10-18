@@ -10,6 +10,7 @@
 - [8RainbowBrackets](#8rainbowbrackets)
 - [9 Activate-power-mode](#9-activate-power-mode)
 - [10 Grep Console](#10-grep-console)
+- [公众号](#公众号)
 
 <!-- /MarkdownTOC -->
 

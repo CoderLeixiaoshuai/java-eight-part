@@ -102,6 +102,7 @@
 		- [1. 准备好哨兵配置文件sentinel.conf](#1-准备好哨兵配置文件sentinelconf)
 		- [2. 启动sentinel哨兵实例](#2-启动sentinel哨兵实例)
 		- [3. 测试哨兵模式](#3-测试哨兵模式)
+- [公众号](#公众号)
 
 <!-- /MarkdownTOC -->
 
