@@ -19,7 +19,8 @@
 
 “没有人能够熄灭满天星光，每一位开发者，都是华为要汇聚的星星之火”，华为消费者业务CEO余承东说，华为将全面开放核心技术、软硬件能力，与开发者们共同驱动全场景智慧生态的蓬勃发展。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/irfrNQMtkVtLO4Ws.jpeg!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018212847.jpeg
+" width="500"/> </div><br>
 
 
 在这场发布会上也详细讲解了分布式软总线的概念，下面我们来看一下分布式软总线是不是真的硬核，会给我们以后的生活带来什么影响？
@@ -30,7 +31,8 @@
 
 总线是一种内部结构，它是cpu、内存、输入、输出设备传递信息的公用通道，主机的各个部件通过总线相连接，外部设备通过相应的接口电路再与总线相连接，从而形成了计算机硬件系统。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/jfFWz4B7F1BBU6XX.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213203.png
+" width="500"/> </div><br>
 
 在计算机系统中，各个部件之间传送信息的公共通路叫总线，微型计算机是以总线结构来连接各个功能部件的。按照计算机所传输的信息种类，计算机的总线可以划分为数据总线、地址总线和控制总线，分别用来传输数据、数据地址和控制信号。
 
@@ -53,7 +55,8 @@
 >8代表车机、音箱、耳机、手表/手环、平板、大屏、PC、AR/VR
 >N泛指其他IOT设备
 
-<div align="center">  <img src="https://uploader.shimo.im/f/8BRo1PzPctbtZQZJ.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213514.png
+" width="500"/> </div><br>
 
 HarmonyOS分布式软总线
 
@@ -70,7 +73,8 @@ HarmonyOS分布式软总线
 
 ## 4.1 分布式软总线的架构
 
-<div align="center">  <img src="https://uploader.shimo.im/f/BIXGi9oDllMgwrwk.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213358.jpg
+" width="500"/> </div><br>
 
 通过协议货架和软硬协同层屏蔽各种设备的协议差别，总线中枢模块负责解析命令完成设备间发现和连接，通过任务和数据两条总线实现设备间文件传输、消息传输等功能。
 
@@ -92,7 +96,8 @@ HarmonyOS分布式软总线
 
 在分享照片这个场景中有很多人为的动作：开启蓝牙发现功能、搜索设备、配对授权，这确实有点麻烦，耗费了很多时间，可能会降低分享的意愿。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/JsKv216iDvXmwltk.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213613.png
+" width="500"/> </div><br>
 
 软总线提出了自动发现的概念，实现用户零等待的自发现体验，附近同账号的设备自动发现无需等待。
 
@@ -100,13 +105,15 @@ HarmonyOS分布式软总线
 
 上面的例子中手机传照片是通过蓝牙，假如PC没有蓝牙功能只有WIFI，在传统的场景中这种可能就不能实现分享传输了。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/MCvRMIR6m044X5kI.png!thumbnail" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213638.png
+" width="300"/> </div><br>
 
 软总线能否做到手机通过蓝牙传输，PC通过WIFI接收照片呢？
 
 答案是：当然可以。软总线提出了异构网络组网可以很好解决设备间不同协议如何交互的问题。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/yHmJNglcKAUTPuug.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213727.png
+" width="500"/> </div><br>
 
 设备上线后会向网络层注册，同时网络层会与设备建立通道连接，实时检测设备的变换。网络层负责管理设备的上线下线变换，设备间可以监听自己感兴趣的设备，设备上线后可以立即与其建立连接，实现零等待体验。
 
@@ -136,7 +143,8 @@ HarmonyOS分布式软总线
 
 软总线要实现的这三大目标的尖刀武器是：极简协议。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/StTCSoIRareBtPjq.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213758.png
+" width="500"/> </div><br>
 
 将中间的四层协议栈精简为一层提升有效载荷，有效传输带宽提升20%
 
@@ -156,7 +164,7 @@ HarmonyOS分布式软总线
 
 而有了鸿蒙分布式系统架构，只需要开发一个版本，鸿蒙可以帮你“翻译”成不同终端的对应版本，真正实现一次开发就能在不同的终端上运行。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/J5gRXEGG5JhAsuhk.png!thumbnail" width="150"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213817.png" width="150"/> </div><br>
 
 看到这估计很多程序员们会仰天长叹：终于可以早点下班了！
 
@@ -166,7 +174,7 @@ HarmonyOS分布式软总线
 
 你也不必满桌子找各种遥控器了，一个手表一个手机就可以控制家里的空调、电饭煲、汽车空调、音响、电视、电脑、门口的摄像头以及所有能联网的所有东西。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/EWtXVvRDqc65TQ1Y.png!thumbnail" width="150"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018213829.png" width="150"/> </div><br>
 
 这就是鸿蒙所构想的“万物互联”，让一个系统连接起所有上网的智能设备。大家期待吗，让我们拭目以待吧。
 
@@ -174,4 +182,4 @@ HarmonyOS分布式软总线
 
 公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/zZcm5ufFQNgAN5q4.jpg!thumbnail" width=""/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>
