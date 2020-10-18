@@ -35,7 +35,6 @@
 |    |数据库|    |    |
 |    |计算机网络|    |    |
 |    |操作系统|    |    |
-|    |计算机组成原理|    |    |
 |:rocket: :rocket: [技术进阶](#技术进阶)|[Java高级特性](#Java高级特性)| [#Java8实战系列](#Java8实战系列) |:watermelon::watermelon::watermelon:|
 |    |基础框架|    |    |
 |    |微服务框架|    |    |
@@ -54,33 +53,31 @@
 <br>
 
 # 技术基本功
-
 ## Java 基础
 ## 数据结构&算法
 ## 数据库
 ## 计算机网络
 ## 操作系统
-## 计算机组成原理
 
 # 技术进阶
 
-## Java 高级特性
+## Java高级特性
 ### Java8实战系列
 - [实战系列01：Java8函数式接口和Lambda表达式你真的会了吗?](docs/advanced/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
 - [实战系列02：包学会，教你用Java函数式编程重构烂代码](docs/advanced/java8/包学会，教你用Java函数式编程重构烂代码.md)
 - [实战系列03：请避开Stream流式编程常见的坑](docs/advanced/java8/请避开Stream流式编程常见的坑.md)
 - [实战系列04：使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8-Optional类优雅解决空指针问题.md)
 
-### Java 集合
-### Java 并发编程
-### JVM 深入理解Java虚拟机
+### Java集合
+### Java并发编程
+### JVM深入理解Java虚拟机
 ### Java Proxy
 ### Java IO
 
 ## 基础框架
 ### Spring全家桶（Spring, SpringMVC, Spring Boot）
 ### ORM持久化框架（MyBatis|Hibernate）
-### Netty 网络编程
+### Netty网络编程
 
 ## 微服务框架
 ### Dubbo
@@ -109,6 +106,7 @@
 ## 机器学习和AI人工智能
 
 # 工具软件
+
 ## 开发工具和效率提升
 ### IntelliJ IDEA Java开发利器 
 - [开发效率不高？推荐这十款精选IntelliJ Idea插件:+1:](docs/tools/idea/推荐十款精选IntelliJIdea插件.md)
