@@ -49,7 +49,7 @@
 |    |部署和运维|    |    |
 |:gun: [我要进大厂面经](#我要进大厂面经)|    |    |:watermelon:|
 |:crescent_moon: [程序员的故事](#程序员的故事)|    | [#30岁的程序员](#程序员的故事) [#国企程序员](#程序员的故事) [#离开华为](#程序员的故事)<br> [#女程序员](#程序员的故事) [#我和我的家乡](#程序员的故事) |:watermelon::watermelon::watermelon:|
-|:earth_americas: [瞎扯or互联网热点](#瞎扯or互联网热点)|    | #鸿蒙OS |:watermelon:|
+|:earth_americas: [瞎扯or互联网热点](#瞎扯or互联网热点)|    | [#鸿蒙OS软总线](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md) |:watermelon:|
 
 <br>
 
@@ -128,6 +128,8 @@
 
 
 # 瞎扯or互联网热点
+- [华为鸿蒙OS尖刀武器之分布式软总线技术全解析](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md)
+
 
 # 关于JavaFullStack项目
 **JavaFullStack**项目计划覆盖所有Java后端相关技术栈，旨在为广大技术人提供一些帮助：
