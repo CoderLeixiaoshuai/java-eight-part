@@ -1,8 +1,10 @@
-在右上角给JavaFullStack Github项目点个Star，开源有你的贡献~ 爱你们 :heart:
+在右上角给Github **JavaFullStack** 项目点个Star，开源有你的贡献~ 爱你们 :heart:
 
-> 关于JavaFullStack项目：[传送门](#关于JavaFullStack项目)  
+> 关于**JavaFullStack**项目介绍：[传送门](#关于JavaFullStack项目)  
 > 关于我：[传送门](#关于我)  
-> 阅读有障碍：如果 Github 访问速度比较慢或者图片无法刷新出来的话，[建议跳转到码云在线阅读](http://smilelioncoder.gitee.io/javafullstack/)。  
+>
+> !!! 如果 Github 访问速度比较慢或者图片无法刷新出来的话，[建议跳转到码云在线阅读](http://smilelioncoder.gitee.io/javafullstack/)。  
+>
 > 拒绝内卷：转载需要[联系我授权](#微信公众号)，恶意抄袭我会不惜一切代价维护权益，希望大家一起维护良好的创作环境。  
 
 <div align="center">
@@ -71,13 +73,10 @@
 ### Java集合
 ### Java并发编程
 ### JVM深入理解Java虚拟机
-### Java Proxy
-### Java IO
 
 ## 基础框架
 ### Spring全家桶（Spring, SpringMVC, Spring Boot）
 ### ORM持久化框架（MyBatis|Hibernate）
-### Netty网络编程
 
 ## 微服务框架
 ### Dubbo
@@ -93,17 +92,12 @@
 - [看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
 ### Kafka消息队列
-
 ### 数据库中间件
 
 ## 软件架构
 ### 分布式事务
 ### 分布式ID
 ### 分布式锁
-
-## 大数据
-## 搜索引擎
-## 机器学习和AI人工智能
 
 # 工具软件
 
@@ -115,10 +109,8 @@
 ### Maven 项目依赖管理
 
 ## 部署和运维
-### Docker 容器化
+### Docker容器化
 ### K8S
-### Nginx
-### Tomcat
 
 # 我要进大厂面经
 面试前你必须得了解
