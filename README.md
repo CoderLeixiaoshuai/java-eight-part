@@ -35,7 +35,7 @@
 |    |数据库|    |    |
 |    |计算机网络|    |    |
 |    |操作系统|    |    |
-|:rocket: :rocket: [技术进阶](#技术进阶)|[Java高级特性](#Java高级特性)| [#Java8实战系列](#Java8实战系列) |:watermelon::watermelon::watermelon:|
+|:rocket: :rocket: [技术进阶](#技术进阶)|[Java高级特性](#Java高级特性)| [#Java8实战系列](#Java8实战系列) [#Java注解详解](#Java注解) |:watermelon::watermelon::watermelon:|
 |    |基础框架|    |    |
 |    |微服务框架|    |    |
 |    |设计模式|    |    |
@@ -51,17 +51,17 @@
 |:earth_americas: [瞎扯or互联网热点](#瞎扯or互联网热点)|    | [#鸿蒙OS软总线](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md) |:watermelon:|
 
 <br>
+空白部分是计划中，更新的速度靠你们催~
 
 # 技术基本功
 ## Java 基础
-## 数据结构&算法
-## 数据库
-## 计算机网络
-## 操作系统
 
 # 技术进阶
 
 ## Java高级特性
+### Java注解
+- [想自己写框架？不会写Java注解可不行！](docs/advanced/java-annotation/想自己写框架不会写Java注解可不行.md)
+
 ### Java8实战系列
 - [实战系列01：Java8函数式接口和Lambda表达式你真的会了吗?](docs/advanced/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
 - [实战系列02：包学会，教你用Java函数式编程重构烂代码](docs/advanced/java8/包学会，教你用Java函数式编程重构烂代码.md)
