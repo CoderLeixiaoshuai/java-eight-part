@@ -32,33 +32,33 @@
 
 |类别|子项|标签 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |完整度 &nbsp;&nbsp;&nbsp;&nbsp; |
 |-----|:----|:----|:----|
-|:rocket: [技术基本功](#技术基本功)|Java基础|  |    |
+|:rocket: [技术基本篇](#技术基本篇)|Java基础|  |    |
 |    |数据结构&算法|  |    |
 |    |数据库|    |    |
 |    |计算机网络|    |    |
 |    |操作系统|    |    |
-|:rocket: :rocket: [技术进阶](#技术进阶)|[Java高级特性](#Java高级特性)| [#Java8实战系列](#Java8实战系列) [#Java注解详解](#Java注解) |:watermelon::watermelon::watermelon:|
+|:rocket: :rocket: [技术进阶篇](#技术进阶篇)|[Java高级特性](#Java高级特性)| [#Java8实战系列](#Java8实战系列) [#Java注解详解](#Java注解) |:watermelon::watermelon::watermelon:|
 |    |基础框架|    |    |
 |    |微服务框架|    |    |
 |    |设计模式|    |    |
-|:rocket: :rocket: :rocket: [技术大牛](#技术大牛)|[常用中间件](#常用中间件)| [#玩转Redis](#Redis缓存) |:watermelon::watermelon::watermelon:|
+|:rocket: :rocket: :rocket: [技术大牛篇](#技术大牛篇)|[常用中间件](#常用中间件)| [#玩转Redis](#Redis缓存) |:watermelon::watermelon::watermelon:|
 |    |软件架构|    |    |
 |    |大数据|    |    |
 |    |搜索引擎|    |    |
 |    |机器学习&AI人工智能|    |    |
 |:wrench: [工具软件](#工具软件)|[开发工具和效率提升](#开发工具和效率提升)| [#IDEA插件](docs/tools/idea/推荐十款精选IntelliJIdea插件.md) |:watermelon:|
 |    |部署和运维|    |    |
-|:gun: [我要进大厂面经](#我要进大厂面经)|    | [#网易招聘](#我要进大厂面经) |:watermelon:|
-|:crescent_moon: [程序员的故事](#程序员的故事)|    | [#30岁的程序员](#程序员的故事) [#国企程序员](#程序员的故事) [#离开华为](#程序员的故事)<br> [#女程序员](#程序员的故事) [#我和我的家乡](#程序员的故事) |:watermelon::watermelon::watermelon:|
-|:earth_americas: [瞎扯or互联网热点](#瞎扯or互联网热点)|    | [#鸿蒙OS软总线](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md) |:watermelon:|
+|:gun: [我要进大厂系列](#我要进大厂系列)|    | [#网易招聘](#我要进大厂面经) |:watermelon:|
+|:crescent_moon: [程序员的故事系列](#程序员的故事系列)|    | [#30岁的程序员](#程序员的故事) [#国企程序员](#程序员的故事) [#离开华为](#程序员的故事)<br> [#女程序员](#程序员的故事) [#我和我的家乡](#程序员的故事) |:watermelon::watermelon::watermelon:|
+|:earth_americas: [侃天侃地侃互联网热点](#侃天侃地侃互联网热点)|    | [#鸿蒙OS软总线](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md) |:watermelon:|
 
 <br>
 空白部分是计划中，更新的速度靠你们催~
 
-# 技术基本功
+# 技术基本篇
 ## Java 基础
 
-# 技术进阶
+# 技术进阶篇
 
 ## Java高级特性
 ### Java注解
@@ -84,7 +84,7 @@
 
 ## 设计模式
 
-# 技术大牛
+# 技术大牛篇
 
 ## 常用中间件
 ### Redis缓存
@@ -105,14 +105,7 @@
 ### IntelliJ IDEA Java开发利器 
 - [开发效率不高？推荐这十款精选IntelliJ Idea插件:+1:](docs/tools/idea/推荐十款精选IntelliJIdea插件.md)
 
-### GIT 版本管理工具
-### Maven 项目依赖管理
-
-## 部署和运维
-### Docker容器化
-### K8S
-
-# 我要进大厂面经
+# 我要进大厂系列
 面试前你必须得了解
 - [网易面试干货之HR解密网易招聘（上篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=1&sn=d0c73f80b6ee92aebc12dbdbcb41d8ec&chksm=8f09cfb2b87e46a4afa541bb198c0bca3acdb9067c269406447587c3c8cfd135bea0ec701bd8&scene=178&cur_album_id=1531431564587417601#rd)
 - [网易面试干货之HR解密网易招聘（下篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=2&sn=21940f268890e43032434b628fc08819&chksm=8f09cfb2b87e46a4e6c94b8b94667f036be9e8a3e6780e7ca8b714d18b53e0f1b96c67d07781&scene=178&cur_album_id=1531431564587417601#rd)
@@ -120,7 +113,7 @@
 面试经验
 
 
-# 程序员的故事
+# 程序员的故事系列
 - [程序员版《我和我的家乡》，拼搏奋斗的IT人是家乡的骄傲！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321444&idx=1&sn=17f3ce6c05b40afc3c18bdb23ee2f6d7&chksm=8f09cc3eb87e45289fd1e51055a4acb7d9689a8e3d4ffc598fc7fd1ca1e918f1628ee67d55c6&scene=178&cur_album_id=1531431564587417601#rd)
 - [女程序员在互联网界到底有没有被歧视？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321297&idx=1&sn=d547a2c54e99e6a69723e39ec955d24e&chksm=8f09cf8bb87e469d560ef47c47e59d814a224a31ccfefe12efe9e62a20abbc0f870e14660648&scene=178&cur_album_id=1531431564587417601#rd)
 - [离开华为换种生活，它不香吗？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321143&idx=1&sn=85a794588811541a8e920a60a0edcf4e&chksm=8f09ceedb87e47fb0b9301b6d268b4c68f5a213f47f5a1286fc800a2707b6a9bf57958bd301b&scene=178&cur_album_id=1531431564587417601#rd)
@@ -128,7 +121,7 @@
 - [30岁的程序员出路在哪里？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321044&idx=1&sn=30b10126e477876229f77cd604540b57&chksm=8f09ce8eb87e47981c945363f9601bf8bd524d220fe1b1397f01a18420c8e1cc8f7c76ba94cb&scene=178&cur_album_id=1531431564587417601#rd)
 
 
-# 瞎扯or互联网热点
+# 侃天侃地侃互联网热点
 - [华为鸿蒙OS尖刀武器之分布式软总线技术全解析](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md)
 
 
