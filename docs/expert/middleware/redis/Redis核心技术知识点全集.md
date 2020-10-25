@@ -116,7 +116,7 @@ Redis是key-value数据库，key的类型只能是String，但是value的数据�
 * Set
 * Sorted Set
 
-<div align="center">  <img src="https://uploader.shimo.im/f/WSnWh6fkpZLksyOX.png!thumbnail" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025211352.png" width="300"/> </div><br>
 
 ## 1.  String字符串
 
@@ -311,7 +311,7 @@ QUEUED
 
 持久化（Persistence），即把数据（如内存中的对象）保存到可永久保存的存储设备中（如磁盘）。持久化的主要应用是将内存中的对象存储在数据库中，或者存储在磁盘文件中、XML数据文件中等等。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/a4vVKqLuU7ABjtJE.png!thumbnail" width=""/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025211500.png" width=""/> </div><br>
 
 还可以从如下两个层面简单的理解持久化 ：
 
@@ -361,7 +361,7 @@ save ""
 
 **bgsave工作机制**
 
-<div align="center">  <img src="https://uploader.shimo.im/f/0xV52bqdNVfJ7fKB.png!thumbnail" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025211619.png" width="300"/> </div><br>
 
 （1）执行bgsave命令，Redis父进程判断当前是否存在正在执行的子进 程，如RDB/AOF子进程，如果存在，bgsave命令直接返回。
 
@@ -385,7 +385,7 @@ AOF文件名 通过appendfilename配置设置，默认文件名是appendonly.aof
 
 AOF的工作流程操作：命令写入 （append）、文件同步（sync）、文件重写（rewrite）、重启加载 （load）。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/UDiS8d0jjBKhsR3W.png!thumbnail" width="200"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025211644.png" width="200"/> </div><br>
 
 （1）所有的写入命令会追加到aof_buf（缓冲区）中。
 
@@ -419,7 +419,7 @@ auto-aof-rewrite-percentage：代表当前AOF文件空间 （aof_current_size）
 
 其中aof_current_size和aof_base_size可以在info Persistence统计信息中查看。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/debsx48n43gNlnEp.png!thumbnail" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025211707.png" width="300"/> </div><br>
 
 AOF文件重写后为什么会变小？
 
@@ -427,9 +427,9 @@ AOF文件重写后为什么会变小？
 
 （2）多条命令可以合并，如lpush list a，lpush list b，lpush list c可以直接转化为lpush list a b c。
 
-** AOF文件数据恢复**
+**AOF文件数据恢复**
 
-<div align="center">  <img src="https://uploader.shimo.im/f/YwlQ7wtH4Hpm7EWP.png!thumbnail" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025211835.png" width="300"/> </div><br>
 
 数据恢复流程说明：
 
@@ -627,7 +627,7 @@ Cache aside最常用的缓存策略，数据请求的过程如下：
 
 详细流程可以结合以下流程图：
 
-<div align="center">  <img src="https://uploader.shimo.im/f/TzJkbpWzf7ptDDC8.jpg!thumbnail" width="300"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025212628.png" width="300"/> </div><br>
 
 仔细看上面的流程可以发现，读请求常用的套路是先更新缓存再删缓存，有些同学可能要问为什么要删缓存，先更新数据库再更新缓存行不行？先更新缓存再更新数据库行不行？这里就涉及到几个坑，下面一一解读。
 
@@ -639,7 +639,7 @@ Cache aside策略如果用错就会遇到深坑，下面我们来逐个踩。
 
 如果一个写请求来了我们先更新数据库再更新缓存，在两个并发写请求下可能会导致脏数据。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/ehSYGQsCETtKraIy.jpg!thumbnail" width="400"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213324.png" width="400"/> </div><br>
 
 请求1先更新数据库，请求2后更新数据库，预期结果是数据库中age为20，缓存中age为20，但是由于请求1比请求2后更新缓存，结果导致缓存中age为18，造成了数据库与缓存不一致，缓存中age为脏数据。
 
@@ -647,7 +647,7 @@ Cache aside策略如果用错就会遇到深坑，下面我们来逐个踩。
 
 如果写请求的处理流程是先删缓存再更新数据库，在一个读请求和一个写请求并发场景下可能会出现脏数据。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/vvAqgHH9ebifdJ2r.png!thumbnail" width="400"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213349.png" width="400"/> </div><br>
 
 流程如下：
 
@@ -663,7 +663,7 @@ Cache aside策略如果用错就会遇到深坑，下面我们来逐个踩。
 
 在实际的系统中针对写请求推荐这种操作，但是在理论上还是存在问题。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/v7kTeZLnlo7Uol5c.png!thumbnail" width="400"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213441.png" width="400"/> </div><br>
 
 流程如下：
 
@@ -681,7 +681,7 @@ Cache aside策略如果用错就会遇到深坑，下面我们来逐个踩。
 
 在 Cache Aside 更新模式中，应用代码需要维护两个数据存储，一个是缓存，一个是数据库。而在 Read-Through 策略下，应用程序无需管理缓存和数据库，只需要将数据库的同步委托给缓存提供程序 Cache Provider 即可。所有数据交互都是通过抽象缓存层完成的。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/GnwGEAZVgi9sQEp5.png!thumbnail" width="400"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213501.png" width="400"/> </div><br>
 
 在进行大量读取时，Read-Through 可以减少数据源上的负载，也对缓存服务的故障具备一定的弹性。如果缓存服务挂了，则缓存提供程序仍然可以通过直接转到数据源来进行操作。
 
@@ -693,13 +693,13 @@ Read-Through 适用于多次请求相同数据的场景。这与 Cache-Aside 策
 
 Write-Through 策略下，当发生数据更新(Write)时，缓存提供程序 Cache Provider 负责更新底层数据源和缓存。缓存与数据源保持一致，并且写入时始终通过抽象缓存层到达数据源。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/Oypr2oPE23Kwe70P.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213525.png" width="500"/> </div><br>
 
 ## Write behind
 
 数据更新时只更新缓存，每隔一段时间将数据刷新到数据库中。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/VT44gPVsVacJFBTk.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213709.png" width="500"/> </div><br>
 
 优点是数据写入速度非常快，适用于频繁写的场景。
 
@@ -745,7 +745,7 @@ Write-Through 策略下，当发生数据更新(Write)时，缓存提供程序 C
 
 举个例子：下图是一个布隆过滤器，共有18个比特位，3个哈希函数。集合中三个元素x，y，z通过三个哈希函数散列到不同的比特位，并将比特位置为1。当查询元素w时，通过三个哈希函数计算，发现有一个比特位的值为0，可以肯定认为该元素不在集合中。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/2hd9rhfvp8QyexvO.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213820.png" width="500"/> </div><br>
 
 **布隆过滤器优缺点**
 
@@ -780,8 +780,7 @@ Write-Through 策略下，当发生数据更新(Write)时，缓存提供程序 C
 缓存击穿，是指一个key非常热点，在不停的扛着大并发，大并发集中对这一个点进行访问，当这个key在失效的瞬间，持续的大并发就穿破缓存，直接请求数据库，就像在一个屏障上凿开了一个洞。
 
 ### 缓存击穿危害
-
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>
+数据库瞬时压力骤增，造成大量请求阻塞。
 
 ### 如何解决
 
@@ -789,7 +788,7 @@ Write-Through 策略下，当发生数据更新(Write)时，缓存提供程序 C
 
 这种思路比较简单，就是让一个线程回写缓存，其他线程等待回写缓存线程执行完，重新读缓存即可。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/l1i9taQTV2iNv8qm.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213939.png" width="500"/> </div><br>
 
 同一时间只有一个线程读数据库然后回写缓存，其他线程都处于阻塞状态。如果是高并发场景，大量线程阻塞势必会降低吞吐量。这种情况如何解决？大家可以在留言区讨论。
 
@@ -802,7 +801,7 @@ Write-Through 策略下，当发生数据更新(Write)时，缓存提供程序 C
 * 物理不过期，针对热点key不设置过期时间
 * 逻辑过期，把过期时间存在key对应的value里，如果发现要过期了，通过一个后台的异步线程进行缓存的构建
 
-<div align="center">  <img src="https://uploader.shimo.im/f/FMBCoGpJV86UMniL.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025213959.png" width="500"/> </div><br>
 
 从实战看这种方法对于性能非常友好，唯一不足的就是构建缓存时候，其余线程(非构建缓存的线程)可能访问的是老数据，对于不追求严格强一致性的系统是可以接受的。
 
@@ -944,7 +943,7 @@ Redis Sentinel 是 Redis 高可用的实现方案。Sentinel 是一个管理多�
 
 Redis Sentinel架构图如下：
 
-<div align="center">  <img src="https://uploader.shimo.im/f/WSboj3FYK3kO96X2.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025214046.png" width="500"/> </div><br>
 
 ### 哨兵模式的原理
 
@@ -1005,7 +1004,7 @@ Redis Sentinel 是一个特殊的 Redis 节点。在哨兵模式创建时，需�
 
 Redis-Cluster采用无中心结构，每个节点都保存数据，节点之间互相连接从而知道整个集群状态。
 
-<div align="center">  <img src="https://uploader.shimo.im/f/PNyUtVh8fsi0Hcan.png!thumbnail" width="500"/> </div><br>
+<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201025214115.png" width="500"/> </div><br>
 
 如图所示Cluster模式其实就是多个主从复制的结构组合起来的，每一个主从复制结构可以看成一个节点，那么上面的Cluster集群中就有三个节点。
 
