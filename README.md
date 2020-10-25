@@ -8,13 +8,13 @@
 > 拒绝内卷：转载需要[联系我授权](#微信公众号)，恶意抄袭我会不惜一切代价维护权益，希望大家一起维护良好的创作环境。  
 
 <div align="center">
-		<a href="#关于我" target="_blank"> <img src="https://badgen.net/badge/%E5%85%B3%E4%BA%8E%E6%88%91/Who%20I%20am/ef8b00"></a>
-    <a href="http://smilelioncoder.gitee.io/javafullstack/" target="_blank"> <img src="https://badgen.net/badge/%E7%A0%81%E4%BA%91/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB/ef8b00"></a>
-    <a href="#微信公众号"> <img src="https://badgen.net/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88/ef8b00"></a>
-    <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://badgen.net/badge/CSDN/csdn.net/ef8b00"></a>
-    <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://badgen.net/badge/%E7%9F%A5%E4%B9%8E/zhihu.com/ef8b00"></a>
-    <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://badgen.net/badge/%E6%8E%98%E9%87%91/juejin.im/ef8b00"></a>
-    <a href="https://www.cnblogs.com/DancingOnYourCode/" target="_blank"> <img src="https://badgen.net/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD/cnblogs.com/ef8b00"></a>
+		<a href="#关于我" target="_blank"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-Who%20am%20I-ef8b00"></a>
+    <a href="http://smilelioncoder.gitee.io/javafullstack/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
+    <a href="#微信公众号"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
+    <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-juejin.im-ef8b00"></a>
+    <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-csdn.net-ef8b00"></a>
+    <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>    
+    <a href="https://www.cnblogs.com/DancingOnYourCode/" target="_blank"> <img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD-cnblogs.com-ef8b00"></a>
 </div>
 <p align="center">
 <a href="#关于我" target="_blank">
