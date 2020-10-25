@@ -32,7 +32,7 @@
 
 |类别|子项|标签 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |完整度 &nbsp;&nbsp;&nbsp;&nbsp; |
 |-----|:----|:----|:----|
-|:rocket: [技术基础篇](#技术基础篇)|Java基础|  |    |
+|:rocket: [技术基础篇](#技术基础篇)|[Java基础](#Java基础)| [#Java基础入门80问](#Java基础) |:watermelon:|
 |    |数据结构&算法|  |    |
 |    |数据库|    |    |
 |    |计算机网络|    |    |
@@ -53,10 +53,11 @@
 |:earth_americas: [侃天侃地侃互联网热点](#侃天侃地侃互联网热点)|    | [#鸿蒙OS软总线](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md) |:watermelon:|
 
 <br>
-空白部分是计划中，更新的速度靠你们催~
+空白部分是计划更新中，更新的速度看你们的热情，右上角点个Star吧~
 
 # 技术基础篇
-## Java 基础
+## Java基础
+[Java基础入门80问，非常适合新手](docs/freshman/java-freshman/Java基础入门80问.md)
 
 # 技术进阶篇
 
