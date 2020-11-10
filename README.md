@@ -71,34 +71,12 @@
 - [实战系列03：请避开Stream流式编程常见的坑](docs/advanced/java8/请避开Stream流式编程常见的坑.md)
 - [实战系列04：使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8-Optional类优雅解决空指针问题.md)
 
-### Java集合
-### Java并发编程
-### JVM深入理解Java虚拟机
-
-## 基础框架
-### Spring全家桶（Spring, SpringMVC, Spring Boot）
-### ORM持久化框架（MyBatis|Hibernate）
-
-## 微服务框架
-### Dubbo
-### Spring Cloud
-
-## 设计模式
-
 # 技术大牛篇
 
 ## 常用中间件
 ### Redis缓存
 - [Redis核心技术知识点全集:+1::+1::+1:](docs/expert/middleware/redis/Redis核心技术知识点全集.md)
 - [看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
-
-### Kafka消息队列
-### 数据库中间件
-
-## 软件架构
-### 分布式事务
-### 分布式ID
-### 分布式锁
 
 # 工具软件
 
@@ -111,10 +89,9 @@
 - [网易面试干货之HR解密网易招聘（上篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=1&sn=d0c73f80b6ee92aebc12dbdbcb41d8ec&chksm=8f09cfb2b87e46a4afa541bb198c0bca3acdb9067c269406447587c3c8cfd135bea0ec701bd8&scene=178&cur_album_id=1531431564587417601#rd)
 - [网易面试干货之HR解密网易招聘（下篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=2&sn=21940f268890e43032434b628fc08819&chksm=8f09cfb2b87e46a4e6c94b8b94667f036be9e8a3e6780e7ca8b714d18b53e0f1b96c67d07781&scene=178&cur_album_id=1531431564587417601#rd)
 
-面试经验
-
 
 # 程序员的故事系列
+- [两年半完成逆袭，室友终于拿到字节跳动的Offer](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321727&idx=1&sn=2e530651ba6176415cacc91f065d333c&chksm=8f09cd25b87e4433f5a7a248bf91ee64f3e1b025a3096873f543a5cf8f03f31433b6d31c0ddc&token=1941065265&lang=zh_CN#rd)
 - [程序员版《我和我的家乡》，拼搏奋斗的IT人是家乡的骄傲！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321444&idx=1&sn=17f3ce6c05b40afc3c18bdb23ee2f6d7&chksm=8f09cc3eb87e45289fd1e51055a4acb7d9689a8e3d4ffc598fc7fd1ca1e918f1628ee67d55c6&scene=178&cur_album_id=1531431564587417601#rd)
 - [女程序员在互联网界到底有没有被歧视？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321297&idx=1&sn=d547a2c54e99e6a69723e39ec955d24e&chksm=8f09cf8bb87e469d560ef47c47e59d814a224a31ccfefe12efe9e62a20abbc0f870e14660648&scene=178&cur_album_id=1531431564587417601#rd)
 - [离开华为换种生活，它不香吗？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321143&idx=1&sn=85a794588811541a8e920a60a0edcf4e&chksm=8f09ceedb87e47fb0b9301b6d268b4c68f5a213f47f5a1286fc800a2707b6a9bf57958bd301b&scene=178&cur_album_id=1531431564587417601#rd)
@@ -124,6 +101,7 @@
 
 # 侃天侃地侃互联网热点
 - [华为鸿蒙OS尖刀武器之分布式软总线技术全解析](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md)
+- [汇聚开发者星星之火，华为鸿蒙系统有希望成为国产之光](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321645&idx=1&sn=c263f8db73cdbffee96c2f511ff7ae74&chksm=8f09ccf7b87e45e18eb684d620073d256f95fa25217b8d5c81116600df9a137d33fa93c92961&token=1941065265&lang=zh_CN#rd)
 
 
 # 关于JavaFullStack项目
@@ -139,23 +117,23 @@
 
 
 # 关于我
-> 毕业于华中科技大学，几年间浪迹于多个一线互联网大厂，具有十年开发实战经验。公司里同事崇尚技术，彼此间以架构师互称，大家后面可以叫我『雷架』。
+> 我是"爱笑的架构师"公号作者，你可以叫我"雷架"。
 >
-> 如果你热爱技术或者你不满足现状喜欢搞事情，那你不妨关注我，让我们一路同行，一起分享技术干货、交流面试技巧、吐槽职场故事。
+> :coffee:读过几年书：华中科技大学硕士毕业；
+> :star2:浪过几个大厂：华为、网易、百度……
+> :kissing:一直坚信技术能改变生活，愿保持初心，加油技术人！
 >
 > 我有技术和故事，等你来搞基。
 
-公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。:point_down:
-
-或者你仅仅想找雷架咨询问题、交流、聊天，关注公众号可找到私人二维码。:point_down:
+公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号，扫描二维码或者微信搜：爱笑的架构师
 
 <a name="微信公众号"></a>
 
 <div align="center">
-    <img width="500px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018220114.png"></img>
+    <img width="200px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201110224936.jpg"></img>
 </div>
+或者你仅仅想找雷架咨询问题、交流、聊天，扫描二维码，备注：github
 
-
-
-
-
+<div align="center">
+    <img width="200px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201110230459.jpeg"></img>
+</div>
