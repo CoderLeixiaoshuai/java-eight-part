@@ -24,7 +24,7 @@
 
 # Java知识地图（完善中）
 <div align="center">
-    <img width="" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201111223430.png"></img>
+    <img width="" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201111225410.png"></img>
 </div>
 
 
