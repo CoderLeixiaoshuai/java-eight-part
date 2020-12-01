@@ -136,8 +136,6 @@
 
 公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号，扫描二维码或者微信搜：爱笑的架构师
 
-<a name="微信公众号"></a>
-
 <div align="center">
     <img width="200px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201110224936.jpg"></img>
 </div>
