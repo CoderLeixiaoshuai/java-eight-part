@@ -1,6 +1,6 @@
 :heart:在右上角给Github **javaMap** 项目点个Star，开源有你的贡献，也欢迎提PR~ 爱你们 
 
-:heart:如果 Github 访问速度比较慢或者图片无法刷新出来的话，[可以在线阅读](http://smilelioncoder.gitee.io/javafullstack/)，内容与Github同源。  
+:heart:如果 Github 访问速度比较慢或者图片无法刷新出来的话，[可以在线阅读](http://smilearchitect.gitee.io/javamap/)，内容与Github同源。  
 
 > 关于**javaMap**项目介绍：[传送门](#关于javaMap开源项目)  
 > 关于我：[传送门](#关于我)  
@@ -9,7 +9,7 @@
 
 <div align="center">
 		<a href="#关于我" target="_blank"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-Who%20am%20I-ef8b00"></a>
-    <a href="http://smilelioncoder.gitee.io/javafullstack/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
+    <a href="http://smilearchitect.gitee.io/javamap/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
     <a href="#微信公众号"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-juejin.im-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-csdn.net-ef8b00"></a>
@@ -21,7 +21,7 @@
 </a>
 </p>
 
-# javaMap（java知识地图）
+# java知识地图（javaMap）
 `努力完善中`
 
 <div align="center">
