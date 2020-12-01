@@ -1,8 +1,8 @@
-:heart:在右上角给Github **JavaFullStack** 项目点个Star，开源有你的贡献，也欢迎提PR~ 爱你们 
+:heart:在右上角给Github **javaMap** 项目点个Star，开源有你的贡献，也欢迎提PR~ 爱你们 
 
 :heart:如果 Github 访问速度比较慢或者图片无法刷新出来的话，[可以在线阅读](http://smilelioncoder.gitee.io/javafullstack/)，内容与Github同源。  
 
-> 关于**JavaFullStack**项目介绍：[传送门](#关于JavaFullStack项目)  
+> 关于**javaMap**项目介绍：[传送门](#关于javaMap开源项目)  
 > 关于我：[传送门](#关于我)  
 >
 > 拒绝内卷：转载需要[联系我授权](#关于我)，恶意抄袭我会不惜一切代价维护权益，希望大家一起维护良好的创作环境。  
@@ -14,7 +14,6 @@
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-juejin.im-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-csdn.net-ef8b00"></a>
     <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>    
-    <a href="https://www.cnblogs.com/DancingOnYourCode/" target="_blank"> <img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%E5%9B%AD-cnblogs.com-ef8b00"></a>
 </div>
 <p align="center">
 <a href="#关于我" target="_blank">
@@ -22,7 +21,9 @@
 </a>
 </p>
 
-# Java知识地图（完善中）
+# javaMap（java知识地图）
+`努力完善中`
+
 <div align="center">
     <img width="" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201111225410.png"></img>
 </div>
@@ -109,16 +110,17 @@
 - [汇聚开发者星星之火，华为鸿蒙系统有希望成为国产之光](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321645&idx=1&sn=c263f8db73cdbffee96c2f511ff7ae74&chksm=8f09ccf7b87e45e18eb684d620073d256f95fa25217b8d5c81116600df9a137d33fa93c92961&token=1941065265&lang=zh_CN#rd)
 
 
-# 关于JavaFullStack项目
-**JavaFullStack**项目计划覆盖所有Java后端相关技术栈，旨在为广大技术人提供一些帮助：
+# 关于javaMap开源项目
+**javaMap**项目计划覆盖所有Java后端相关技术栈，旨在为广大技术人提供一些帮助：
+
 - 如果是在校生或Java刚入门，这里可以帮助你找到方向让你不再迷茫，沿着路线走可以助你早日成长为技术大牛。
-- 如果你是职场新人，希望自己的技术能有更进一步的提升，未来可以进大厂拿到不错的薪水待遇，那么你来到这里就对了，JavaFullStack项目覆盖了初级、中级、高级所有技术栈，希望你能从中汲取到营养。
-- 如果你在职场中已经打拼了三到五年，感觉遇到瓶颈了，JavaFullStack项目有一些架构相关的技术栈，希望你能早日突破自己当上架构师。
+- 如果你是职场新人，希望自己的技术能有更进一步的提升，未来可以进大厂拿到不错的薪水待遇，那么你来到这里就对了，javaMap项目覆盖了初级、中级、高级所有技术栈，希望你能从中汲取到营养。
+- 如果你在职场中已经打拼了三到五年，感觉遇到瓶颈了，javaMap项目有一些架构相关的技术栈，希望你能早日突破自己当上架构师。
 - 如果你已经是技术大牛，希望你能在这个开源项目中共享自己的力量造福广大技术人。
 
 如果你有想法或者想共享自己的力量，欢迎大家提PR，有价值的贡献者会展示在首页。
 
-别忘了在右上角给JavaFullStack项目点个Star，非常感谢~ 爱你们 :heart:
+别忘了在右上角给javaMap项目点个Star，非常感谢~ 爱你们 :heart:
 
 
 # 关于我
