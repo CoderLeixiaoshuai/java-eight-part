@@ -20,9 +20,10 @@
 </div>
 <p align="center">
 <a href="#关于我" target="_blank">
-	<img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201018220144.png" width="200"/>
+	<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202202825.png" width="200"/>
 </a>
 </p>
+
 
 # Java知识地图（JavaMap）
 `努力完善中`
@@ -86,6 +87,13 @@
 ### Redis缓存
 - [Redis核心技术知识点全集:+1::+1::+1:](docs/expert/middleware/redis/Redis核心技术知识点全集.md)
 - [看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
+
+### 消息队列
+- [Kafka支持百万级TPS的秘密都藏在这里:+1::+1::+1:](docs/expert/middleware/mq/Kafka支持百万级TPS的秘密都藏在这里.md)
+- [刨根问底，kafka到底会不会丢消息](docs/expert/middleware/mq/刨根问底，kafka到底会不会丢消息.md)
+
+
+## 软件架构
 
 # 工具软件
 
