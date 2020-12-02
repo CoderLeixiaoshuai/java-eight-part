@@ -51,7 +51,7 @@
 |    |基础框架|    |    |
 |    |微服务框架|    |    |
 |    |设计模式|    |    |
-|:rocket: :rocket: :rocket: [技术大牛篇](#技术大牛篇)|[常用中间件](#常用中间件)| [#玩转Redis](#Redis缓存) |:watermelon::watermelon::watermelon:|
+|:rocket: :rocket: :rocket: [技术大牛篇](#技术大牛篇)|[常用中间件](#常用中间件)| [#玩转Redis](#Redis缓存) [#消息队列MQ](#消息队列MQ) |:watermelon::watermelon::watermelon:|
 |    |软件架构|    |    |
 |    |大数据|    |    |
 |    |搜索引擎|    |    |
@@ -88,12 +88,10 @@
 - [Redis核心技术知识点全集:+1::+1::+1:](docs/expert/middleware/redis/Redis核心技术知识点全集.md)
 - [看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
-### 消息队列
+### 消息队列MQ
 - [Kafka支持百万级TPS的秘密都藏在这里:+1::+1::+1:](docs/expert/middleware/mq/Kafka支持百万级TPS的秘密都藏在这里.md)
-- [刨根问底，kafka到底会不会丢消息](docs/expert/middleware/mq/刨根问底，kafka到底会不会丢消息.md)
+- [刨根问底，kafka到底会不会丢消息:+1::+1::+1:](docs/expert/middleware/mq/刨根问底，kafka到底会不会丢消息.md)
 
-
-## 软件架构
 
 # 工具软件
 
