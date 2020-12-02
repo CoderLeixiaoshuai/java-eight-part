@@ -12,7 +12,7 @@
 
 大型互联网公司一般都会要求消息传递最大限度的不丢失，比如用户服务给代金券服务发送一个消息，如果消息丢失会造成用户未收到应得的代金券，最终用户会投诉。
 
-为避免上面类似情况的发生，除了做好补偿措施，更应该在系设计的时候充分考虑各种异常，设计一个稳定、高可用的消息系统。
+??为避免上面类似情况的发生，除了做好补偿措施，更应该在系设计的时候充分考虑各种异常，设计一个稳定、高可用的消息系统。
 
 # 认识Kafka
 
@@ -26,7 +26,7 @@
 
 Kafka的整体架构非常简单，是显式分布式架构，主要由producer、broker（kafka）和consumer组成。
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202233608.png!thumbnail" alt="图片" style="zoom:80%;" />
+​        <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235323.png" alt="img" style="zoom:67%;" />      
 
 **Producer**（生产者）可以将数据发布到所选择的topic（主题）中。生产者负责将记录分配到topic的哪一个 partition（分区）中。可以使用循环的方式来简单地实现负载均衡，也可以根据某些语义分区函数(如记录中的key)来完成。
 
@@ -36,7 +36,7 @@ Kafka的整体架构非常简单，是显式分布式架构，主要由producer�
 
 在讨论kafka是否丢消息前先来了解一下什么是**消息传递语义**。
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202233359.png!thumbnail" alt="图片" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235521.png" alt="图片" style="zoom:50%;" />
 
 message delivery semantic 也就是消息传递语义，简单说就是消息传递过程中消息传递的保证性。主要分为三种：
 
@@ -65,7 +65,7 @@ message delivery semantic 也就是消息传递语义，简单说就是消息�
 5. Follower消息拉取完毕需要给Leader回复ACK确认消息；
 6. Kafka Leader和Follower分区同步完，Leader分区会给生产者回复ACK确认消息。
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202233642.png!thumbnail" alt="图片" style="zoom:80%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235556.png" alt="图片" style="zoom:80%;" />
 
 生产者采用push模式将数据发布到broker，每条消息追加到分区中，顺序写入磁盘。消息写入Leader后，Follower是主动与Leader进行同步。
 
@@ -88,11 +88,11 @@ kafka producer 的参数acks 的默认值为1，所以默认的producer级别是
 
 Kafka Broker 接收到数据后会将数据进行持久化存储，你以为是下面这样的：
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202233701.png!thumbnail" alt="图片" style="zoom:40%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235645.png" alt="图片" style="zoom:40%;" />
 
 没想到是这样的：
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202233714.png!thumbnail" alt="图片" style="zoom: 35%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235719.png" alt="图片" style="zoom: 35%;" />
 
 操作系统本身有一层缓存，叫做 Page Cache，当往磁盘文件写入的时候，系统会先将数据流写入缓存中，至于什么时候将缓存的数据写入文件中是由操作系统自行决定。
 
@@ -108,7 +108,7 @@ Kafka通过多分区多副本机制中已经能最大限度保证数据不会丢
 
 多个消费者可以组成一个消费者组（consumer group），每个消费者组都有一个组id。同一个消费组者的消费者可以消费同一topic下不同分区的数据，但是不会出现多个消费者消费同一分区的数据。
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202233735.png!thumbnail" alt="图片" style="zoom: 80%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235753.png!thumbnail" alt="图片" style="zoom: 80%;" />
 
 消费者消费的进度通过offset保存在kafka集群的__consumer_offsets这个topic中。
 
