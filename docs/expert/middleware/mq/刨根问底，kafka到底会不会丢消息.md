@@ -88,11 +88,11 @@ kafka producer 的参数acks 的默认值为1，所以默认的producer级别是
 
 Kafka Broker 接收到数据后会将数据进行持久化存储，你以为是下面这样的：
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235645.png" alt="图片" style="zoom:40%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235645.png" alt="图片" width="400" />
 
 没想到是这样的：
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235719.png" alt="图片" style="zoom: 35%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235719.png" alt="图片" width="400" />
 
 操作系统本身有一层缓存，叫做 Page Cache，当往磁盘文件写入的时候，系统会先将数据流写入缓存中，至于什么时候将缓存的数据写入文件中是由操作系统自行决定。
 
@@ -108,7 +108,7 @@ Kafka通过多分区多副本机制中已经能最大限度保证数据不会丢
 
 多个消费者可以组成一个消费者组（consumer group），每个消费者组都有一个组id。同一个消费组者的消费者可以消费同一topic下不同分区的数据，但是不会出现多个消费者消费同一分区的数据。
 
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202235753.png!thumbnail" alt="图片" style="zoom: 80%;" />
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201203000402.png" alt="图片" style="zoom: 80%;" />
 
 消费者消费的进度通过offset保存在kafka集群的__consumer_offsets这个topic中。
 
