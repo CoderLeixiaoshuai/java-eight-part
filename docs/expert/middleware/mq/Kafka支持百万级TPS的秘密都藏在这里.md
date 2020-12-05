@@ -19,13 +19,13 @@
 
 先用一张思维导图直接告诉你答案：
 
-![图片](https://uploader.shimo.im/f/toX9J5thFQ8DnDOP.png!thumbnail)
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225401.png" alt="图片" style="zoom: 50%;" />
 
 ## 顺序读写磁盘
 
 生产者写入数据和消费者读取数据都是**顺序读写**的，先来一张图直观感受一下顺序读写和随机读写的速度：
 
-![图片](https://uploader.shimo.im/f/8hxv0BIoJK3ruius.png!thumbnail)
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225450.png" alt="图片" style="zoom: 33%;" />
 
 从图中可以看出传统硬盘或者SSD的顺序读写甚至超过了内存的随机读写，当然与内存的顺序读写对比差距还是很大。
 
@@ -37,7 +37,7 @@
 
 **磁头**：磁头切换磁道读写数据时是通过机械设备实现的，一般速度较慢；而磁头切换盘面读写数据是通过电子设备实现的，一般速度较快，因此磁头一般是先读写完柱面后才开始寻道的(不用切换磁道)，这样磁盘读写效率更快。
 
-![图片](https://uploader.shimo.im/f/4GfVFgujaCqJNerQ.png!thumbnail)
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225538.png" alt="图片" style="zoom:50%;" />
 
 **磁道**：磁道就是以中间轴为圆心的圆环，一个盘面有多个磁道，磁道之间有间隙，磁道也就是磁盘存储数据的介质。磁道上布有一层磁介质，通过磁头可以使磁介质的极性转换为数据信号，即磁盘的读，磁盘写刚好与之相反。
 
@@ -45,7 +45,7 @@
 
 **扇区：**单个磁道就是多个弧形扇区组成的，盘面上的每个磁道拥有的扇区数量是相等。扇区是最小存储单元，一般扇区大小为512bytes。
 
-![图片](https://uploader.shimo.im/f/Fyjol3cvh3CpO8Xd.png!thumbnail)
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225609.png" alt="图片" style="zoom:50%;" />
 
 如果系统每次只读取一个扇区，那恐怕效率太低了，所以出现了block（块）的概念。文件读取的最小单位是block，根据不同操作系统一个block一般由多个扇区组成。
 
@@ -61,11 +61,11 @@
 
 Kafka 写入数据是顺序的，下面每一个Partition 都可以当做一个文件，每次接收到新数据后Kafka会把数据插入到文件末尾，虚框部分代表文件尾。
 
-![图片](https://uploader.shimo.im/f/p5sDPksp0KP9lWVJ.png!thumbnail)
+![图片](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225633.png)
 
 这种方法有一个问题就是删除数据不方便，所以 Kafka 一般会把所有的数据都保留下来，每个消费者（Consumer）对每个Topic都有一个 offset 用来记录读取进度或者叫坐标。
 
-![图片](https://uploader.shimo.im/f/eh7kbKm2T0OhGxgz.png!thumbnail)
+![图片](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225705.png)
 
 ## Memory Mapped Files(MMAP)
 
@@ -73,7 +73,7 @@ Kafka 写入数据是顺序的，下面每一个Partition 都可以当做一个�
 
 **MMAP**也就是**内存映射文件**，在64位操作系统中一般可以表示 20G 的数据文件，它的工作原理是直接利用操作系统的 Page 来实现文件到物理内存的直接映射，完成映射之后对物理内存的操作会被同步到硬盘上。
 
-![图片](https://uploader.shimo.im/f/LnqeET8UN47To55W.png!thumbnail)
+![图片](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225725.png)
 
 通过**MMAP**技术进程可以像读写硬盘一样读写内存（逻辑内存），不必关心内存的大小，因为有虚拟内存兜底。这种方式可以获取很大的I/O提升，省去了用户空间到内核空间复制的开销。
 
@@ -99,7 +99,7 @@ Kafka 另外一个黑技术就是使用了零拷贝，要想深刻理解零拷�
 
 如果不使用零拷贝技术，消费者（consumer）从Kafka消费数据，Kafka从磁盘读数据然后发送到网络上去，数据一共发生了四次传输的过程。其中两次是 DMA 的传输，另外两次，则是通过 CPU 控制的传输。
 
-![图片](https://uploader.shimo.im/f/5e8SPsX4iG5LIMVd.png!thumbnail)
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225749.png" alt="图片" style="zoom:50%;" />
 
 **第一次传输**：从硬盘上将数据读到操作系统内核的缓冲区里，这个传输是通过 DMA 搬运的。
 
@@ -111,7 +111,7 @@ Kafka 另外一个黑技术就是使用了零拷贝，要想深刻理解零拷�
 
 实际上在kafka中只进行了两次数据传输，如下图：
 
-![图片](https://uploader.shimo.im/f/thVO76BjxY7RNfkk.png!thumbnail)
+![图片](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205225937.png)
 
 **第一次传输**：通过 DMA从硬盘直接读到操作系统内核的读缓冲区里面。
 

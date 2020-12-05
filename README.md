@@ -1,12 +1,17 @@
-:heart:JavaMap项目同时托管在 Github 和 Gitee(码云)：
-- Github: [https://github.com/smileArchitect/JavaMap](https://github.com/smileArchitect/JavaMap)
-- Gitee(码云) [https://gitee.com/smileArchitect/JavaMap](https://gitee.com/smileArchitect/JavaMap)
-
-麻烦大家点击右上角给 **JavaMap** 项目Star一下，也欢迎大家提 Issue 和PR~ 开源有你的贡献，爱你们 ！
+# 很啰嗦的前言
+:heart:麻烦大家点击右上角给 `Github JavaMap` 项目点一个 `Star`，开源有你的贡献，爱你 ！
 
 :heart:由于国内访问 Github 速度比较慢，图片可能无法刷新出来，建议大家在线阅读：
-[http://smilearchitect.gitee.io/javamap/](http://smilearchitect.gitee.io/javamap/)，内容与Github同源。
+[http://smilearchitect.gitee.io/javamap/](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。已经是在线阅读可以不用重复点了。
 
+如果你想成为项目的 `contributor`欢迎你提 `PR`，对文章内容有任何问题你也可以提交 `Issue`。
+`JavaMap`项目源码托管地址：
+
+- 【优先】Github: [https://github.com/smileArchitect/JavaMap](https://github.com/smileArchitect/JavaMap)
+- Gitee(码云) [https://gitee.com/smileArchitect/JavaMap](https://gitee.com/smileArchitect/JavaMap)
+
+> 人生终极问题：
+>
 > :one:**JavaMap**项目可以干什么？[戳这里给你介绍](#关于JavaMap开源项目)  
 > :two:我是谁？ [戳这里勾搭我](#关于我)  
 >
@@ -27,6 +32,8 @@
 
 # Java知识地图（JavaMap）
 `努力完善中`
+
+知识地图就是你前进的`灯塔`，有了它你知道目标在哪里，也知道差距在哪里，路漫漫其修远兮希望你能早日通关~
 
 <div align="center">
     <img width="" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201111225410.png"></img>
@@ -146,10 +153,11 @@
 公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号，扫描二维码或者微信搜：爱笑的架构师
 
 <div align="center">
-    <img width="200px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201110224936.jpg"></img>
+    <img width="200px" src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
 </div>
+
 或者你仅仅想找雷架咨询问题、交流、聊天，扫描二维码，备注：github
 
 <div align="center">
-    <img width="200px" src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/202010/20201110230459.jpeg"></img>
+    <img width="200px" src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205222851.png"></img>
 </div>
