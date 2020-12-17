@@ -8,27 +8,32 @@
   <meta name="description" content="Description">
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/prism.css">
   <!--主题-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"> 
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css"> -->
 
   <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?2da35a770e755052043cf0abdee3acd7";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?bb379c87f67e090f0c9d336fe4dc5a9c";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 
 </head>
 
 <body>
   <nav>
+    <a href="#/">首页</a>
+    <a href="#/?id=%e5%85%b3%e4%ba%8e%e6%88%91">关于我</a>
+    <a href="https://github.com/smileArchitect/JavaMap" target="_blank">Github Star</a>
   </nav>
   <div id="app"></div>
+
+  <!-- edit on github -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github/index.js"></script>
   <script>
     window.$docsify = {
       name: 'JavaMap',
@@ -48,21 +53,25 @@ var _hmt = _hmt || [];
         noData: '找不到结果',
         depth: 3,
       },
+      requestHeaders: {
+        'cache-control': 'max-age=600',
+      },
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/smileArchitect/JavaMap/blob/master/')
+      ],
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <!--搜索-->
-  <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
-  <!--Java代码高亮-->
-  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
-  <!-- 复制到剪贴板 -->
-  <script src="//unpkg.com/docsify-copy-code"></script>
-  <!-- 图片缩放 -->
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-  <!-- 字数统计 -->
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- emoji表情 -->
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <!--搜索-->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!--Java代码高亮-->
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 字数统计 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-count/dist/countable.min.js"></script>
 </body>
 
 </html>
