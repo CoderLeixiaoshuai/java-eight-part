@@ -35,7 +35,7 @@
 - [33.String 和StringBuffer的区别](#33string-和stringbuffer的区别)
 - [34.如何把一段逗号分割的字符串转换成一个数组?](#34如何把一段逗号分割的字符串转换成一个数组)
 - [35.数组有没有length\(\)这个方法? String有没有length\(\)这个方法？](#35数组有没有length这个方法-string有没有length这个方法)
-- [36.下面这条语句一共创建了多少个对象：String s="a"+"b"+"c"+"d";](#36下面这条语句一共创建了多少个对象：string-sabcd)
+- [36.下面这条语句一共创建了多少个对象? String s="a"+"b"+"c"+"d";](#36下面这条语句一共创建了多少个对象-string-sabcd)
 - [37.try {}里有一个return语句，那么紧跟在这个try后的finally {}里的code会不会被执行，什么时候被执行，在return前还是后?](#37try-里有一个return语句那么紧跟在这个try后的finally-里的code会不会被执行什么时候被执行在return前还是后)
 - [38.下面的程序代码输出的结果是多少？](#38下面的程序代码输出的结果是多少)
 - [39.final, finally, finalize的区别。](#39final-finally-finalize的区别)
@@ -66,7 +66,7 @@
 - [64.你所知道的集合类都有哪些？主要方法？](#64你所知道的集合类都有哪些主要方法)
 - [65.两个对象值相同\(x.equals(y\) == true)，但却可有不同的hash code，这句话对不对?](#65两个对象值相同xequalsy--true但却可有不同的hash-code这句话对不对)
 - [66.TreeSet里面放对象，如果同时放入了父类和子类的实例对象，那比较时使用的是父类的compareTo方法，还是使用的子类的compareTo方法，还是抛异常！](#66treeset里面放对象如果同时放入了父类和子类的实例对象那比较时使用的是父类的compareto方法还是使用的子类的compareto方法还是抛异常)
-- [67.说出一些常用的类，包，接口，请各举5个 。](#67说出一些常用的类包接口请各举5个-)
+- [67.说出一些常用的类，包，接口，请各举5个。](#67说出一些常用的类包接口请各举5个)
 - [68.java中有几种类型的流？JDK为每种类型的流提供了一些抽象类以供继承，请说出他们分别是哪些类？](#68java中有几种类型的流jdk为每种类型的流提供了一些抽象类以供继承请说出他们分别是哪些类)
 - [69.字节流与字符流的区别](#69字节流与字符流的区别)
 - [70.什么是java序列化，如何实现java序列化？或者请解释Serializable接口的作用。](#70什么是java序列化如何实现java序列化或者请解释serializable接口的作用)
@@ -94,7 +94,7 @@ java中的保留字，现在没有在java中使用。
 
 # 3.说说&和&&的区别
 
-&&：短路  &逻辑
+&&：短路 &逻辑
 
 &和&&都可以用作逻辑与的运算符，表示逻辑与（and），当运算符两边的表达式的结果都为true时，整个运算结果才为true，否则，只要有一方为false，则结果为false。
 
@@ -109,28 +109,28 @@ java中的保留字，现在没有在java中使用。
 在Java中，要想跳出多重循环，可以在外面的循环语句前定义一个标号，然后在里层循环体的代码中使用带有标号的break 语句，即可跳出外层循环。例如，
 
 ```java
-ok:
-	for(int i=0;i<10;i++)	{
-		for(int j=0;j<10;j++)		{
-			System.out.println(“i=” + i + “,j=” + j);
-			if(j == 5) break ok;
-		}
-	} 
+    ok:
+    for (int i = 0; i < 10; i++) {
+        for (int j = 0; j < 10; j++) {
+            System.out.println("i=" + i + ",j=" + j);
+            if (j == 5) break ok;
+        }
+    }
 ```
 另外，可以不使用标号这种方式，而是让外层的循环条件表达式的结果可以受到里层循环体代码的控制，例如，要在二维数组中查找到某个数字。
 
 ```java
-int arr[][] = {{1,2,3},{4,5,6,7},{9}};
-boolean found = false;
-for(int i=0;i<arr.length && !found;i++)	{
-		for(int j=0;j<arr[i].length;j++){
-			System.out.println(“i=” + i + “,j=” + j);
-			if(arr[i][j]  == 5) {
-				found = true;
-				break;
-			}
-		}
-	} 
+    int[][] arr = {{1, 2, 3}, {4, 5, 6, 7}, {9}};
+    boolean found = false;
+    for (int i = 0; i < arr.length && !found; i++) {
+        for (int j = 0; j < arr[i].length; j++) {
+            System.out.println("i = " + i + ", j = " + j);
+            if (arr[i][j] == 5) {
+                found = true;
+                break;
+            }
+        }
+    }
 ```
 # 5.switch语句能否作用在byte上，能否作用在long上，能否作用在String上?
 
@@ -159,10 +159,10 @@ char型变量是用来存储Unicode编码的字符的，unicode编码字符集�
 首先，计算机中用固定数量的几个字节来存储的数值，所以计算机中能够表示的数值是有一定的范围的，先以byte 类型的整数为例，它用1个字节进行存储，表示的最大数值范围为-128到+127。-1在内存中对应的二进制数据为11111111，如果两个-1相加，不考虑Java运算时的类型提升，运算后会产生进位，二进制结果为1,11111110，由于进位后超过了byte类型的存储空间，所以进位部分被舍弃，即最终的结果为11111110，也就是-2，这正好利用溢位的方式实现了负数的运算。-128在内存中对应的二进制数据为10000000，如果两个-128相加，不考虑Java运算时的类型提升，运算后会产生进位，二进制结果为1,00000000，由于进位后超过了byte类型的存储空间，所以进位部分被舍弃，即最终的结果为00000000，也就是0，这样的结果显然不符合期望，这说明计算机中的算术运算是会发生越界情况的，两个数值的运算结果不能超过计算机中的该类型的数值范围。由于Java中涉及表达式运算时的类型自动提升，无法用byte类型来做演示这种问题和现象的实验，可以用下面一个使用整数做实验的例子程序体验一下：
 
 ```java
-int a = Integer.MAX_VALUE;
-int b = Integer.MAX_VALUE;
-int sum = a + b;
-System.out.println(“a=”+a+”,b=”+b+”,sum=”+sum);
+    int a = Integer.MAX_VALUE;
+    int b = Integer.MAX_VALUE;
+    int sum = a + b;
+    System.out.println(“a=”+a+”,b=”+b+”,sum=”+sum);
 ```
 先不考虑long类型，由于int的正数范围为2的31次方，表示的最大数值约等于2*1000*1000*1000，也就是20亿的大小，所以，要实现一个一百亿的计算器，我们得自己设计一个类可以用于表示很大的整数，并且提供了与另外一个整数进行加减乘除的功能，大概功能如下：
 
@@ -209,12 +209,12 @@ a=new StringBuffer("");
 ```
 但是，执行如下语句则可以通过编译：
 ```java
-a.append(" broken!"); 
+a.append(" broken!");
 ```
 有人在定义方法的参数时，可能想采用如下形式来阻止方法内部修改传进来的参数对象：
 
 ```java
-	public void method(final  StringBuffer  param){} 
+public void method(final StringBuffer param){}
 ```
 实际上，这是办不到的，在该方法内部仍然可以增加如下代码来修改参数对象：
 ```java
@@ -254,14 +254,15 @@ return this==o;
 例如，对于下面的程序，无论创建多少个实例对象，永远都只分配了一个staticVar变量，并且每创建一个实例对象，这个staticVar就会加1；但是，每创建一个实例对象，就会分配一个instanceVar，即可能分配多个instanceVar，并且每个instanceVar的值都只自加了1次。
 
 ```java
-public class VariantTest{
-		public static int staticVar = 0; 
-		public int instanceVar = 0; 
-		public VariantTest(){
-			staticVar++;`
-			instanceVar++;
-			System.out.println(“staticVar=” + staticVar + ”,instanceVar=” + instanceVar);
-		}
+public class VariantTest {
+    public static int staticVar = 0;
+    public int instanceVar = 0;
+
+    public VariantTest() {
+        staticVar++;
+        instanceVar++;
+        System.out.println("staticVar=" + staticVar + ",instanceVar=" + instanceVar);
+    }
 }
 ```
 # 13.是否可以从一个static方法内部发出对非static方法的调用？
@@ -280,7 +281,7 @@ int是java提供的8种原始数据类型之一。Java为每个原始类型提�
 
 # 15.Math.round(11.5)等于多少? Math.round(-11.5)等于多少?
 
-Math类中提供了三个与取整有关的方法：ceil、floor、round，这些方法的作用与它们的英文名称的含义相对应，例如，ceil的英文意义是天花板，该方法就表示向上取整，Math.ceil(11.3)的结果为12,Math.ceil(-11.3)的结果是-11；floor的英文意义是地板，该方法就表示向下取整，Math.ceil(11.6)的结果为11,Math.ceil(-11.6)的结果是-12；最难掌握的是round方法，它表示“四舍五入”，算法为Math.floor(x+0.5)，即将原来的数字加上0.5后再向下取整，所以，Math.round(11.5)的结果为12，Math.round(-11.5)的结果为-11。
+Math类中提供了三个与取整有关的方法：ceil、floor、round，这些方法的作用与它们的英文名称的含义相对应，例如，ceil的英文意义是天花板，该方法就表示向上取整，Math.ceil(11.3)的结果为12,Math.ceil(-11.3)的结果是-11；floor的英文意义是地板，该方法就表示向下取整，Math.floor(11.6)的结果为11,Math.floor(-11.6)的结果是-12；最难掌握的是round方法，它表示“四舍五入”，算法为Math.floor(x+0.5)，即将原来的数字加上0.5后再向下取整，所以，Math.round(11.5)的结果为12，Math.round(-11.5)的结果为-11。
 
 # 16.请说出作用域public，private，protected，以及不写时的区别
 
@@ -288,15 +289,12 @@ Math类中提供了三个与取整有关的方法：ceil、floor、round，这�
 
 说明：如果在修饰的元素上面没有写任何访问修饰符，则表示friendly。
 
-作用域    当前类 同一package 子孙类 其他package
-
-public    √     √          √       √
-
-protected  √     √          √      ×
-
-friendly   √     √          ×      ×
-
-private    √     ×          ×      ×
+| 作用域     | 当前类 | 同一package | 子孙类 | 其他package |
+|:----------|:------|:-----------|:------|:-----------|
+| public    | √     | √          | √    | √          |
+| protected | √     | √          | √    | ×          |
+| friendly  | √     | √          | ×     | ×          |
+| private   | √     | ×         | ×     | ×          |
 
 备注：只要记住了有4种访问权限，4个访问范围，然后将全选和范围在水平和垂直方向上分别按排从小到大或从大到小的顺序排列，就很容易画出上面的图了。
 
@@ -336,7 +334,7 @@ overload对我们来说可能比较熟悉，可以翻译为重载，它是指我
 
 # 19.接口是否可继承接口? 抽象类是否可实现(implements)接口? 抽象类是否可继承具体类(concrete class)? 抽象类中是否可以有静态的main方法？
 
-接口可以继承接口。抽象类可以实现(implements)接口，抽象类是否可继承具体类。抽象类中可以有静态的main方法。
+接口可以继承接口。抽象类可以实现(implements)接口，抽象类可以继承具体类。抽象类中可以有静态的main方法。
 
 备注：只要明白了接口和抽象类的本质和作用，这些问题都很好回答，想想看，如果自己作为是java语言的设计者，是否会提供这样的支持，如果不提供的话，有什么理由吗？如果没有道理不提供，那答案就是肯定的了。
 
@@ -432,8 +430,8 @@ if(具有权限){
 			记录异常信息
       }
     }
-  } 
-		protected abstract void doService(HttpServletRequest request, HttpServletResponse response) throws IOExcetion,ServletException;  
+  }
+		protected abstract void doService(HttpServletRequest request, HttpServletResponse response) throws IOExcetion,ServletException;
 //注意访问权限定义成protected，显得既专业，又严谨，因为它是专门给子类用的
 }
 ```
@@ -442,7 +440,7 @@ public class MyServlet1 extends BaseServlet {
   protected void doService(HttpServletRequest request, HttpServletResponse response) throws IOExcetion,ServletException
 		{
 			本Servlet只处理的具体业务逻辑代码
-		} 
+		}
 }
 ```
 父类方法中间的某段代码不确定，留给子类干，就用模板方法设计模式。
@@ -467,11 +465,11 @@ private native void open(String name) throws FileNotFoundException;
 ```java
 public class Outer
 {
-		int out_x  = 0;
+		int out_x = 0;
 		public void method()
 		{
 			Inner1 inner1 = new Inner1();
-			public class Inner2   //在方法体内部定义的内部类
+			public class Inner2 //在方法体内部定义的内部类
 			{
 				public method()
 				{
@@ -480,7 +478,7 @@ public class Outer
 			}
 			Inner2 inner2 = new Inner2();
 		}
-		public class Inner1   //在方法体外面定义的内部类
+		public class Inner1 //在方法体外面定义的内部类
 		{
 		}		
 }
@@ -551,7 +549,7 @@ class Outer
 
 ```java
 import java.util.Date;
-public  class Test extends Date{
+public class Test extends Date{
 	public static void main(String[] args) {
 		new Test().test();
 	}
@@ -621,7 +619,7 @@ JAVA平台提供了两个类：String和StringBuffer，它们可以储存和操�
 接着要举一个具体的例子来说明，我们要把1到100的所有数字拼起来，组成一个串。
 
 ```java
-StringBuffer sbf = new StringBuffer();  
+StringBuffer sbf = new StringBuffer();
 for(int i=0;i<100;i++)
 {
 	sbf.append(i);
@@ -630,7 +628,7 @@ for(int i=0;i<100;i++)
 上面的代码效率很高，因为只创建了一个StringBuffer对象，而下面的代码效率很低，因为创建了101个对象。
 
 ```java
-String str = new String();  
+String str = new String();
 for(int i=0;i<100;i++)
 {
 	str = str + i;
@@ -645,11 +643,11 @@ String覆盖了equals方法和hashCode方法，而StringBuffer没有覆盖equals
 1）用正则表达式，代码大概为：
 
 ```java
-String [] result = orgStr.split(“,”);
+String [] result = orgStr.split(",");
 ```
-2）用 StingTokenizer ,代码为：
+2）用 StringTokenizer ,代码为：
 ```java
-StringTokenizer  tokener = StringTokenizer(orgStr,”,”);
+StringTokenizer tokener = StringTokenizer(orgStr,",");
 String [] result = new String[tokener .countTokens()];
 Int i=0;
 while(tokener.hasNext(){result[i++]=toker.nextToken();}
@@ -658,7 +656,7 @@ while(tokener.hasNext(){result[i++]=toker.nextToken();}
 
 数组没有length()这个方法，有length的属性。String有有length()这个方法。
 
-# 36.下面这条语句一共创建了多少个对象：String s="a"+"b"+"c"+"d";
+# 36.下面这条语句一共创建了多少个对象? String s="a"+"b"+"c"+"d";
 
 对于如下代码：
 
@@ -684,13 +682,13 @@ System.out.println(s == "abcd");
 也许你的答案是在return之前，但往更细地说，我的答案是在return中间执行，请看下面程序代码的运行结果：
 
 ```java
-public  class Test {
+public class Test {
 	/**
 	 * @param args add by zxx ,Dec 9, 2008
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(new Test().test());;
+		System.out.println(Test.test());
 	}
 	static int test()
 	{
@@ -716,16 +714,16 @@ public  class Test {
 # 38.下面的程序代码输出的结果是多少？
 
 ```java
-public class  smallT
+public class smallT
 {
-	public static void  main(String args[])
+	public static void main(String args[])
 	{
-		smallT t  = new  smallT();
-		int  b  =  t.get();
+		smallT t = new smallT();
+		int b = t.get();
 		System.out.println(b);
 	}
 	
-	public int  get()
+	public int get()
 	{
 		try
 		{
@@ -745,7 +743,7 @@ public class  smallT
 在讲解答案时可以用下面的程序来帮助分析：
 
 ```java
-public  class Test {
+public class Test {
 	/**
 	 * @param args add by zxx ,Dec 9, 2008
 	 */
@@ -849,7 +847,7 @@ new Thread(new Runnable(){
 ExecutorService pool = Executors.newFixedThreadPool(3)
 for(int i=0;i<10;i++)
 {
- pool.execute(new Runable(){public void run(){}});
+    pool.execute(new Runable(){public void run(){}});
 }
 Executors.newCachedThreadPool().execute(new Runable(){public void run(){}});
 Executors.newSingleThreadExecutor().execute(new Runable(){public void run(){}});
@@ -971,7 +969,7 @@ Allnotity():唤醒所有处入等待状态的线程，注意并不是给所有�
 
 # 51.简述synchronized和java.util.concurrent.locks.Lock的异同 ？
 
-主要相同点：Lock能完成synchronized所实现的所有功能 。
+主要相同点：Lock能完成synchronized所实现的所有功能。
 
 主要不同点：Lock有比synchronized更精确的线程语义和更好的性能。synchronized会自动释放锁，而Lock一定要求程序员手工释放，并且必须在finally从句中释放。Lock还有更强大的功能，例如，它的tryLock方法可以非阻塞方式去拿锁。
 
@@ -1048,43 +1046,43 @@ public class ThreadTest {
 以下程序使用内部类实现线程，对j增减的时候没有考虑顺序问题。
 
 ```java
-public class ThreadTest1 
-{ 
-private int j; 
-public static void main(String args[]){ 
-   ThreadTest1 tt=new ThreadTest1(); 
-   Inc inc=tt.new Inc(); 
-   Dec dec=tt.new Dec(); 
-   for(int i=0;i<2;i++){ 
-       Thread t=new Thread(inc); 
-       t.start(); 
-		   t=new Thread(dec); 
-       t.start(); 
-       } 
-   } 
-private synchronized void inc(){ 
-   j++; 
-   System.out.println(Thread.currentThread().getName()+"-inc:"+j); 
-   } 
-private synchronized void dec(){ 
-   j--; 
-   System.out.println(Thread.currentThread().getName()+"-dec:"+j); 
-   } 
-class Inc implements Runnable{ 
-   public void run(){ 
-       for(int i=0;i<100;i++){ 
-       inc(); 
-       } 
-   } 
-} 
-class Dec implements Runnable{ 
-   public void run(){ 
-       for(int i=0;i<100;i++){ 
-       dec(); 
-       } 
-   } 
-} 
-} 
+public class ThreadTest1
+{
+private int j;
+public static void main(String[] args){
+    ThreadTest1 tt=new ThreadTest1();
+    Inc inc=tt.new Inc();
+    Dec dec=tt.new Dec();
+    for(int i=0;i<2;i++){
+        Thread t=new Thread(inc);
+        t.start();
+        t=new Thread(dec);
+        t.start();
+        }
+    }
+private synchronized void inc(){
+    j++;
+    System.out.println(Thread.currentThread().getName()+"-inc:"+j);
+    }
+private synchronized void dec(){
+    j--;
+    System.out.println(Thread.currentThread().getName()+"-dec:"+j);
+    }
+class Inc implements Runnable{
+    public void run(){
+        for(int i=0;i<100;i++){
+        inc();
+        }
+    }
+}
+class Dec implements Runnable{
+    public void run(){
+        for(int i=0;i<100;i++){
+        dec();
+        }
+    }
+}
+}
 ```
 ----------随手再写的一个-------------
 
@@ -1096,24 +1094,24 @@ main()
 {
 	new A().call();
 }
-void call
+void call()
 {
 	for(int i=0;i<2;i++)
 	{
 		new Thread(
-			new Runnable(){ public void run(){while(true){j.accumulate()}}}
+			new Runnable(){ public void run(){while(true){j.accumulate();}}}
 		).start();
-		new Thread(new Runnable(){ public void run(){while(true){j.sub()}}}).start();
+		new Thread(new Runnable(){ public void run(){while(true){j.sub();}}}).start();
 	}
 }
 }
 class JManager
 {
-	private j = 0;
+	private int j = 0;
 	
 	public synchronized void subtract()
 	{
-		j--
+		j--;
 	}
 	
 	public synchronized void accumulate()
@@ -1234,7 +1232,7 @@ public class ThreadTest {
 								if(bShouldMain)
 								{
 									try {
-										ThreadTest.class.wait();} 
+										ThreadTest.class.wait();}
 									catch (InterruptedException e) {
 										e.printStackTrace();
 									}
@@ -1242,7 +1240,7 @@ public class ThreadTest {
 								for(int j=0;j<10;j++)
 								{
 									System.out.println(
-											Thread.currentThread().getName() + 
+											Thread.currentThread().getName() +
 											"i=" + i + ",j=" + j);
 								}
 								bShouldMain = true;
@@ -1259,7 +1257,7 @@ public class ThreadTest {
 				if(!bShouldMain)
 				{
 					try {
-						ThreadTest.class.wait();} 
+						ThreadTest.class.wait();}
 					catch (InterruptedException e) {
 						e.printStackTrace();
 					}
@@ -1429,7 +1427,7 @@ Object obj = vector.get(i);
 ```
 还有一种简单的方式
 ```java
-HashSet set = new HashSet(vector); 
+HashSet set = new HashSet(vector);
 ```
 # 62.Collection 和 Collections的区别。
 
@@ -1503,17 +1501,17 @@ public class TreeSetTest {
 	}
 }
 ```
-# 67.说出一些常用的类，包，接口，请各举5个 。
+# 67.说出一些常用的类，包，接口，请各举5个。
 
 要让人家感觉你对java ee开发很熟，所以，不能仅仅只列core java中的那些东西，要多列你在做ssh项目中涉及的那些东西，就写你最近写的那些程序中涉及的那些类。
 
-常用的类：BufferedReader  BufferedWriter  FileReader  FileWirter  String  Integer
+常用的类：BufferedReader BufferedWriter FileReader FileWirter String Integer
 
 java.util.Date，System，Class，List,HashMap
 
-常用的包：java.lang   java.io  java.util  java.sql ,javax.servlet,org.apache.strtuts.action,org.hibernate
+常用的包：java.lang java.io java.util java.sql ,javax.servlet,org.apache.strtuts.action,org.hibernate
 
-常用的接口：Remote  List  Map  Document  NodeList,Servlet,HttpServletRequest,HttpServletResponse,Transaction(Hibernate)、Session(Hibernate),HttpSession
+常用的接口：Remote List Map Document NodeList,Servlet,HttpServletRequest,HttpServletResponse,Transaction(Hibernate)、Session(Hibernate),HttpSession
 
 # 68.java中有几种类型的流？JDK为每种类型的流提供了一些抽象类以供继承，请说出他们分别是哪些类？
 
@@ -1543,7 +1541,7 @@ import java.io.PrintWriter;
 public class IOTest {
 	public static void main(String[] args) throws Exception {
 		String str = "中国人";
-		/*FileOutputStream fos  = new FileOutputStream("1.txt");
+		/*FileOutputStream fos = new FileOutputStream("1.txt");
 		
 		fos.write(str.getBytes("UTF-8"));
 		fos.close();*/
@@ -1641,7 +1639,7 @@ import java.io.IOException;
 public class GarbageTest {
 	/**
 	 * @param args
-	 * @throws IOException 
+	 * @throws IOException
 	 */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -1697,26 +1695,26 @@ Java中的内存泄露的情况：长生命周期的对象持有短生命周期�
 主要特点就是清空堆栈中的某个元素，并不是彻底把它从数组中拿掉，而是把存储的总数减少，在拿掉某个元素时，顺便也让它从数组中消失，将那个元素所在的位置的值设置为null即可：
 
 ```java
-    public class Stack {
-    private Object[] elements=new Object[10];
-    private int size = 0;
-    public void push(Object e){
-    ensureCapacity();
-    elements[size++] = e;
-    }
-    public Object pop(){
-    if( size == 0)
-    throw new EmptyStackException();
-    return elements[--size];
-    }
-    private void ensureCapacity(){
-    if(elements.length == size){
-    Object[] oldElements = elements;
-    elements = new Object[2 * elements.length+1];
-    System.arraycopy(oldElements,0, elements, 0, size);
-    }
-    }
-    }
+public class Stack {
+    private Object[] elements=new Object[10];
+    private int size = 0;
+    public void push(Object e){
+    ensureCapacity();
+        elements[size++] = e;
+    }
+    public Object pop(){
+        if( size == 0)
+        throw new EmptyStackException();
+            return elements[--size];
+        }
+    private void ensureCapacity(){
+        if(elements.length == size){
+            Object[] oldElements = elements;
+            elements = new Object[2 * elements.length+1];
+            System.arraycopy(oldElements,0, elements, 0, size);     
+        }
+    }
+}
 ```
 上面的原理应该很简单，假如堆栈加了10个元素，然后全部弹出来，虽然堆栈是空的，没有我们要的东西，但是这是个对象是无法回收的，这个才符合了内存泄露的两个条件：无用，无法回收。
 但是就是存在这样的东西也不一定会导致什么样的后果，如果这个堆栈用的比较少，也就浪费了几个K内存而已，反正我们的内存都上G了，哪里会有什么影响，再说这个东西很快就会被回收的，有什么关系。
@@ -1724,14 +1722,14 @@ Java中的内存泄露的情况：长生命周期的对象持有短生命周期�
 例：
 
 ```java
-    public class Bad{
-    public static Stack s=Stack();
-    static{
-    s.push(new Object());
-    s.pop(); //这里有一个对象发生内存泄露
-    s.push(new Object()); //上面的对象可以被回收了，等于是自愈了
-    }
-    }
+public class Bad{
+    public static Stack s=Stack();
+    static{
+        s.push(new Object());
+        s.pop(); //这里有一个对象发生内存泄露
+        s.push(new Object()); //上面的对象可以被回收了，等于是自愈了
+    }
+}
 ```
 因为是static，就一直存在到程序退出，但是我们也可以看到它有自愈功能，就是说如果你的Stack最多有100个对象，那么最多也就只有100个对象无法被回收其实这个应该很容易理解，Stack内部持有100个引用，最坏的情况就是他们都是无用的，因为我们一旦放新的进取，以前的引用自然消失！
 
@@ -1778,8 +1776,8 @@ Exception in thread "main"
 
 ```java
 abstract class Name {
-   private String name;
-   public abstract boolean isStupidName(String name) {}
+    private String name;
+    public abstract boolean isStupidName(String name) {}
 }
 ```
 这有何错误?
@@ -1789,10 +1787,10 @@ abstract class Name {
 
 ```java
 public class Something {
-   void doSomething () {
-       private String s = "";
-       int l = s.length();
-   }
+    void doSomething () {
+        private String s = "";
+        int l = s.length();
+    }
 }
 ```
 有错吗?
@@ -1802,7 +1800,7 @@ public class Something {
 
 ```java
 abstract class Something {
-   private abstract String doSomething ();
+    private abstract String doSomething ();
 }
 ```
 这好像没什么错吧?
@@ -1812,9 +1810,9 @@ abstract class Something {
 
 ```java
 public class Something {
-   public int addOne(final int x) {
-       return ++x;
-   }
+    public int addOne(final int x) {
+        return ++x;
+    }
 }
 ```
 这个比较明显。
@@ -1824,16 +1822,16 @@ public class Something {
 
 ```java
 public class Something {
-   public static void main(String[] args) {
-       Other o = new Other();
-       new Something().addOne(o);
-   }
-   public void addOne(final Other o) {
-       o.i++;
-   }
+    public static void main(String[] args) {
+        Other o = new Other();
+        new Something().addOne(o);
+    }
+    public void addOne(final Other o) {
+        o.i++;
+    }
 }
 class Other {
-   public int i;
+    public int i;
 }
 ```
 和上面的很相似，都是关于final的问题，这有错吗?
@@ -1843,11 +1841,11 @@ class Other {
 
 ```java
 class Something {
-    int i;
-    public void doSomething() {
-        System.out.println("i = " + i);
-    }
-} 
+    int i;
+    public void doSomething() {
+        System.out.println("i = " + i);
+    }
+}
 ```
 有什么错呢? 看不出来啊。
 答案: 正确。输出的是"i = 0"。int i属於instant variable (实例变量，或叫成员变量)。instant variable有default value。int的default value是0。
@@ -1856,10 +1854,10 @@ class Something {
 
 ```java
 class Something {
-    final int i;
-    public void doSomething() {
-        System.out.println("i = " + i);
-    }
+    final int i;
+    public void doSomething() {
+        System.out.println("i = " + i);
+    }
 }
 ```
 和上面一题只有一个地方不同，就是多了一个final。这难道就错了吗?
@@ -1869,13 +1867,13 @@ class Something {
 
 ```java
 public class Something {
-     public static void main(String[] args) {
-        Something s = new Something();
-        System.out.println("s.doSomething() returns " + doSomething());
-    }
-    public String doSomething() {
-        return "Do something ...";
-    }
+    public static void main(String[] args) {
+        Something s = new Something();
+        System.out.println("s.doSomething() returns " + doSomething());
+    }
+    public String doSomething() {
+        return "Do something ...";
+    }
 }
 ```
 看上去很完美。
@@ -1887,9 +1885,9 @@ public class Something {
 
 ```java
 class Something {
-    private static void main(String[] something_to_do) {        
-        System.out.println("Do something ...");
-    }
+    private static void main(String[] something_to_do) {   
+        System.out.println("Do something ...");
+    }
 }
 ```
 这个好像很明显。
@@ -1898,19 +1896,19 @@ class Something {
 10）
 
 ```java
-interface  A{
-   int x = 0;
+interface A{
+    int x = 0;
 }
 class B{
-   int x =1;
+    int x =1;
 }
 class C extends B implements A {
-   public void pX(){
-      System.out.println(x);
-   }
-   public static void main(String[] args) {
-      new C().pX();
-   }
+    public void pX(){
+        System.out.println(x);
+    }
+    public static void main(String[] args) {
+        new C().pX();
+    }
 }
 ```
 答案：错误。在编译时会发生错误(错误描述不同的JVM有不同的信息，意思就是未明确的x调用，两个x都匹配（就象在同时import java.util和java.sql两个包时直接声明Date一样）。对于父类的变量,可以用super.x来明确，而接口的属性默认隐含为 public static final.所以可以通过A.x来明确。
@@ -1918,26 +1916,26 @@ class C extends B implements A {
 
 ```java
 interface Playable {
-    void play();
+    void play();
 }
 interface Bounceable {
-    void play();
+    void play();
 }
 interface Rollable extends Playable, Bounceable {
-    Ball ball = new Ball("PingPang");
+    Ball ball = new Ball("PingPang");
 }
 class Ball implements Rollable {
-    private String name;
-    public String getName() {
-        return name;
-    }
-    public Ball(String name) {
-        this.name = name;        
-    }
-   public void play() {
-        ball = new Ball("Football");
-        System.out.println(ball.getName());
-    }
+    private String name;
+    public String getName() {
+        return name;
+    }
+    public Ball(String name) {
+        this.name = name;   
+    }
+    public void play() {
+        ball = new Ball("Football");
+        System.out.println(ball.getName());
+    }
 }
 ```
 这个错误不容易发现。
