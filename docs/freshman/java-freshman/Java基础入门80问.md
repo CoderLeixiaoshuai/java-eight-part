@@ -134,7 +134,9 @@ java中的保留字，现在没有在java中使用。
 ```
 # 5.switch语句能否作用在byte上，能否作用在long上，能否作用在String上?
 
-在switch（expr1）中，expr1只能是一个整数表达式或者枚举常量（更大字体），整数表达式可以是int基本类型或Integer包装类型，由于，byte,short,char都可以隐含转换为int，所以，这些类型以及这些类型的包装类型也是可以的。显然，long和String类型都不符合switch的语法规定，并且不能被隐式转换成int类型，所以，它们不能作用于swtich语句中。
+在switch（expr1）中，expr1只能是一个整数表达式或者枚举常量（更大字体），整数表达式可以是int基本类型或Integer包装类型，由于，byte,short,char都可以隐含转换为int，所以，这些类型以及这些类型的包装类型也是可以的。
+
+switch 不支持 long 类型；从 java1.7开始 switch 开始支持 String，这是 Java 的语法糖。
 
 # 6.short s1 = 1; s1 = s1 + 1;有什么错? short s1 = 1; s1 += 1;有什么错?
 

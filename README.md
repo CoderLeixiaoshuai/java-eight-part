@@ -74,7 +74,7 @@
 
 # 技术基础篇
 ## Java基础
-[Java基础入门80问，非常适合新手](docs/freshman/java-freshman/Java基础入门80问.md)
+[Java基础入门80问，适合新手，老鸟直接跳过](docs/freshman/java-freshman/Java基础入门80问.md)
 
 # 技术进阶篇
 
