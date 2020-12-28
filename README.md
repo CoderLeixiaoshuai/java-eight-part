@@ -1,7 +1,7 @@
 # 说两句
 :heart:恳请大家点击右上角给 `Github JavaMap` 项目点一个 `Star`，开源有你的贡献，爱你 ！
 
-:heart:如果 Github 访问速度比较慢，可以选择在线 wiki阅读（有目录）：[码云 Gitee Pages](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。
+:heart:如果 Github 访问速度比较慢，可以选择[在线 wiki阅读（有目录）](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。
 
 <br>
 
