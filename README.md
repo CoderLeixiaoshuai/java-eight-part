@@ -1,33 +1,41 @@
-# 很啰嗦的前言
-:heart:麻烦大家点击右上角给 `Github JavaMap` 项目点一个 `Star`，开源有你的贡献，爱你 ！
+# 说两句
+:heart:恳请大家点击右上角给 `Github JavaMap` 项目点一个 `Star`，开源有你的贡献，爱你 ！
 
-:heart:由于国内访问 Github 速度比较慢，图片可能无法刷新出来，建议大家在线阅读：
-[http://smilearchitect.gitee.io/javamap/](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。已经是在线阅读可以不用重复点了。
+:heart:如果 Github 访问速度比较慢，可以选择在线 wiki阅读（有目录）：[码云 Gitee Pages](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。
 
-如果你想成为项目的 `contributor`欢迎你提 `PR`，对文章内容有任何问题你也可以提交 `Issue`。
-`JavaMap`项目源码托管地址：
 
-- 【优先】Github: [https://github.com/smileArchitect/JavaMap](https://github.com/smileArchitect/JavaMap)
-- Gitee(码云) [https://gitee.com/smileArchitect/JavaMap](https://gitee.com/smileArchitect/JavaMap)
 
-> 人生终极问题：
+:gift::gift::gift: 号外号外！[压箱底的资料](#资料下载)已经共享出来了，我将9年编程经验传授给你，速度[下载](#资料下载)。
+
+
+
+**QuickStart**
+
+:one:  **JavaMap**项目可以干什么？[戳这里](#关于JavaMap开源项目) 
+:two:  **作者是谁？** [戳这里](#关于我) 
+
+
+
+
+> 如果文章内容有误欢迎提交`PR`或者`Issue`，一旦采用可成为项目`Contributor`。
 >
-> :one:**JavaMap**项目可以干什么？[戳这里给你介绍](#关于JavaMap开源项目)  
-> :two:我是谁？ [戳这里勾搭我](#关于我)  
->
-> 拒绝内卷：需要转载可以[联系我授权](#关于我)，恶意抄袭我会不惜一切代价维护权益，希望大家一起维护良好的创作环境。  
+> 拒绝内卷：需要转载可以[联系我授权](#关于我)，恶意抄袭我会不惜一切代价维护权益，希望大家一起维护良好的创作环境。 
 
+<p align="center">
+<a href="#关于我" target="_blank">
+	<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201228230036.png" />
+</a>
+</p>
 <div align="center">
-    <a href="http://smilearchitect.gitee.io/javamap/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
+  	<a href="#资料下载" target="_blank">
+      <img src="https://img.shields.io/badge/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98-%E8%B5%84%E6%96%99%E4%B8%8B%E8%BD%BD-ef8b00">
+  	</a>
+    <a href="http://smilearchitect.gitee.io/javamap/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91Gitee-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-juejin.im-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-csdn.net-ef8b00"></a>
     <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>    
 </div>
-<p align="center">
-<a href="#关于我" target="_blank">
-	<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201202202825.png" width="200"/>
-</a>
-</p>
+
 
 
 # Java知识地图（JavaMap）
@@ -138,8 +146,22 @@
 
 别忘了在右上角给JavaMap项目点个Star，非常感谢~ 爱你们 :heart:
 
+# 资料下载
+
+最近我把自己压箱底的资料共享出来了，全部放在了百度网盘，下载链接：
+
+[https://pan.baidu.com/s/1Q_7451jkUgAlaXsNbBNvww ](https://pan.baidu.com/s/1Q_7451jkUgAlaXsNbBNvww )  **提取码:8oj5**
+
+- 面试备战手册，包括简历书写、核心知识点:+1:
+- 技术电子书，30+本，高清带目录:+1:
+- 谷歌师兄的Leetcode刷题笔记，可以直接秒杀 80% 的 Leetcode 题目  :+1:
+
+![资料合并-03](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201228233751.png)
+
+
 
 # 关于我
+
 > 我是"爱笑的架构师"公号作者，你可以叫我"雷架"。
 >
 > :coffee:读过几年书：华中科技大学硕士毕业；
@@ -153,11 +175,12 @@
 公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号，扫描二维码或者微信搜：爱笑的架构师
 
 <div align="center">
-    <img width="200px" src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
+    <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
 </div>
+
 
 或者你仅仅想找雷架咨询问题、交流、聊天，扫描二维码，备注：github
 
 <div align="center">
-    <img width="200px" src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205222851.png"></img>
+    <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205222851.png"></img>
 </div>
