@@ -3,18 +3,18 @@
 
 :heart:如果 Github 访问速度比较慢，可以选择在线 wiki阅读（有目录）：[码云 Gitee Pages](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。
 
-
+<br>
 
 :gift::gift::gift: 号外号外！[压箱底的资料](#资料下载)已经共享出来了，我将9年编程经验传授给你，速度[下载](#资料下载)。
 
-
+<br>
 
 **QuickStart**
 
-:one:  **JavaMap**项目可以干什么？[戳这里](#关于JavaMap开源项目) 
+:one:  **JavaMap**项目可以干什么？[戳这里](#关于JavaMap开源项目) <br>
 :two:  **作者是谁？** [戳这里](#关于我) 
 
-
+<br>
 
 
 > 如果文章内容有误欢迎提交`PR`或者`Issue`，一旦采用可成为项目`Contributor`。
