@@ -1,11 +1,11 @@
 # 说两句
-:heart:恳请大家点击右上角给 `Github JavaMap` 项目点一个 `Star`，开源有你的贡献，爱你 ！
+:+1: 点右上角给一个 `Star`，开源有你的贡献，爱你 ！
 
-:heart:如果 Github 访问速度比较慢，可以选择[在线 wiki阅读（有目录）](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源。
+:+1: 推荐选择[在线 wiki阅读（有目录）](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源，解决 Github 访问速度慢的问题。
 
 <br>
 
-:gift::gift::gift: 号外号外！[压箱底的资料](#资料下载)已经共享出来了，我将9年编程经验传授给你，速度[下载](#资料下载)。
+:gift::gift::gift: 号外号外，送你九年编程经验！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，速速[下载](#资料下载)。
 
 <br>
 
