@@ -5,7 +5,7 @@
 
 <br>
 
-:gift::gift::gift: 号外号外，送你九年编程经验！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，速速[下载](#资料下载)。
+:gift::gift::gift: 号外号外，送你九年编程经验！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，速速下载。
 
 <br>
 
@@ -148,16 +148,17 @@
 
 # 资料下载
 
-最近我把自己压箱底的资料共享出来了，全部放在了百度网盘，下载链接：
+最近我把自己压箱底的资料共享出来了，全部放在百度网盘，下载链接：
 
 [https://pan.baidu.com/s/1Q_7451jkUgAlaXsNbBNvww ](https://pan.baidu.com/s/1Q_7451jkUgAlaXsNbBNvww )  **提取码:8oj5**
 
-- 面试备战手册，包括简历书写、核心知识点:+1:
+- 阿里师兄 Java 核心知识点整理（283页，超级详细）:+1::+1:
 - 技术电子书，30+本，高清带目录:+1:
-- 谷歌师兄的Leetcode刷题笔记，可以直接秒杀 80% 的 Leetcode 题目  :+1:
+- 保姆级 Java面试备战手册（1个 G），包括简历书写、核心知识点:+1:
 
-![资料合并-03](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201228233751.png)
+![资料01](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201230220156.png)
 
+![image-20201230220249033](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201230220249.png)
 
 
 # 关于我
