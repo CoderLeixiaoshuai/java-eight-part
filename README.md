@@ -1,4 +1,4 @@
-:+1: 点右上角给一个 `Star`，开源有你的贡献，爱你 ！
+:+1: 点右上角 `Star`，点亮你的头像，开源有你的贡献，爱你 ！
 
 :+1: 推荐选择[在线 wiki阅读（有目录）](http://smilearchitect.gitee.io/javamap/)，内容与`Github`同源，解决 Github 访问速度慢的问题。
 
