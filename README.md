@@ -1,9 +1,8 @@
-# 说两句
-:star: 点右上角给一个 `Star`，鼓励输出更多技术干货，爱了 ！
+:star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
 <br>
 
-:gift::gift::gift: 号外号外，送你九年编程经验！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，速速下载。
+:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，快快下载。
 
 <br>
 
@@ -45,7 +44,7 @@
 - [想自己写框架？不会写Java注解可不行！](docs/advanced/java-annotation/想自己写框架不会写Java注解可不行.md)
 
 # 中间件
-## Redis
+## 《玩转Redis系列》
 
 - [『玩转Redis基础篇』Redis数据结构和常用命令速记](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650320964&idx=1&sn=c7c3435f8c9dc1b4657034dbc1f1510d&chksm=8f09ce5eb87e4748982d88402ab7d95c2770ed80813e634c42464cec671355b30a8dc53a5384&token=875646549&lang=zh_CN#rd)
 
@@ -96,9 +95,7 @@
 
 # 资料下载
 
-最近我把自己压箱底的资料共享出来了，全部放在百度网盘，下载链接：
-
-[https://pan.baidu.com/s/1Q_7451jkUgAlaXsNbBNvww ](https://pan.baidu.com/s/1Q_7451jkUgAlaXsNbBNvww )  **提取码:8oj5**
+资料获取连接：[点这里](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)
 
 - 阿里师兄 Java 核心知识点整理（283页，超级详细）:+1::+1:
 - 技术电子书，30+本，高清带目录:+1:
@@ -111,24 +108,24 @@
 
 # 关于我
 
-> 大家好，我是『雷小帅』，也是微信公众号『爱笑的架构师』的作者。
->
-> :coffee:读过几年书：华中科技大学硕士毕业；
->
-> :star2:浪过几个大厂：华为、网易、百度……
->
-> :kissing:一直坚信技术能改变生活，愿保持初心，加油技术人！
->
-> 我有技术和故事，等你来！
+大家好，我是『雷小帅』，也是微信公众号『爱笑的架构师』的作者。
 
-公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号，扫描二维码或者微信搜：爱笑的架构师
+- :coffee:读过几年书：华中科技大学硕士毕业；
+
+- :star2:浪过几个大厂：华为、网易、百度……
+
+- :kissing:一直坚信技术能改变生活，愿保持初心，加油技术人！
+
+`我有技术和故事，等你来！`
+
+**Github 上所有的文章我都会首发在微信公众号『爱笑的架构师』，大家可以关注一下。**
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
 </div>
 
 
-或者你仅仅想找雷架咨询问题、交流、聊天，扫描二维码，备注：github
+**如果你想找我咨询问题、交流、聊天，欢迎加我个人微信，备注：github**
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205222851.png"></img>
