@@ -7,7 +7,7 @@
 <br>
 
 <p align="center">
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/副本_副本_未命名-2021-04-28-22-22-16" alt="Java八股文">
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-04-39.png" alt="Java八股文">
 </p>
 <div align="center">
     <a href="http://smilearchitect.gitee.io/javamap/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91Gitee-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
