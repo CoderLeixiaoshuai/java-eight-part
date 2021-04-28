@@ -1,19 +1,14 @@
 :star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
-<br>
-
 :gift::gift::gift: 号外号外，学习资料免费下载！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，快快下载。
 
-<br>
-
-<p align="center">
-<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-04-39.png" alt="Java八股文">
-</p>
+<img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
-    <a href="http://smilearchitect.gitee.io/javamap/" target="_blank"> <img src="https://img.shields.io/badge/%E7%A0%81%E4%BA%91Gitee-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
-    <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-juejin.im-ef8b00"></a>
-    <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-csdn.net-ef8b00"></a>
-    <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>    
+    <a href="https://github.com/smileArchitect/JavaMap#%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
+    <img src="https://img.shields.io/badge/%E6%8A%96%E9%9F%B3-%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9B%B7%E5%B0%8F%E5%B8%85-ef8b00">
+    <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>
+    <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E4%BA%BA%E6%B0%94%E4%BD%9C%E8%80%85-ef8b00"></a>
+    <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2%E4%B8%93%E5%AE%B6-ef8b00"></a>
 </div>
 
 <br />
