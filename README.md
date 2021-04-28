@@ -1,21 +1,20 @@
 :star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
-:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](#资料下载)已经共享出来了，快快下载。
+:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)已经共享出来了，快快下载。
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
     <a href="https://github.com/smileArchitect/JavaMap#%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
-    <img src="https://img.shields.io/badge/%E6%8A%96%E9%9F%B3-%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9B%B7%E5%B0%8F%E5%B8%85-ef8b00">
-    <a href="https://www.zhihu.com/people/ray-xiao-1/posts" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>
+    <a href="https://www.zhihu.com/people/smileArchitect" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E4%BA%BA%E6%B0%94%E4%BD%9C%E8%80%85-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2%E4%B8%93%E5%AE%B6-ef8b00"></a>
 </div>
 
 <br />
 
-> 勘误：如果文章内容有误欢迎[联系我](#关于我)修改，或者提交`PR` or `Issue`，开源靠大家共同的努力！
+> 勘误：如果文章内容有误欢迎[联系我](#联系我)修改，或者提交`PR` or `Issue`，开源靠大家共同的努力！
 >
-> 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#关于我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
+> 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
 # Java基础
 [Java基础入门80问，适合新手，老鸟直接跳过](docs/freshman/java-freshman/Java基础入门80问.md)
@@ -88,19 +87,6 @@
 - [华为鸿蒙OS尖刀武器之分布式软总线技术全解析](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md)
 - [汇聚开发者星星之火，华为鸿蒙系统有希望成为国产之光](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321645&idx=1&sn=c263f8db73cdbffee96c2f511ff7ae74&chksm=8f09ccf7b87e45e18eb684d620073d256f95fa25217b8d5c81116600df9a137d33fa93c92961&token=1941065265&lang=zh_CN#rd)
 
-# 资料下载
-
-资料获取连接：[点这里](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)
-
-- 阿里师兄 Java 核心知识点整理（283页，超级详细）:+1::+1:
-- 技术电子书，30+本，高清带目录:+1:
-- 保姆级 Java面试备战手册（1个 G），包括简历书写、核心知识点:+1:
-
-![资料01](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201230220156.png)
-
-![image-20201230220249033](https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201230220249.png)
-
-
 # 关于我
 
 大家好，我是『雷小帅』，也是微信公众号『爱笑的架构师』的作者。
@@ -119,6 +105,7 @@
     <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
 </div>
 
+# 联系我
 
 **如果你想找我咨询问题、交流、聊天，欢迎加我个人微信，备注：github**
 
