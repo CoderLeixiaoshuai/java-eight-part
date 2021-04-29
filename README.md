@@ -16,10 +16,10 @@
 >
 > 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
-# Java基础
-[Java基础入门80问，适合新手，老鸟直接跳过](docs/freshman/java-freshman/Java基础入门80问.md)
+# :fish: Java基础
+[Java基础入门80问，适合新手，老鸟直接跳过](docs/java/base/Java基础入门80问.md)
 
-# Java进阶
+# :whale: Java进阶
 
 ## 《图解Java并发编程》
 - [『图解Java并发编程系列』 01 十张图告诉你多线程那些破事](docs/java/juc/十张图告诉你多线程那些破事.md)
@@ -37,8 +37,7 @@
 ## Java注解
 - [想自己写框架？不会写Java注解可不行！](docs/advanced/java-annotation/想自己写框架不会写Java注解可不行.md)
 
-# 中间件
-## 《玩转Redis系列》
+# :tiger: Redis
 
 - [『玩转Redis基础篇』Redis数据结构和常用命令速记](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650320964&idx=1&sn=c7c3435f8c9dc1b4657034dbc1f1510d&chksm=8f09ce5eb87e4748982d88402ab7d95c2770ed80813e634c42464cec671355b30a8dc53a5384&token=875646549&lang=zh_CN#rd)
 
@@ -58,23 +57,23 @@
 
 - [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
-### 消息队列(MQ)
+# :baby_chick: 消息队列(kafka)
 - [Kafka支持百万级TPS的秘密都藏在这里:+1::+1::+1:](docs/expert/middleware/mq/Kafka支持百万级TPS的秘密都藏在这里.md)
 - [刨根问底，kafka到底会不会丢消息:+1::+1::+1:](docs/expert/middleware/mq/刨根问底，kafka到底会不会丢消息.md)
 
 
-# 工具效率提升
+# :bulb: 效率提升工具
 
 『IntelliJ IDEA Java开发利器 』
 - [开发效率不高？推荐这十款精选IntelliJ Idea插件:+1:](docs/tools/idea/推荐十款精选IntelliJIdea插件.md)
 
-# 我要进大厂系列
+# :muscle: 我要进大厂系列
 面试前你必须得了解
 - [网易面试干货之HR解密网易招聘（上篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=1&sn=d0c73f80b6ee92aebc12dbdbcb41d8ec&chksm=8f09cfb2b87e46a4afa541bb198c0bca3acdb9067c269406447587c3c8cfd135bea0ec701bd8&scene=178&cur_album_id=1531431564587417601#rd)
 - [网易面试干货之HR解密网易招聘（下篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=2&sn=21940f268890e43032434b628fc08819&chksm=8f09cfb2b87e46a4e6c94b8b94667f036be9e8a3e6780e7ca8b714d18b53e0f1b96c67d07781&scene=178&cur_album_id=1531431564587417601#rd)
 
 
-# 程序人生
+# :see_no_evil: 程序人生
 - [两年半完成逆袭，室友终于拿到字节跳动的Offer](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321727&idx=1&sn=2e530651ba6176415cacc91f065d333c&chksm=8f09cd25b87e4433f5a7a248bf91ee64f3e1b025a3096873f543a5cf8f03f31433b6d31c0ddc&token=1941065265&lang=zh_CN#rd)
 - [程序员版《我和我的家乡》，拼搏奋斗的IT人是家乡的骄傲！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321444&idx=1&sn=17f3ce6c05b40afc3c18bdb23ee2f6d7&chksm=8f09cc3eb87e45289fd1e51055a4acb7d9689a8e3d4ffc598fc7fd1ca1e918f1628ee67d55c6&scene=178&cur_album_id=1531431564587417601#rd)
 - [女程序员在互联网界到底有没有被歧视？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321297&idx=1&sn=d547a2c54e99e6a69723e39ec955d24e&chksm=8f09cf8bb87e469d560ef47c47e59d814a224a31ccfefe12efe9e62a20abbc0f870e14660648&scene=178&cur_album_id=1531431564587417601#rd)
@@ -83,11 +82,11 @@
 - [30岁的程序员出路在哪里？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321044&idx=1&sn=30b10126e477876229f77cd604540b57&chksm=8f09ce8eb87e47981c945363f9601bf8bd524d220fe1b1397f01a18420c8e1cc8f7c76ba94cb&scene=178&cur_album_id=1531431564587417601#rd)
 
 
-# 侃天侃地侃互联网热点
+# :cloud: 侃天侃地侃互联网热点
 - [华为鸿蒙OS尖刀武器之分布式软总线技术全解析](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md)
 - [汇聚开发者星星之火，华为鸿蒙系统有希望成为国产之光](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321645&idx=1&sn=c263f8db73cdbffee96c2f511ff7ae74&chksm=8f09ccf7b87e45e18eb684d620073d256f95fa25217b8d5c81116600df9a137d33fa93c92961&token=1941065265&lang=zh_CN#rd)
 
-# 关于我
+# :boy: 关于我
 
 大家好，我是『雷小帅』，也是微信公众号『爱笑的架构师』的作者。
 
@@ -99,13 +98,13 @@
 
 `我有技术和故事，等你来！`
 
-**Github 上所有的文章我都会首发在微信公众号『爱笑的架构师』，大家可以关注一下。**
+**Github 上所有的文章我都会首发在微信公众号『爱笑的架构师』，大家可以关注一下。定时推送技术干货~**
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
 </div>
 
-# 联系我
+# :iphone: 联系我
 
 **如果你想找我咨询问题、交流、聊天，欢迎加我个人微信，备注：github**
 

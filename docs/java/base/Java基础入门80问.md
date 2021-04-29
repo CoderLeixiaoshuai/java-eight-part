@@ -90,19 +90,15 @@
 
 # 2.Java有没有goto?
 
-java中的保留字，现在没有在java中使用。
+没有，但是 goto 是 java 中的保留字。
 
 # 3.说说&和&&的区别
-
-&&：短路 &逻辑
 
 &和&&都可以用作逻辑与的运算符，表示逻辑与（and），当运算符两边的表达式的结果都为true时，整个运算结果才为true，否则，只要有一方为false，则结果为false。
 
 &&还具有短路的功能，即如果第一个表达式为false，则不再计算第二个表达式，例如，对于if(str != null && !str.equals(“”))表达式，当str为null时，后面的表达式不会执行，所以不会出现NullPointerException如果将&&改为&，则会抛出NullPointerException异常。If(x==33 & ++y>0) y会增长，If(x==33 && ++y>0)不会增长
 
 &还可以用作位运算符，当&操作符两边的表达式不是boolean类型时，&表示按位与操作，我们通常使用0x0f来与一个整数进行&运算，来获取该整数的最低4个bit位，例如，0x31 & 0x0f的结果为0x01。
-
-备注：这道题先说两者的共同点，再说出&&和&的特殊之处，并列举一些经典的例子来表明自己理解透彻深入、实际经验丰富。
 
 # 4.在JAVA中如何跳出当前的多重嵌套循环？
 
@@ -132,6 +128,9 @@ java中的保留字，现在没有在java中使用。
         }
     }
 ```
+
+敲黑板：建议使用第二种，第一种已经被业界淘汰了。
+
 # 5.switch语句能否作用在byte上，能否作用在long上，能否作用在String上?
 
 在switch（expr1）中，expr1只能是一个整数表达式或者枚举常量（更大字体），整数表达式可以是int基本类型或Integer包装类型，由于，byte,short,char都可以隐含转换为int，所以，这些类型以及这些类型的包装类型也是可以的。
@@ -421,28 +420,30 @@ eclipse下不报错，但应该也不行），但接口中的抽象方法只能�
 接口更多的是在系统架构设计方法发挥作用，主要用于定义模块之间的通信契约。而抽象类在代码实现方面发挥作用，可以实现代码的重用，例如，模板方法设计模式是抽象类的一个典型应用，假设某个项目的所有Servlet类都要用相同的方式进行权限判断、记录访问日志和处理异常，那么就可以定义一个抽象的基类，让所有的Servlet都继承这个抽象基类，在抽象基类的service方法中完成权限判断、记录访问日志和处理异常的代码，在各个子类中只是完成各自的业务逻辑代码，伪代码如下：
 
 ```java
-public abstract class BaseServlet extends HttpServlet{
-		public final void service(HttpServletRequest request, HttpServletResponse response) throws IOExcetion,ServletException	{
-			记录访问日志
-			进行权限判断
-if(具有权限){
-	try {
-		doService(request,response);
-}catch(Excetpion e) {
-			记录异常信息
-      }
+public abstract class BaseServlet extends HttpServlet {
+
+    public final void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        // 记录访问日志, 进行权限判断
+        if (具有权限) {
+            try {
+                doService(request, response);
+            } catch (Exception e) {
+                // todo：记录异常信息
+            }
+        }
     }
-  }
-		protected abstract void doService(HttpServletRequest request, HttpServletResponse response) throws IOExcetion,ServletException;
-//注意访问权限定义成protected，显得既专业，又严谨，因为它是专门给子类用的
+
+    protected abstract void doService(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+        //注意访问权限定义成protected，显得既专业，又严谨，因为它是专门给子类用的
+    }
 }
 ```
+
 ```java
 public class MyServlet1 extends BaseServlet {
-  protected void doService(HttpServletRequest request, HttpServletResponse response) throws IOExcetion,ServletException
-		{
-			本Servlet只处理的具体业务逻辑代码
-		}
+    protected void doService(HttpServletRequest request, HttpServletResponse response) throws IOExcetion, ServletException {
+        // 本Servlet只处理的具体业务逻辑代码
+    }
 }
 ```
 父类方法中间的某段代码不确定，留给子类干，就用模板方法设计模式。
@@ -465,24 +466,23 @@ private native void open(String name) throws FileNotFoundException;
 内部类就是在一个类的内部定义的类，内部类中不能定义静态成员（静态成员不是对象的特性，只是为了找一个容身之处，所以需要放到一个类中而已，这么一点小事，你还要把它放到类内部的一个类中，过分了啊！提供内部类，不是为让你干这种事情，无聊，不让你干。我想可能是既然静态成员类似c语言的全局变量，而内部类通常是用于创建内部对象用的，所以，把“全局变量”放在内部类中就是毫无意义的事情，既然是毫无意义的事情，就应该被禁止），内部类可以直接访问外部类中的成员变量，内部类可以定义在外部类的方法外面，也可以定义在外部类的方法体中，如下所示：
 
 ```java
-public class Outer
-{
-		int out_x = 0;
-		public void method()
-		{
-			Inner1 inner1 = new Inner1();
-			public class Inner2 //在方法体内部定义的内部类
-			{
-				public method()
-				{
-					out_x = 3;
-				}
-			}
-			Inner2 inner2 = new Inner2();
-		}
-		public class Inner1 //在方法体外面定义的内部类
-		{
-		}		
+public class Outer {
+    int out_x = 0;
+
+    public void method() {
+        //在方法体内部定义的内部类
+        class Inner2 {
+            public void method() {
+                out_x = 3;
+            }
+        }
+        Inner2 inner2 = new Inner2();
+    }
+
+    //在方法体外面定义的内部类
+    public class Inner1 {
+
+    }
 }
 ```
 在方法体外面定义的内部类的访问类型可以是public,protecte,默认的，private等4种类型，这就好像类中定义的成员变量有4种访问类型一样，它们决定这个内部类的定义对其他类是否可见；对于这种情况，我们也可以在外面创建内部类的实例对象，创建内部类的实例对象时，一定要先创建外部类的实例对象，然后用这个外部类的实例对象去创建内部类的实例对象，代码如下：
@@ -498,15 +498,13 @@ Outer.Inner1 inner1 = outer.new Innner1();
 在方法体内部还可以采用如下语法来创建一种匿名内部类，即定义某一接口或类的子类的同时，还创建了该子类的实例对象，无需为该子类定义名称：
 
 ```java
-public class Outer
-{
-		public void start()
-		{
-			new Thread(
-              new Runable(){
-					public void run(){};
-               }).start();
-		}
+public class Outer {
+    public void start() {
+        new Thread(new Runnable() {
+            public void run() {
+            }
+        }).start();
+    }
 }
 ```
 最后，在方法外部定义的内部类前面可以加上static关键字，从而成为Static Nested Class，它不再具有内部类的特性，所有，从狭义上讲，它不是内部类。Static Nested Class与普通类在运行时的行为和功能上没有什么区别，只是在编程引用时的语法上有一些差别，它可以定义成public、protected、默认的、private等多种类型，而普通类只能定义成public和默认的这两种类型。在外面引用Static Nested Class类的名称为“外部类名.内部类名”。在外面不需要创建外部类的实例对象，就可以直接创建Static Nested Class，例如，假设Inner是定义在Outer类中的Static Nested Class，那么可以使用如下语句创建Inner类：
@@ -527,16 +525,14 @@ Outer.Inner inner = new Outer.Inner();
 如果把静态嵌套类当作内部类的一种特例，那在这种情况下不可以访问外部类的普通成员变量，而只能访问外部类中的静态成员，例如，下面的代码：
 
 ```java
-class Outer
-{
-	static int x;
-	static class Inner
-	{
-		void test()
-		{
-			syso(x);
-		}
-	}
+class Outer {
+    static int x;
+
+    static class Inner {
+        void test() {
+            syso(x);
+        }
+    }
 }
 ```
 答题时，也要能察言观色，揣摩提问者的心思，显然面试官想知道的是静态内部类不能访问外部类的成员，但如果一上来就顶牛，这不好，要先顺着人家，让人家满意，然后再说特殊情况，让人家吃惊。
@@ -551,12 +547,13 @@ class Outer
 
 ```java
 import java.util.Date;
-public class Test extends Date{
+
+public class Test extends Date {
 	public static void main(String[] args) {
 		new Test().test();
 	}
 	
-	public void test(){
+	public void test() {
 		System.out.println(super.getClass().getName());
 	}
 }
@@ -591,7 +588,7 @@ public class Demo {
 private String s;
 ...
 public Demo {
-s = "Initial Value";
+	s = "Initial Value";
 }
 ...
 }
@@ -685,26 +682,19 @@ System.out.println(s == "abcd");
 
 ```java
 public class Test {
-	/**
-	 * @param args add by zxx ,Dec 9, 2008
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(Test.test());
-	}
-	static int test()
-	{
-		int x = 1;
-		try
-		{
-			return x;
-		}
-		finally
-		{
-			++x;
-		}
-	}
-	
+
+    public static void main(String[] args) {
+        System.out.println(Test.test());
+    }
+
+    static int test() {
+        int x = 1;
+        try {
+            return x;
+        } finally {
+            ++x;
+        }
+    }
 }
 ```
 ---------执行结果 ---------
@@ -716,26 +706,20 @@ public class Test {
 # 38.下面的程序代码输出的结果是多少？
 
 ```java
-public class smallT
-{
-	public static void main(String args[])
-	{
-		smallT t = new smallT();
-		int b = t.get();
-		System.out.println(b);
-	}
-	
-	public int get()
-	{
-		try
-		{
-			return 1 ;
-		}
-		finally
-		{
-			return 2 ;
-		}
-	}
+public class SmallT {
+    public static void main(String args[]) {
+        SmallT t = new SmallT();
+        int b = t.get();
+        System.out.println(b);
+    }
+
+    public int get() {
+        try {
+            return 1;
+        } finally {
+            return 2;
+        }
+    }
 }
 ```
 返回的结果是2。
@@ -746,35 +730,30 @@ public class smallT
 
 ```java
 public class Test {
-	/**
-	 * @param args add by zxx ,Dec 9, 2008
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(new Test().test());;
-	}
-	int test()
-	{
-		try
-		{
-			return func1();
-		}
-		finally
-		{
-			return func2();
-		}
-	}
-	
-	int func1()
-	{
-		System.out.println("func1");
-		return 1;
-	}
-	int func2()
-	{
-		System.out.println("func2");
-		return 2;
-	}	
+    /**
+     * @param args add by leixiaoshuai 爱笑的架构师
+     */
+    public static void main(String[] args) {
+        System.out.println(new Test().test());
+    }
+
+    int test() {
+        try {
+            return func1();
+        } finally {
+            return func2();
+        }
+    }
+
+    int func1() {
+        System.out.println("func1");
+        return 1;
+    }
+
+    int func2() {
+        System.out.println("func2");
+        return 2;
+    }
 }
 ```
 -----------执行结果-----------------
@@ -865,64 +844,55 @@ sleep是线程类（Thread）的方法，导致此线程暂停执行指定时间
 sleep就是正在执行的线程主动让出cpu，cpu去执行其他线程，在sleep指定的时间过后，cpu才会回到这个线程上继续往下执行，如果当前线程进入了同步锁，sleep方法并不会释放锁，即使当前线程使用sleep方法让出了cpu，但其他被同步锁挡住了的线程也无法得到执行。wait是指在一个已经进入了同步锁的线程内，让自己暂时让出同步锁，以便其他正在等待此锁的线程可以得到同步锁并运行，只有其他线程调用了notify方法（notify并不释放锁，只是告诉调用过wait方法的线程可以去参与获得锁的竞争了，但不是马上得到锁，因为锁还在别人手里，别人还没释放。如果notify方法后面的代码还有很多，需要这些代码执行完后才会释放锁，可以在notfiy方法后增加一个等待和一些代码，看看效果），调用wait方法的线程就会解除wait状态和程序可以再次得到锁后继续向下运行。对于wait的讲解一定要配合例子代码来说明，才显得自己真明白。
 
 ```java
-package com.huawei.interview;
-  public class MultiThread {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		new Thread(new Thread1()).start();
-		try {
-			Thread.sleep(10);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		new Thread(new Thread2()).start();		
-	}
-	
-	private static class Thread1 implements Runnable
-	{
-		@Override
-		public void run() {
-			// TODO Auto-generated method stub
-//由于这里的Thread1和下面的Thread2内部run方法要用同一对象作为监视器，我们这里不能用this，因为在Thread2里面的this和这个Thread1的this不是同一个对象。我们用MultiThread.class这个字节码对象，当前虚拟机里引用这个变量时，指向的都是同一个对象。
-			synchronized (MultiThread.class) {
-				System.out.println("enter thread1...");
-				System.out.println("thread1 is waiting");
-				try {
-//释放锁有两种方式，第一种方式是程序自然离开监视器的范围，也就是离开了synchronized关键字管辖的代码范围，另一种方式就是在synchronized关键字管辖的代码内部调用监视器对象的wait方法。这里，使用wait方法释放锁。
-					MultiThread.class.wait();
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				System.out.println("thread1 is going on...");
-				System.out.println("thread1 is being over!");			
-			}
-		}
-	}
-	
-	private static class Thread2 implements Runnable
-	{
-		@Override
-		public void run() {
-			// TODO Auto-generated method stub
-			synchronized (MultiThread.class) {
-				System.out.println("enter thread2...");				
-				System.out.println("thread2 notify other thread can release wait status..");
-//由于notify方法并不释放锁， 即使thread2调用下面的sleep方法休息了10毫秒，但thread1仍然不会执行，因为thread2没有释放锁，所以Thread1无法得不到锁。
-				MultiThread.class.notify();
-				System.out.println("thread2 is sleeping ten millisecond...");
-				try {
-					Thread.sleep(10);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				System.out.println("thread2 is going on...");
-				System.out.println("thread2 is being over!");
-			}
-		}
-	}	
+public class MultiThread {
+    public static void main(String[] args) {
+        new Thread(new Thread1()).start();
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        new Thread(new Thread2()).start();
+    }
+
+    private static class Thread1 implements Runnable {
+        @Override
+        public void run() {
+            //由于这里的Thread1和下面的Thread2内部run方法要用同一对象作为监视器，我们这里不能用this，因为在Thread2里面的this和这个Thread1的this不是同一个对象。我们用MultiThread.class这个字节码对象，当前虚拟机里引用这个变量时，指向的都是同一个对象。
+            synchronized (MultiThread.class) {
+                System.out.println("enter thread1...");
+                System.out.println("thread1 is waiting");
+                try {
+                    //释放锁有两种方式，第一种方式是程序自然离开监视器的范围，也就是离开了synchronized关键字管辖的代码范围，另一种方式就是在synchronized关键字管辖的代码内部调用监视器对象的wait方法。这里，使用wait方法释放锁。
+                    MultiThread.class.wait();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("thread1 is going on...");
+                System.out.println("thread1 is being over!");
+            }
+        }
+    }
+
+    private static class Thread2 implements Runnable {
+        @Override
+        public void run() {
+            synchronized (MultiThread.class) {
+                System.out.println("enter thread2...");
+                System.out.println("thread2 notify other thread can release wait status..");
+                //由于notify方法并不释放锁， 即使thread2调用下面的sleep方法休息了10毫秒，但thread1仍然不会执行，因为thread2没有释放锁，所以Thread1无法得不到锁。
+                MultiThread.class.notify();
+                System.out.println("thread2 is sleeping ten millisecond...");
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                System.out.println("thread2 is going on...");
+                System.out.println("thread2 is being over!");
+            }
+        }
+    }
 }
 ```
 # 46.同步和异步有何异同，在什么情况下分别使用他们？举例说明。
@@ -980,67 +950,57 @@ Allnotity():唤醒所有处入等待状态的线程，注意并不是给所有�
 举例说明（对下面的题用lock进行了改写）：
 
 ```java
-package com.huawei.interview;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+
 public class ThreadTest {
-	private int j;
-	private Lock lock = new ReentrantLock();
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ThreadTest tt = new ThreadTest();
-		for(int i=0;i<2;i++)
-		{
-			new Thread(tt.new Adder()).start();
-			new Thread(tt.new Subtractor()).start();
-		}
-	}
-	private class Subtractor implements Runnable
-	{
-		@Override
-		public void run() {
-			// TODO Auto-generated method stub
-			while(true)
-			{
+    private int j;
+    private Lock lock = new ReentrantLock();
+
+    public static void main(String[] args) {
+        ThreadTest tt = new ThreadTest();
+        for (int i = 0; i < 2; i++) {
+            new Thread(tt.new Adder()).start();
+            new Thread(tt.new Subtractor()).start();
+        }
+    }
+
+    private class Subtractor implements Runnable {
+        @Override
+        public void run() {
+            while (true) {
 				/*synchronized (ThreadTest.this) {			
 					System.out.println("j--=" + j--);
 					//这里抛异常了，锁能释放吗？
 				}*/
-				lock.lock();
-				try
-				{
-					System.out.println("j--=" + j--);
-				}finally
-				{
-					lock.unlock();
-				}
-			}
-		}
-		
-	}
-	
-	private class Adder implements Runnable
-	{
-		@Override
-		public void run() {
-			// TODO Auto-generated method stub
-			while(true)
-			{
+                lock.lock();
+                try {
+                    System.out.println("j--=" + j--);
+                } finally {
+                    lock.unlock();
+                }
+            }
+        }
+
+    }
+
+    private class Adder implements Runnable {
+        @Override
+        public void run() {
+            while (true) {
 				/*synchronized (ThreadTest.this) {
 				System.out.println("j++=" + j++);	
 				}*/
-				lock.lock();
-				try
-				{
-					System.out.println("j++=" + j++);
-				}finally
-				{
-					lock.unlock();
-				}				
-			}			
-		}
-		
-	}
+                lock.lock();
+                try {
+                    System.out.println("j++=" + j++);
+                } finally {
+                    lock.unlock();
+                }
+            }
+        }
+
+    }
 }
 ```
 # 52.设计4个线程，其中两个线程每次对j增加1，另外两个线程对j每次减少1。写出程序。
@@ -1129,11 +1089,8 @@ class JManager
 
 ```java
 public class ThreadTest {
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		new ThreadTest().init();
 	}
 	public void init()
@@ -1167,7 +1124,6 @@ public class ThreadTest {
 				try {
 					this.wait();
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}		
 				
@@ -1941,10 +1897,16 @@ class Ball implements Rollable {
 }
 ```
 这个错误不容易发现。
-答案: 错。"interface Rollable extends Playable, Bounceable"没有问题。interface可继承多个interfaces，所以这里没错。问题出在interface Rollable里的"Ball ball = new Ball("PingPang");"。任何在interface里声明的interface variable (接口变量，也可称成员变量)，默认为public static final。也就是说"Ball ball = new Ball("PingPang");"实际上是"public static final Ball ball = new Ball("PingPang");"。在Ball类的Play()方法中，"ball = new Ball("Football");"改变了ball的reference，而这里的ball来自Rollable interface，Rollable interface里的ball是public static final的，final的object是不能被改变reference的。因此编译器将在"ball = new Ball("Football");"这里显示有错。
+答案: 错。
+
+"interface Rollable extends Playable, Bounceable"没有问题。interface可继承多个interfaces，所以这里没错。问题出在interface Rollable里的"Ball ball = new Ball("PingPang");"。任何在interface里声明的interface variable (接口变量，也可称成员变量)，默认为public static final。也就是说"Ball ball = new Ball("PingPang");"实际上是"public static final Ball ball = new Ball("PingPang");"。在Ball类的Play()方法中，"ball = new Ball("Football");"改变了ball的reference，而这里的ball来自Rollable interface，Rollable interface里的ball是public static final的，final的object是不能被改变reference的。
+
+因此编译器将在"ball = new Ball("Football");"这里显示有错。
 
 # 公众号
-公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
+**Github 上所有的文章我都会首发在微信公众号『爱笑的架构师』，大家可以关注一下，定时推送技术干货~**
 
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>
+</div>
 
