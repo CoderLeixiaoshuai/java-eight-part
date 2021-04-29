@@ -4,7 +4,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
-    <a href="https://github.com/smileArchitect/JavaMap#%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
+    <a href="https://github.com/smileArchitect/java-eight-part#boy-%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
     <a href="https://www.zhihu.com/people/smileArchitect" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E4%BA%BA%E6%B0%94%E4%BD%9C%E8%80%85-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2%E4%B8%93%E5%AE%B6-ef8b00"></a>
@@ -12,9 +12,9 @@
 
 <br />
 
-> 勘误：如果文章内容有误欢迎[联系我](#联系我)修改，或者提交`PR` or `Issue`，开源靠大家共同的努力！
+> 勘误：如果文章内容有误欢迎[联系我](#iphone-联系我)修改，或者提交`PR` or `Issue`，开源靠大家共同的努力！
 >
-> 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
+> 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#iphone-联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
 # :fish: Java基础
 [Java基础入门80问，适合新手，老鸟直接跳过](docs/java/base/Java基础入门80问.md)
