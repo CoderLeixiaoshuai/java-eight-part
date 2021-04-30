@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321467&idx=1&sn=62376145a601f4470532ccb62deaddf3&chksm=8f09cc21b87e4537a7961f8eaf751f2b4282d02f784e10cbd6b69ef01346ca23f48ff3dc260e&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [烂代码登场](#烂代码登场)
@@ -9,6 +11,8 @@
 - [公众号](#公众号)
 
 <!-- /MarkdownTOC -->
+
+
 
 >Java8 由Oracle在2014年发布，是继Java5之后最具革命性的版本。
 >Java8吸收其他语言的精髓带来了函数式编程，lambda表达式，Stream流等一系列新特性，学会了这些新特性，可以让你实现高效编码优雅编码。

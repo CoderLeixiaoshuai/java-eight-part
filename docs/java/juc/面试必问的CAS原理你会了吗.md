@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650324759&idx=1&sn=11908655d1388b44a61904a175a3a09a&chksm=8f09c10db87e481b025e620ecf86bd14ce4ab8b979264a12ac1e63de2e10eaae95eff2e3bf32&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+
 在并发编程中我们都知道`i++`操作是非线程安全的，这是因为 `i++`操作不是原子操作。
 
 如何保证原子性呢？常用的方法就是`加锁`。在Java语言中可以使用 `Synchronized`和`CAS`实现加锁效果。

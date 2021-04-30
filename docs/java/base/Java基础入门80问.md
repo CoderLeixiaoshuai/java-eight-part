@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](#公众号)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [1.一个".java"源文件中是否可以包括多个类（不是内部类）？有什么限制？](#1一个java源文件中是否可以包括多个类不是内部类有什么限制)
@@ -1904,7 +1906,7 @@ class Ball implements Rollable {
 因此编译器将在"ball = new Ball("Football");"这里显示有错。
 
 # 公众号
-**Github 上所有的文章我都会首发在微信公众号『爱笑的架构师』，大家可以关注一下，定时推送技术干货~**
+**`Github` 上所有的文章我都会首发在微信公众号『爱笑的架构师』，大家可以关注一下，定时推送技术干货~**
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205221844.png"></img>

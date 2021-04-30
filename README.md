@@ -1,6 +1,6 @@
 :star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
-:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [JAVA核心知识点整理（283页，超级详细）+ 技术电子书（30+本，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)已经共享出来了，快快下载。
+:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)已经共享出来了，快快下载。
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
@@ -12,27 +12,28 @@
 
 <br />
 
-> 勘误：如果文章内容有误欢迎[联系我](#iphone-联系我)修改，或者提交`PR` or `Issue`，开源靠大家共同的努力！
+> 勘误：如果文章内容有误欢迎[联系我](#iphone-联系我)修改，或者提交 `PR` or `Issue`，开源靠大家共同的努力！
 >
 > 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#iphone-联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
-# :fish: Java基础
+# :fish: Java
+
+## Java入门面试题
 [Java基础入门80问，适合新手，老鸟直接跳过](docs/java/base/Java基础入门80问.md)
 
-# :whale: Java进阶
-
-## 《图解Java并发编程》
+## Java并发编程(J.U.C)
 - [『图解Java并发编程系列』 01 十张图告诉你多线程那些破事](docs/java/juc/十张图告诉你多线程那些破事.md)
 - [『图解Java并发编程系列』 02 面试官：说说什么是Java内存模型？](docs/java/juc/面试官：说说什么是Java内存模型？.md)
 - [『图解Java并发编程系列』 03 面试必问的CAS原理你会了吗？](docs/java/juc/面试必问的CAS原理你会了吗.md)
 
 疯狂更新中……
 
-## 《Java8实战系列》
-- [『Java8实战系列』01 Java8函数式接口和Lambda表达式你真的会了吗?](docs/advanced/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
-- [『Java8实战系列』02 包学会，教你用Java函数式编程重构烂代码](docs/advanced/java8/包学会，教你用Java函数式编程重构烂代码.md)
-- [『Java8实战系列』03 请避开Stream流式编程常见的坑](docs/advanced/java8/请避开Stream流式编程常见的坑.md)
-- [『Java8实战系列』04 使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8-Optional类优雅解决空指针问题.md)
+## Java8实战
+- [『Java8实战系列』01 Java8函数式接口和Lambda表达式你真的会了吗?](docs/java/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
+- [『Java8实战系列』02 包学会，教你用Java函数式编程重构烂代码](docs/java/java8/包学会，教你用Java函数式编程重构烂代码.md)
+- [『Java8实战系列』03 请避开Stream流式编程常见的坑](docs/java/java8/请避开Stream流式编程常见的坑.md)
+- [『Java8实战系列』04 详解Lambda表达式中Predicate Function Consumer Supplier函数式接口](docs/java/java8/详解Lambda表达式中Predicate-Function-Consumer-Supplier函数式接口.md)
+- [『Java8实战系列』05 使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8-Optional类优雅解决空指针问题.md)
 
 ## Java注解
 - [想自己写框架？不会写Java注解可不行！](docs/advanced/java-annotation/想自己写框架不会写Java注解可不行.md)

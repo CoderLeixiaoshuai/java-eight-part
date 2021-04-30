@@ -1,3 +1,6 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321342&idx=1&sn=2d87b7fe6709a8513eb0abf58b48521d&chksm=8f09cfa4b87e46b29378661f72c832ec5bef782c362eba8cee25527a455c12239e067a80bed9&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+
+
 <!-- MarkdownTOC -->
 
 - [1. Lambda表达式小试牛刀](#1-lambda表达式小试牛刀)
@@ -157,7 +160,3 @@ String str = "hello java8";
 |(arg0, params) -> arg0.instanceMethod(params)|ClassName::instanceMethod|内部实例方法引用|
 |arg0<br>(params) -> arg0.instanceMethod(params)|arg0.instanceMethod|外部实例方法引用|
 
-# 公众号
-公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
-
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>

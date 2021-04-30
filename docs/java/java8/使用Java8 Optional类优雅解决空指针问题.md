@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321295&idx=1&sn=2fdb1d4c7e44177a7b08393114e55f16&chksm=8f09cf95b87e4683e521502b33319f957a038b5ecc095171de9d287b337411f2ffb2bf1e01d5&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [1. 不受待见的空指针异常](#1-不受待见的空指针异常)
@@ -226,8 +228,3 @@ public String getCityUsingOptional(Person person) {
 只使用了一行代码就获取到city值，不用再去不断的判断是否为空，这样写代码是不是很优雅呀。
 # 总结
 使用optional类可以很优雅的解决项目中空指针的问题，但是optional也不是万能的哦，小伙伴们要适度使用。赶紧用Optional重构之前写的项目吧~**
-
-# 公众号
-公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
-
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>

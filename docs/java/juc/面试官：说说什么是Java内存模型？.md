@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650324686&idx=1&sn=0f177ea0b3cbe6da00a4e8b0a46ee22c&chksm=8f09c0d4b87e49c2d98b428b3b42e70550905f36dfcf63a304743d3df88ddcd518501df60b65&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+
 在面试中，面试官经常喜欢问：『说说什么是Java内存模型(JMM)？』
 
 面试者内心狂喜，这题刚背过：『Java内存主要分为五大块：堆、方法区、虚拟机栈、本地方法栈、PC寄存器，balabala……』

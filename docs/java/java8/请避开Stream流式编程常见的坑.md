@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321100&idx=1&sn=d566cdd805d14e121dfef498d30f2b20&chksm=8f09ced6b87e47c013288565f930a83a493cad48d545024ec842c17cda3d82939c5c29307287&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [1. Stream是什么？](#1-stream是什么)
@@ -244,8 +246,3 @@ strings.stream()
 
 # 总结
 java8 流式编程在一定程度上可以使代码变得优美，不过也要避开常见的坑，如：不要重复消费对象、不要修改数据源。
-
-# 公众号
-公众号比Github早一到两天更新，如果大家想要实时关注我更新的文章以及分享的干货，可以关注我的公众号。
-
-<div align="center">  <img src="https://cdn.jsdelivr.net/gh/SmileLionCoder/assets@main/wechat-01.jpg" width=""/> </div><br>
