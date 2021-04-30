@@ -4,8 +4,8 @@
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
-    <a href="https://github.com/smileArchitect/java-eight-part#boy-%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%85%B3%E4%BA%8E%E6%88%91-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
-    <a href="https://www.zhihu.com/people/smileArchitect" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-zhihu.com-ef8b00"></a>
+    <a href="https://github.com/smileArchitect/java-eight-part#boy-%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
+    <a href="https://www.zhihu.com/people/smileArchitect" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E6%BD%9C%E5%8A%9B%E7%AD%94%E4%B8%BB-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E4%BA%BA%E6%B0%94%E4%BD%9C%E8%80%85-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2%E4%B8%93%E5%AE%B6-ef8b00"></a>
 </div>
@@ -16,12 +16,12 @@
 >
 > 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#iphone-联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
-# :fish: Java
+# :coffee: Java
 
 ## Java入门面试题
 [Java基础入门80问，适合新手，老鸟直接跳过](docs/java/base/Java基础入门80问.md)
 
-## Java并发编程(J.U.C)
+## Java并发编程(J.U.C) :+1:
 - [『图解Java并发编程系列』 01 十张图告诉你多线程那些破事](docs/java/juc/十张图告诉你多线程那些破事.md)
 - [『图解Java并发编程系列』 02 面试官：说说什么是Java内存模型？](docs/java/juc/面试官：说说什么是Java内存模型？.md)
 - [『图解Java并发编程系列』 03 面试必问的CAS原理你会了吗？](docs/java/juc/面试必问的CAS原理你会了吗.md)
@@ -32,14 +32,18 @@
 - [『Java8实战系列』01 Java8函数式接口和Lambda表达式你真的会了吗?](docs/java/java8/Java8函数式接口和Lambda表达式你真的会了吗.md)
 - [『Java8实战系列』02 包学会，教你用Java函数式编程重构烂代码](docs/java/java8/包学会，教你用Java函数式编程重构烂代码.md)
 - [『Java8实战系列』03 请避开Stream流式编程常见的坑](docs/java/java8/请避开Stream流式编程常见的坑.md)
-- [『Java8实战系列』04 详解Lambda表达式中Predicate Function Consumer Supplier函数式接口](docs/java/java8/详解Lambda表达式中Predicate-Function-Consumer-Supplier函数式接口.md)
-- [『Java8实战系列』05 使用Java8 Optional类优雅解决空指针问题](docs/advanced/java8/使用Java8-Optional类优雅解决空指针问题.md)
+- [『Java8实战系列』04 详解Lambda表达式中Predicate Function Consumer Supplier函数式接口](docs/java/java8/%E8%AF%A6%E8%A7%A3Lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E4%B8%ADPredicate%20Function%20Consumer%20Supplier%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3.md)
+- [『Java8实战系列』05 使用Java8 Optional类优雅解决空指针问题](docs/java/java8/使用Java8%20Optional类优雅解决空指针问题.md)
 
 ## Java注解
 - [想自己写框架？不会写Java注解可不行！](docs/advanced/java-annotation/想自己写框架不会写Java注解可不行.md)
 
-# :tiger: Redis
+# :baby_chick: Redis
 
+**面试八股文**
+- [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
+
+**知识点详解:+1:**
 - [『玩转Redis基础篇』Redis数据结构和常用命令速记](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650320964&idx=1&sn=c7c3435f8c9dc1b4657034dbc1f1510d&chksm=8f09ce5eb87e4748982d88402ab7d95c2770ed80813e634c42464cec671355b30a8dc53a5384&token=875646549&lang=zh_CN#rd)
 
 - [『玩转Redis基础篇』面试官再问Redis事务把这篇文章扔给他](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321004&idx=1&sn=a8b058868390e133cfdf77ba6d2afd9f&chksm=8f09ce76b87e476062ad446b3097e9697b1da4810fa396a65554b1dada1c195ac50e90e58b24&token=875646549&lang=zh_CN#rd)
@@ -56,9 +60,9 @@
 
 - [『玩转Redis实战篇』记一次由Redis分布式锁造成的重大事故，避免以后踩坑！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321391&idx=2&sn=272aafc2c051e3b969efb921b5ab4e81&chksm=8f09cff5b87e46e35b7ca948e08c30a7cf7b20f1254c8609a5e910faeaae738fe035547fec95&token=875646549&lang=zh_CN#rd)
 
-- [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
-# :baby_chick: 消息队列(kafka)
+
+# :tiger: 消息队列(kafka)
 - [Kafka支持百万级TPS的秘密都藏在这里:+1::+1::+1:](docs/expert/middleware/mq/Kafka支持百万级TPS的秘密都藏在这里.md)
 - [刨根问底，kafka到底会不会丢消息:+1::+1::+1:](docs/expert/middleware/mq/刨根问底，kafka到底会不会丢消息.md)
 
@@ -107,7 +111,10 @@
 
 # :iphone: 联系我
 
-**如果你想找我咨询问题、交流、聊天，欢迎加我个人微信，备注：github**
+- 如果你迷茫了，欢迎找雷小帅咨询、交流、聊天，尽最大能力为你解答；
+- 如果你想找到一群志同道合的小伙伴，也欢迎加我，拉你进技术交流群，群里有 BAT 大佬，不说话看他们聊天也能学到东西。
+
+个人微信二维码如下，添加时一定要备注一下来意。
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets@main/202012/20201205222851.png"></img>
