@@ -20,7 +20,7 @@
 
 # :coffee: Java
 
-[:+1::+1::+1: 『必看』2021 版最新Java 学习路线图（持续刷新）](docs/java/roadmap/)
+[『必看』2021 版最新Java 学习路线图（持续刷新）:+1::+1::+1:](docs/java/roadmap/2021%20版最新Java%20学习路线图（持续刷新）.md)
 
 ## Java入门面试题
 [Java基础入门80问，适合新手，老鸟直接跳过](docs/java/base/Java基础入门80问.md)
@@ -47,7 +47,7 @@
 **面试八股文**
 - [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
-**知识点详解:+1:**
+**知识点详解**
 - [『玩转Redis基础篇』Redis数据结构和常用命令速记](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650320964&idx=1&sn=c7c3435f8c9dc1b4657034dbc1f1510d&chksm=8f09ce5eb87e4748982d88402ab7d95c2770ed80813e634c42464cec671355b30a8dc53a5384&token=875646549&lang=zh_CN#rd)
 
 - [『玩转Redis基础篇』面试官再问Redis事务把这篇文章扔给他](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321004&idx=1&sn=a8b058868390e133cfdf77ba6d2afd9f&chksm=8f09ce76b87e476062ad446b3097e9697b1da4810fa396a65554b1dada1c195ac50e90e58b24&token=875646549&lang=zh_CN#rd)
@@ -56,7 +56,7 @@
 
 - [『玩转Redis基础篇』一张图搞懂Redis缓存雪崩、缓存穿透、缓存击穿](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321284&idx=1&sn=63f0143fd3a7ef408b9810d5208cd343&chksm=8f09cf9eb87e4688a8faef2c7dd4c70139b7a04e512a7adc266de46261477518b77e6af7d54a&token=875646549&lang=zh_CN#rd)
 
-- [『玩转Redis实战篇』高并发场景下，到底先更新缓存还是先更新数据库？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322566&idx=1&sn=2142fe29c6a32e5a2100f4f39ee8953d&chksm=8f09c89cb87e418a3289cdfaf46c8e4593004a120ba709929b4dc97fff5be9aa3cc795ac9ceb&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis实战篇』高并发场景下，到底先更新缓存还是先更新数据库？:+1::+1:](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322566&idx=1&sn=2142fe29c6a32e5a2100f4f39ee8953d&chksm=8f09c89cb87e418a3289cdfaf46c8e4593004a120ba709929b4dc97fff5be9aa3cc795ac9ceb&token=875646549&lang=zh_CN#rd)
 
 - [『玩转Redis实战篇』经理让我复盘上次Redis缓存雪崩事故](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321968&idx=1&sn=aaa3f84046651c5b2f57b7cfa42df26f&chksm=8f09ca2ab87e433ca85d900894e96d207ee91ff1241b9d73f9da1c2639fdce1b12311326b667&token=875646549&lang=zh_CN#rd)
 
@@ -74,13 +74,20 @@
 # :bulb: 效率提升工具
 
 『IntelliJ IDEA Java开发利器 』
-- [开发效率不高？推荐这十款精选IntelliJ Idea插件:+1:](docs/tools/idea/推荐十款精选IntelliJIdea插件.md)
 
-# :muscle: 我要进大厂系列
-面试前你必须得了解
+- [开发效率不高？推荐这十款精选IntelliJ Idea插件](docs/tools/推荐十款精选IntelliJIdea插件.md)
+
+『学习资源网站』
+
+- [高效学习资源网站汇总](docs/tools/高效学习资源网站汇总.md)
+
+# :dart: 我要进大厂系列
+
+- [两年半完成逆袭，室友终于拿到字节跳动的Offer:+1:](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321727&idx=1&sn=2e530651ba6176415cacc91f065d333c&chksm=8f09cd25b87e4433f5a7a248bf91ee64f3e1b025a3096873f543a5cf8f03f31433b6d31c0ddc&token=1941065265&lang=zh_CN#rd)
+
 - [网易面试干货之HR解密网易招聘（上篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=1&sn=d0c73f80b6ee92aebc12dbdbcb41d8ec&chksm=8f09cfb2b87e46a4afa541bb198c0bca3acdb9067c269406447587c3c8cfd135bea0ec701bd8&scene=178&cur_album_id=1531431564587417601#rd)
 - [网易面试干货之HR解密网易招聘（下篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=2&sn=21940f268890e43032434b628fc08819&chksm=8f09cfb2b87e46a4e6c94b8b94667f036be9e8a3e6780e7ca8b714d18b53e0f1b96c67d07781&scene=178&cur_album_id=1531431564587417601#rd)
-- [两年半完成逆袭，室友终于拿到字节跳动的Offer](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321727&idx=1&sn=2e530651ba6176415cacc91f065d333c&chksm=8f09cd25b87e4433f5a7a248bf91ee64f3e1b025a3096873f543a5cf8f03f31433b6d31c0ddc&token=1941065265&lang=zh_CN#rd)
+
 
 
 # :see_no_evil: 程序人生
