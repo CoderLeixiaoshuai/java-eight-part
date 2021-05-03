@@ -1,6 +1,6 @@
 > 本文首发我的微信公众号『[爱笑的架构师](#公众号)』，欢迎大家关注。
 
-<!-- MarkdownTOC -->
+<!-- TOC -->
 
 - [1.一个".java"源文件中是否可以包括多个类（不是内部类）？有什么限制？](#1一个java源文件中是否可以包括多个类不是内部类有什么限制)
 - [2.Java有没有goto?](#2java有没有goto)
@@ -16,27 +16,27 @@
 - [12.静态变量和实例变量的区别？](#12静态变量和实例变量的区别)
 - [13.是否可以从一个static方法内部发出对非static方法的调用？](#13是否可以从一个static方法内部发出对非static方法的调用)
 - [14.Integer与int的区别](#14integer与int的区别)
-- [15.Math.round\(11.5\)等于多少? Math.round\(-11.5\)等于多少?](#15mathround115等于多少-mathround-115等于多少)
+- [15.Math.round(11.5)等于多少? Math.round(-11.5)等于多少?](#15mathround115等于多少-mathround-115等于多少)
 - [16.请说出作用域public，private，protected，以及不写时的区别](#16请说出作用域publicprivateprotected以及不写时的区别)
 - [17.Overload和Override的区别。Overloaded的方法是否可以改变返回值的类型?](#17overload和override的区别overloaded的方法是否可以改变返回值的类型)
 - [18.构造器Constructor是否可被override?](#18构造器constructor是否可被override)
-- [19.接口是否可继承接口? 抽象类是否可实现\(implements\)接口? 抽象类是否可继承具体类\(concrete class\)? 抽象类中是否可以有静态的main方法？](#19接口是否可继承接口-抽象类是否可实现implements接口-抽象类是否可继承具体类concrete-class-抽象类中是否可以有静态的main方法)
-- [20.写clone\(\)方法时，通常都有一行代码，是什么？](#20写clone方法时通常都有一行代码是什么)
+- [19.接口是否可继承接口? 抽象类是否可实现(implements)接口? 抽象类是否可继承具体类(concrete class)? 抽象类中是否可以有静态的main方法？](#19接口是否可继承接口-抽象类是否可实现implements接口-抽象类是否可继承具体类concrete-class-抽象类中是否可以有静态的main方法)
+- [20.写clone()方法时，通常都有一行代码，是什么？](#20写clone方法时通常都有一行代码是什么)
 - [21.面向对象的特征有哪些方面](#21面向对象的特征有哪些方面)
 - [22.java中实现多态的机制是什么？](#22java中实现多态的机制是什么)
 - [23.abstract class和interface有什么区别?](#23abstract-class和interface有什么区别)
 - [24.abstract的method是否可同时是static,是否可同时是native，是否可同时是synchronized?](#24abstract的method是否可同时是static是否可同时是native是否可同时是synchronized)
 - [25.什么是内部类？Static Nested Class 和 Inner Class的不同。](#25什么是内部类static-nested-class-和-inner-class的不同)
 - [26.内部类可以引用它的包含类的成员吗？有没有什么限制？](#26内部类可以引用它的包含类的成员吗有没有什么限制)
-- [27.Anonymous Inner Class \(匿名内部类\) 是否可以extends\(继承\)其它类，是否可以implements\(实现\)interface\(接口\)?](#27anonymous-inner-class-匿名内部类-是否可以extends继承其它类是否可以implements实现interface接口)
-- [28.super.getClass\(\)方法调用](#28supergetclass方法调用)
+- [27.Anonymous Inner Class (匿名内部类) 是否可以extends(继承)其它类，是否可以implements(实现)interface(接口)?](#27anonymous-inner-class-匿名内部类-是否可以extends继承其它类是否可以implements实现interface接口)
+- [28.super.getClass()方法调用](#28supergetclass方法调用)
 - [29.String是最基本的数据类型吗?](#29string是最基本的数据类型吗)
 - [30.String s = "Hello";s = s + " world!";这两行代码执行后，原始的String对象中的内容到底变了没有？](#30string-s--hellos--s---world这两行代码执行后原始的string对象中的内容到底变了没有)
 - [31.是否可以继承String类?](#31是否可以继承string类)
-- [32.String s = new String\("xyz"\);创建了几个String Object? 二者之间有什么区别？](#32string-s--new-stringxyz创建了几个string-object-二者之间有什么区别)
+- [32.String s = new String("xyz");创建了几个String Object? 二者之间有什么区别？](#32string-s--new-stringxyz创建了几个string-object-二者之间有什么区别)
 - [33.String 和StringBuffer的区别](#33string-和stringbuffer的区别)
 - [34.如何把一段逗号分割的字符串转换成一个数组?](#34如何把一段逗号分割的字符串转换成一个数组)
-- [35.数组有没有length\(\)这个方法? String有没有length\(\)这个方法？](#35数组有没有length这个方法-string有没有length这个方法)
+- [35.数组有没有length()这个方法? String有没有length()这个方法？](#35数组有没有length这个方法-string有没有length这个方法)
 - [36.下面这条语句一共创建了多少个对象? String s="a"+"b"+"c"+"d";](#36下面这条语句一共创建了多少个对象-string-sabcd)
 - [37.try {}里有一个return语句，那么紧跟在这个try后的finally {}里的code会不会被执行，什么时候被执行，在return前还是后?](#37try-里有一个return语句那么紧跟在这个try后的finally-里的code会不会被执行什么时候被执行在return前还是后)
 - [38.下面的程序代码输出的结果是多少？](#38下面的程序代码输出的结果是多少)
@@ -45,11 +45,11 @@
 - [41.error和exception有什么区别?](#41error和exception有什么区别)
 - [42.Java中的异常处理机制的简单原理和应用。](#42java中的异常处理机制的简单原理和应用)
 - [43.请写出你最常见到的5个runtime exception。](#43请写出你最常见到的5个runtime-exception)
-- [44.java中有几种方法可以实现一个线程？用什么关键字修饰同步方法? stop\(\)和suspend\(\)方法为何不推荐使用？](#44java中有几种方法可以实现一个线程用什么关键字修饰同步方法-stop和suspend方法为何不推荐使用)
-- [45.sleep\(\) 和 wait\(\) 有什么区别?](#45sleep-和-wait-有什么区别)
+- [44.java中有几种方法可以实现一个线程？用什么关键字修饰同步方法? stop()和suspend()方法为何不推荐使用？](#44java中有几种方法可以实现一个线程用什么关键字修饰同步方法-stop和suspend方法为何不推荐使用)
+- [45.sleep() 和 wait() 有什么区别?](#45sleep-和-wait-有什么区别)
 - [46.同步和异步有何异同，在什么情况下分别使用他们？举例说明。](#46同步和异步有何异同在什么情况下分别使用他们举例说明)
 - [47.多线程有几种实现方法?同步有几种实现方法?](#47多线程有几种实现方法同步有几种实现方法)
-- [48.启动一个线程是用run\(\)还是start\(\)？](#48启动一个线程是用run还是start)
+- [48.启动一个线程是用run()还是start()？](#48启动一个线程是用run还是start)
 - [49.当一个线程进入一个对象的一个synchronized方法后，其它线程是否可进入此对象的其它方法?](#49当一个线程进入一个对象的一个synchronized方法后其它线程是否可进入此对象的其它方法)
 - [50.线程的基本概念、线程的基本状态以及状态之间的关系。](#50线程的基本概念线程的基本状态以及状态之间的关系)
 - [51.简述synchronized和java.util.concurrent.locks.Lock的异同 ？](#51简述synchronized和javautilconcurrentlockslock的异同-)
@@ -64,9 +64,9 @@
 - [60.说出ArrayList,Vector, LinkedList的存储性能和特性](#60说出arraylistvector-linkedlist的存储性能和特性)
 - [61.去掉一个Vector集合中重复的元素](#61去掉一个vector集合中重复的元素)
 - [62.Collection 和 Collections的区别。](#62collection-和-collections的区别)
-- [63.Set里的元素是不能重复的，那么用什么方法来区分重复与否呢? 是用==还是equals\(\)? 它们有何区别?](#63set里的元素是不能重复的那么用什么方法来区分重复与否呢-是用还是equals-它们有何区别)
+- [63.Set里的元素是不能重复的，那么用什么方法来区分重复与否呢? 是用==还是equals()? 它们有何区别?](#63set里的元素是不能重复的那么用什么方法来区分重复与否呢-是用还是equals-它们有何区别)
 - [64.你所知道的集合类都有哪些？主要方法？](#64你所知道的集合类都有哪些主要方法)
-- [65.两个对象值相同\(x.equals(y\) == true)，但却可有不同的hash code，这句话对不对?](#65两个对象值相同xequalsy--true但却可有不同的hash-code这句话对不对)
+- [65.两个对象值相同(x.equals(y) == true)，但却可有不同的hash code，这句话对不对?](#65两个对象值相同xequalsy--true但却可有不同的hash-code这句话对不对)
 - [66.TreeSet里面放对象，如果同时放入了父类和子类的实例对象，那比较时使用的是父类的compareTo方法，还是使用的子类的compareTo方法，还是抛异常！](#66treeset里面放对象如果同时放入了父类和子类的实例对象那比较时使用的是父类的compareto方法还是使用的子类的compareto方法还是抛异常)
 - [67.说出一些常用的类，包，接口，请各举5个。](#67说出一些常用的类包接口请各举5个)
 - [68.java中有几种类型的流？JDK为每种类型的流提供了一些抽象类以供继承，请说出他们分别是哪些类？](#68java中有几种类型的流jdk为每种类型的流提供了一些抽象类以供继承请说出他们分别是哪些类)
@@ -84,7 +84,7 @@
 - [80.Java代码查错](#80java代码查错)
 - [公众号](#公众号)
 
-<!-- /MarkdownTOC -->
+<!-- /TOC -->
 
 # 1.一个".java"源文件中是否可以包括多个类（不是内部类）？有什么限制？
 

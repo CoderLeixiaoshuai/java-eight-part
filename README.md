@@ -1,6 +1,6 @@
 :star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
-:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)已经共享出来了，快快下载。
+:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)已经共享出来了，需要的可自取。
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
@@ -12,11 +12,15 @@
 
 <br />
 
+> 什么是 Java 八股文？Java 面试中经常会问的一些知识点或者套路被大家戏称为『八股文』。希望读完本开源项目可以帮助你熟悉面试套路、拿大厂 offer。
+> 
 > 勘误：如果文章内容有误欢迎[联系我](#iphone-联系我)修改，或者提交 `PR` or `Issue`，开源靠大家共同的努力！
 >
 > 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#iphone-联系我)，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
 # :coffee: Java
+
+[:+1::+1::+1: 『必看』2021 版最新Java 学习路线图（持续刷新）](docs/java/roadmap/)
 
 ## Java入门面试题
 [Java基础入门80问，适合新手，老鸟直接跳过](docs/java/base/Java基础入门80问.md)
@@ -76,10 +80,15 @@
 面试前你必须得了解
 - [网易面试干货之HR解密网易招聘（上篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=1&sn=d0c73f80b6ee92aebc12dbdbcb41d8ec&chksm=8f09cfb2b87e46a4afa541bb198c0bca3acdb9067c269406447587c3c8cfd135bea0ec701bd8&scene=178&cur_album_id=1531431564587417601#rd)
 - [网易面试干货之HR解密网易招聘（下篇）](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321320&idx=2&sn=21940f268890e43032434b628fc08819&chksm=8f09cfb2b87e46a4e6c94b8b94667f036be9e8a3e6780e7ca8b714d18b53e0f1b96c67d07781&scene=178&cur_album_id=1531431564587417601#rd)
+- [两年半完成逆袭，室友终于拿到字节跳动的Offer](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321727&idx=1&sn=2e530651ba6176415cacc91f065d333c&chksm=8f09cd25b87e4433f5a7a248bf91ee64f3e1b025a3096873f543a5cf8f03f31433b6d31c0ddc&token=1941065265&lang=zh_CN#rd)
 
 
 # :see_no_evil: 程序人生
-- [两年半完成逆袭，室友终于拿到字节跳动的Offer](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321727&idx=1&sn=2e530651ba6176415cacc91f065d333c&chksm=8f09cd25b87e4433f5a7a248bf91ee64f3e1b025a3096873f543a5cf8f03f31433b6d31c0ddc&token=1941065265&lang=zh_CN#rd)
+- [我也是从寒门走出来的:+1::+1::+1: ](https://mp.weixin.qq.com/s/pejkW9F1QsH2toEfoNPe1g)
+- [逃离百度](https://mp.weixin.qq.com/s/0Sobo5R4GLE3QmEK_gbksg)
+- [寒门难出贵子，我当程序员让爸妈在老家长脸了:+1::+1::+1: ](https://mp.weixin.qq.com/s/GOKberslgcxN7Jl5cTrmyw)
+- [摊牌了，这半个月我拍"电影"去了](https://mp.weixin.qq.com/s/ihTIFUqM0z7V1zmgPvT0yA)
+- [谈谈拼夕夕事件！为什么我们拼尽全力却还要996](https://mp.weixin.qq.com/s/3WVde2dAKfqKv0DBt5dGLw)
 - [程序员版《我和我的家乡》，拼搏奋斗的IT人是家乡的骄傲！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321444&idx=1&sn=17f3ce6c05b40afc3c18bdb23ee2f6d7&chksm=8f09cc3eb87e45289fd1e51055a4acb7d9689a8e3d4ffc598fc7fd1ca1e918f1628ee67d55c6&scene=178&cur_album_id=1531431564587417601#rd)
 - [女程序员在互联网界到底有没有被歧视？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321297&idx=1&sn=d547a2c54e99e6a69723e39ec955d24e&chksm=8f09cf8bb87e469d560ef47c47e59d814a224a31ccfefe12efe9e62a20abbc0f870e14660648&scene=178&cur_album_id=1531431564587417601#rd)
 - [离开华为换种生活，它不香吗？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321143&idx=1&sn=85a794588811541a8e920a60a0edcf4e&chksm=8f09ceedb87e47fb0b9301b6d268b4c68f5a213f47f5a1286fc800a2707b6a9bf57958bd301b&scene=178&cur_album_id=1531431564587417601#rd)
