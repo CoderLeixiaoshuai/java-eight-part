@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322018&idx=1&sn=ff1d7be13158a9d1cbc02a6d9123e503&chksm=8f09ca78b87e436e023de69301b326a9541d51b94a0d57393cc766da9dfef40c9ccaf0fdbc0c&token=1553501157&lang=zh_CN#rd)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [Kafka 如何做到支持百万级 TPS ？](#kafka-如何做到支持百万级-tps-)

@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321970&idx=1&sn=3a26ed6f0323c945c1eacb05c758cd62&chksm=8f09ca28b87e433e657fca2ffd9d45a74453ffeb17ee76a9bac8f2a7cfd3a0e6ac936396812c&token=1553501157&lang=zh_CN#rd)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [认识Kafka](#认识kafka)
