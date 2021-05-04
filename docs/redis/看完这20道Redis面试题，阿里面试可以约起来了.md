@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321227&idx=1&sn=d60883728b0c7479e1e55381e7559ad8&chksm=8f09cf51b87e4647d7b6a7f87b7d9d8e0b208e755e792d7f98cbabff7b9a6a5ccf12dd83ac7a&scene=21#wechat_redirect)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [1、什么是Redis，Redis有哪些特点？](#1什么是redisredis有哪些特点)

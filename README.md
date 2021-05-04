@@ -48,7 +48,7 @@
 # :baby_chick: Redis
 
 **面试八股文**
-- [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了](docs/expert/middleware/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
+- [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了:+1::+1:](docs/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
 **知识点详解**
 - [『玩转Redis基础篇』Redis数据结构和常用命令速记](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650320964&idx=1&sn=c7c3435f8c9dc1b4657034dbc1f1510d&chksm=8f09ce5eb87e4748982d88402ab7d95c2770ed80813e634c42464cec671355b30a8dc53a5384&token=875646549&lang=zh_CN#rd)
@@ -66,7 +66,6 @@
 - [『玩转Redis实战篇』还在用单机版？教你用Docker+Redis搭建主从复制多实例](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321391&idx=1&sn=0aea8b119ccee60a1366fffb9c040695&chksm=8f09cff5b87e46e33555e89a7d4929e4b184563b11f3cbfb7b834510c68708b125f128830acf&token=875646549&lang=zh_CN#rd)
 
 - [『玩转Redis实战篇』记一次由Redis分布式锁造成的重大事故，避免以后踩坑！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321391&idx=2&sn=272aafc2c051e3b969efb921b5ab4e81&chksm=8f09cff5b87e46e35b7ca948e08c30a7cf7b20f1254c8609a5e910faeaae738fe035547fec95&token=875646549&lang=zh_CN#rd)
-
 
 
 # :tiger: 消息队列(kafka)
