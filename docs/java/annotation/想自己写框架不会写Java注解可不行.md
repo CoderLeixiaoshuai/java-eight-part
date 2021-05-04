@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s/JqrJGwyU0oKdWYtHe_W31w)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [用注解一时爽，一直用一直爽](#用注解一时爽一直用一直爽)

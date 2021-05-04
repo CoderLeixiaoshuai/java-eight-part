@@ -1,3 +1,5 @@
+> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s/AM3C5z1QulG0wEKBFCyH6g)』，欢迎大家关注。
+
 <!-- MarkdownTOC -->
 
 - [1 没有人能够熄灭满天星光](#1-没有人能够熄灭满天星光)
