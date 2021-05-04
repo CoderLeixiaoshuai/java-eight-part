@@ -48,24 +48,24 @@
 # :baby_chick: Redis
 
 **面试八股文**
-- [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了:+1::+1:](docs/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
+- [『玩转Redis面试篇』看完这20道Redis面试题，阿里面试可以约起来了](docs/redis/看完这20道Redis面试题，阿里面试可以约起来了.md)
 
 **知识点详解**
-- [『玩转Redis基础篇』Redis数据结构和常用命令速记](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650320964&idx=1&sn=c7c3435f8c9dc1b4657034dbc1f1510d&chksm=8f09ce5eb87e4748982d88402ab7d95c2770ed80813e634c42464cec671355b30a8dc53a5384&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis基础篇』Redis数据结构和常用命令速记](docs/redis/Redis%20数据结构和常用命令速记.md)
 
-- [『玩转Redis基础篇』面试官再问Redis事务把这篇文章扔给他](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321004&idx=1&sn=a8b058868390e133cfdf77ba6d2afd9f&chksm=8f09ce76b87e476062ad446b3097e9697b1da4810fa396a65554b1dada1c195ac50e90e58b24&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis基础篇』面试官再问Redis事务把这篇文章扔给他](docs/redis/面试官再问Redis事务把这篇文章扔给他.md)
 
-- [『玩转Redis基础篇』一次性将Redis RDB持久化和AOF持久化讲透](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321014&idx=1&sn=ad594766b3973bbf5156567849db7c48&chksm=8f09ce6cb87e477a87731ad9281d082a3b52ce3a2af705527b6a683cb341cedb71bc96419d13&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis基础篇』一次性将Redis RDB持久化和AOF持久化讲透](docs/redis/一次性将Redis%20RDB持久化和AOF持久化讲透.md)
 
-- [『玩转Redis基础篇』一张图搞懂Redis缓存雪崩、缓存穿透、缓存击穿](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321284&idx=1&sn=63f0143fd3a7ef408b9810d5208cd343&chksm=8f09cf9eb87e4688a8faef2c7dd4c70139b7a04e512a7adc266de46261477518b77e6af7d54a&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis基础篇』一张图搞懂Redis缓存雪崩、缓存穿透、缓存击穿](docs/redis/一张图搞懂Redis缓存雪崩、缓存穿透、缓存击穿.md)
 
-- [『玩转Redis实战篇』高并发场景下，到底先更新缓存还是先更新数据库？:+1::+1:](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322566&idx=1&sn=2142fe29c6a32e5a2100f4f39ee8953d&chksm=8f09c89cb87e418a3289cdfaf46c8e4593004a120ba709929b4dc97fff5be9aa3cc795ac9ceb&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis实战篇』高并发场景下，到底先更新缓存还是先更新数据库？:+1::+1:](docs/redis/高并发场景下，到底先更新缓存还是先更新数据库？.md)
 
-- [『玩转Redis实战篇』经理让我复盘上次Redis缓存雪崩事故](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321968&idx=1&sn=aaa3f84046651c5b2f57b7cfa42df26f&chksm=8f09ca2ab87e433ca85d900894e96d207ee91ff1241b9d73f9da1c2639fdce1b12311326b667&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis实战篇』经理让我复盘上次Redis缓存雪崩事故](docs/redis/经理让我复盘上次Redis缓存雪崩事故.md)
 
-- [『玩转Redis实战篇』还在用单机版？教你用Docker+Redis搭建主从复制多实例](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321391&idx=1&sn=0aea8b119ccee60a1366fffb9c040695&chksm=8f09cff5b87e46e33555e89a7d4929e4b184563b11f3cbfb7b834510c68708b125f128830acf&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis实战篇』还在用单机版？教你用Docker+Redis搭建主从复制多实例](docs/redis/还在用单机版？教你用Docker%2BRedis搭建主从复制多实例.md)
 
-- [『玩转Redis实战篇』记一次由Redis分布式锁造成的重大事故，避免以后踩坑！](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321391&idx=2&sn=272aafc2c051e3b969efb921b5ab4e81&chksm=8f09cff5b87e46e35b7ca948e08c30a7cf7b20f1254c8609a5e910faeaae738fe035547fec95&token=875646549&lang=zh_CN#rd)
+- [『玩转Redis实战篇』记一次由Redis分布式锁造成的重大事故，避免以后踩坑！](docs/redis/记一次由Redis分布式锁造成的重大事故，避免以后踩坑！.md)
 
 
 # :tiger: 消息队列(kafka)
