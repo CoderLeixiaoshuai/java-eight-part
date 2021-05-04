@@ -1,6 +1,9 @@
 :star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
-:gift::gift::gift: 号外号外，学习资料免费下载！推荐 [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)已经共享出来了，需要的可自取。
+:gift::gift::gift: 号外号外，学习资料免费下载！
+- [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)
+
+- [Github 疯传！阿里大佬「LeetCode刷题手册」开放下载了！史上最强悍！](https://t.1yb.co/oH2X)
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
@@ -101,7 +104,6 @@
 - [离开华为换种生活，它不香吗？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321143&idx=1&sn=85a794588811541a8e920a60a0edcf4e&chksm=8f09ceedb87e47fb0b9301b6d268b4c68f5a213f47f5a1286fc800a2707b6a9bf57958bd301b&scene=178&cur_album_id=1531431564587417601#rd)
 - [如果可以选择，我再也不想在国企当程序员了](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321085&idx=1&sn=12a7cc5c910d547cc696c325826295e1&chksm=8f09cea7b87e47b13256c15a631506fc18fd2d8a25a4546b202f268f84347723f59a9e2e86ac&scene=178&cur_album_id=1531431564587417601#rd)
 - [30岁的程序员出路在哪里？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321044&idx=1&sn=30b10126e477876229f77cd604540b57&chksm=8f09ce8eb87e47981c945363f9601bf8bd524d220fe1b1397f01a18420c8e1cc8f7c76ba94cb&scene=178&cur_album_id=1531431564587417601#rd)
-
 
 # :cloud: 侃天侃地侃互联网热点
 - [华为鸿蒙OS尖刀武器之分布式软总线技术全解析](/docs/it-hot/鸿蒙OS尖刀武器之分布式软总线技术.md)
