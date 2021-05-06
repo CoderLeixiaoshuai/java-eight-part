@@ -17,7 +17,7 @@
 
 > 什么是 Java 八股文？Java 面试中经常会问的一些知识点或者套路被大家戏称为『八股文』。希望读完本开源项目可以帮助你熟悉面试套路、拿大厂 offer。
 > 
-> 勘误：如果文章内容有误欢迎[联系我](#iphone-联系我)修改，或者提交 [`PR`](https://hub.fastgit.org/CoderLeixiaoshuai/java-eight-part/pulls) or [`Issue`](https://hub.fastgit.org/CoderLeixiaoshuai/java-eight-part/issues)，开源靠大家共同的努力！
+> 勘误：如果文章内容有误欢迎[联系我](#iphone-联系我)修改，或者提交 [`PR`](https://github.com/CoderLeixiaoshuai/java-eight-part/pulls) or [`Issue`](https://github.com/CoderLeixiaoshuai/java-eight-part/issues)，开源靠大家共同的努力！
 >
 > 版权说明：所有文章都已首发我的微信公众号，如果需要转载可以[联系我](#iphone-联系我)授权，恶意抄袭我会不惜一切代价维护权益，希望同行一起维护良好的创作环境。 
 
