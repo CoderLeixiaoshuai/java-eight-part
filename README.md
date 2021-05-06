@@ -3,7 +3,7 @@
 :gift::gift::gift: 号外号外，学习资料免费下载！
 - [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)
 
-- [Github 疯传！阿里大佬「LeetCode刷题手册」开放下载了！史上最强悍！](https://t.1yb.co/oH2X)
+- [Github 疯传！阿里大佬「LeetCode刷题手册」开放下载了！史上最强悍！](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841057&idx=1&sn=97576b1a66502b75a6770265515b4a57&chksm=0f09c0fb387e49ed543d3fec9b3ff6ae9da6efbcf8ff52e07c15a05de9d2b90dcee1152a1b28#rd)
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
