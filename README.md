@@ -7,7 +7,7 @@
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
 <div align="center">
-    <a href="https://github.com/smileArchitect/java-eight-part#boy-%E5%85%B3%E4%BA%8E%E6%88%91"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
+    <a href="#boy-%E5%85%B3%E4%BA%8E%E6%88%91" target="_blank"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
     <a href="https://www.zhihu.com/people/smileArchitect" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E6%BD%9C%E5%8A%9B%E7%AD%94%E4%B8%BB-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E4%BA%BA%E6%B0%94%E4%BD%9C%E8%80%85-ef8b00"></a>
     <a href="https://blog.csdn.net/guoguo527" target="_blank"> <img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2%E4%B8%93%E5%AE%B6-ef8b00"></a>
@@ -32,7 +32,7 @@
 - [『图解Java并发编程系列』 01 十张图告诉你多线程那些破事](docs/java/juc/十张图告诉你多线程那些破事.md)
 - [『图解Java并发编程系列』 02 面试官：说说什么是Java内存模型？](docs/java/juc/面试官：说说什么是Java内存模型？.md)
 - [『图解Java并发编程系列』 03 面试必问的CAS原理你会了吗？](docs/java/juc/面试必问的CAS原理你会了吗.md)
-- [内存泄露的原因找到了，罪魁祸首居然是Java TheadLocal](docs/java/juc/内存泄露的原因找到了，罪魁祸首居然是Java%2BTheadLocal.md)
+- [内存泄露的原因找到了，罪魁祸首居然是Java TheadLocal](docs/java/juc/内存泄露的原因找到了，罪魁祸首居然是Java%20TheadLocal.md)
 
 *疯狂更新中……*
 
