@@ -95,7 +95,7 @@
 
 # :bulb: 工具&效率提升
 
-『Git』
+## Git
 
 基础教程：
 
@@ -106,14 +106,14 @@
 - [牛逼！简单的代码提交能玩出这么多花样](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322730&idx=1&sn=6b7593e2cd29747ba424b9ca987ac86c&chksm=8f09c930b87e40269c52f2156d1ed08ce87509f4eca25aeb49f4977e97164622f614d3b93dd0&token=1553501157&lang=zh_CN#rd)
 - [吵疯了，Pull Request到底是个啥？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650323040&idx=1&sn=12b5f1342661c7964f8908eb1e14f590&chksm=8f09c67ab87e4f6ce6aa04b9a12ab95700089455b682eea6007e90172ec2d92f705277da34f6&token=1553501157&lang=zh_CN#rd)
 
-『IntelliJ IDEA - Java开发利器 』
+## IntelliJ IDEA - Java开发利器
 
 - [开发效率不高？推荐这十款精选IntelliJ Idea插件](docs/tools/推荐十款精选IntelliJIdea插件.md)
 
-『代码重构』
+## 代码重构
 - [讲点码德！避免这些代码坏味道，努力做一名优秀的程序员](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322056&idx=1&sn=ab5552ffdc868d3ea004ed0782bd80d3&chksm=8f09ca92b87e4384881ec3ab1d1b20f61c0f77e1185d5f0ad60c7b96d3420cf7f101e88492c6&token=1553501157&lang=zh_CN#rd)
 
-『学习资源网站』
+## 学习资源
 - [高效学习资源网站汇总](docs/tools/高效学习资源网站汇总.md)
 
 
