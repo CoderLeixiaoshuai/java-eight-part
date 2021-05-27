@@ -97,6 +97,12 @@
 
 『Git』
 
+基础教程：
+
+- [保姆级Git教程，10000字详解，必看:+1:](docs/tools/git/保姆级Git教程，10000字详解.md)
+
+进阶实战：
+
 - [牛逼！简单的代码提交能玩出这么多花样](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650322730&idx=1&sn=6b7593e2cd29747ba424b9ca987ac86c&chksm=8f09c930b87e40269c52f2156d1ed08ce87509f4eca25aeb49f4977e97164622f614d3b93dd0&token=1553501157&lang=zh_CN#rd)
 - [吵疯了，Pull Request到底是个啥？](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650323040&idx=1&sn=12b5f1342661c7964f8908eb1e14f590&chksm=8f09c67ab87e4f6ce6aa04b9a12ab95700089455b682eea6007e90172ec2d92f705277da34f6&token=1553501157&lang=zh_CN#rd)
 
