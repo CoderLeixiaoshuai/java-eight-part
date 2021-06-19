@@ -1,6 +1,7 @@
 :star: 点右上角给一个 `Star`，鼓励技术人输出更多干货，爱了 ！
 
 :gift::gift::gift: 号外号外，学习资料免费下载！
+- [进BAT大厂前必读的经典编程书籍，吐血整理共6G一次打包带走](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841590&idx=1&sn=938f0a4c45d2843aa7545c1f78fcffc6&chksm=0f09beec387e37faede87b50c31e37ee384093f1bd3363304054b7919f9b6266368954b4cbd8#rd)
 - [阿里师兄总结的JAVA核心知识点整理（283页，超级详细，高清带目录）](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841004&idx=1&sn=059dab6b76cbbc50eabd39566ee5ce28&chksm=0f09c0b6387e49a099b9c55d37e112f2049309f2a895a314f0a362e9ce5fb248ad4caafd50e8#rd)
 
 - [Github 疯传！阿里大佬「LeetCode刷题手册」开放下载了！史上最强悍！](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841057&idx=1&sn=97576b1a66502b75a6770265515b4a57&chksm=0f09c0fb387e49ed543d3fec9b3ff6ae9da6efbcf8ff52e07c15a05de9d2b90dcee1152a1b28#rd)
