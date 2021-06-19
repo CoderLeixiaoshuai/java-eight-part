@@ -35,7 +35,7 @@
 - [『死磕Java并发编程系列』 02 面试官：说说什么是Java内存模型？](docs/java/juc/面试官：说说什么是Java内存模型？.md)
 - [『死磕Java并发编程系列』 03 面试必问的CAS原理你会了吗？](docs/java/juc/面试必问的CAS原理你会了吗.md)
 - [『死磕Java并发编程系列』 04 面试官：说说Atomic原子类的实现原理？](docs/java/juc/面试官：说说Atomic原子类的实现原理.md)
-- [『死磕Java并发编程系列』 05 图解Java中那18 把锁.md](docs/java/juc/图解Java中那18%20把锁.md.md)
+- [『死磕Java并发编程系列』 05 图解Java中那18 把锁.md](docs/java/juc/图解Java中那18%20把锁.md)
 - [内存泄露的原因找到了，罪魁祸首居然是Java TheadLocal](docs/java/juc/内存泄露的原因找到了，罪魁祸首居然是Java%20TheadLocal.md)
 
 *疯狂更新中……*
