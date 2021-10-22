@@ -7,8 +7,10 @@
 - [Github 疯传！阿里大佬「LeetCode刷题手册」开放下载了！史上最强悍！](http://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=502841057&idx=1&sn=97576b1a66502b75a6770265515b4a57&chksm=0f09c0fb387e49ed543d3fec9b3ff6ae9da6efbcf8ff52e07c15a05de9d2b90dcee1152a1b28#rd)
 
 <img src="https://cdn.jsdelivr.net/gh/smileArchitect/assets/202102/Java-eight-part-logo-2021-04-28-23-07-56.png" alt="Java八股文">
+
 <div align="center">
     <a href="http://coderleixiaoshuai.gitee.io/java-eight-part/" target="_blank"> <img src="https://img.shields.io/badge/GitPages-%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB-ef8b00"></a>
+      <a href="https://space.bilibili.com/1997769079" target="_blank"> <img src="https://img.shields.io/badge/B%E7%AB%99-%E7%A8%8B%E5%BA%8F%E5%91%98%E9%9B%B7%E5%B0%8F%E5%B8%85-ef8b00"></a>
     <a href="#boy-%E5%85%B3%E4%BA%8E%E6%88%91" target="_blank"> <img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E7%88%B1%E7%AC%91%E7%9A%84%E6%9E%B6%E6%9E%84%E5%B8%88-ef8b00"></a>
     <a href="https://www.zhihu.com/people/smileArchitect" target="_blank"> <img src="https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-%E6%BD%9C%E5%8A%9B%E7%AD%94%E4%B8%BB-ef8b00"></a>
     <a href="https://juejin.im/user/3500462825546958/posts" target="_blank"> <img src="https://img.shields.io/badge/%E6%8E%98%E9%87%91-%E4%BA%BA%E6%B0%94%E4%BD%9C%E8%80%85-ef8b00"></a>
@@ -36,6 +38,10 @@
 - [『死磕Java并发编程系列』 03 面试必问的CAS原理你会了吗？](docs/java/juc/面试必问的CAS原理你会了吗.md)
 - [『死磕Java并发编程系列』 04 面试官：说说Atomic原子类的实现原理？](docs/java/juc/面试官：说说Atomic原子类的实现原理.md)
 - [『死磕Java并发编程系列』 05 图解Java中那18 把锁.md](docs/java/juc/图解Java中那18%20把锁.md)
+- [『死磕Java并发编程系列』06 倒计时计数CountDownLatch](docs/java/juc/倒计时计数CountDownLatch.md)
+- 『死磕Java并发编程系列』07 人齐了一起干CyclicBarrier
+- 『死磕Java并发编程系列』08 限量供应Semaphore
+- 『死磕Java并发编程系列』09 一手交钱一手交货Exchange
 - [内存泄露的原因找到了，罪魁祸首居然是Java TheadLocal](docs/java/juc/内存泄露的原因找到了，罪魁祸首居然是Java%20TheadLocal.md)
 
 *疯狂更新中……*
