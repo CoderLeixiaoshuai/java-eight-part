@@ -1,4 +1,4 @@
-> 本文首发我的微信公众号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321467&idx=1&sn=62376145a601f4470532ccb62deaddf3&chksm=8f09cc21b87e4537a7961f8eaf751f2b4282d02f784e10cbd6b69ef01346ca23f48ff3dc260e&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
+> 本文首发我的微.信.公.众.号『[爱笑的架构师](https://mp.weixin.qq.com/s?__biz=MzIwODI1OTk1Nw==&mid=2650321467&idx=1&sn=62376145a601f4470532ccb62deaddf3&chksm=8f09cc21b87e4537a7961f8eaf751f2b4282d02f784e10cbd6b69ef01346ca23f48ff3dc260e&token=997683041&lang=zh_CN#rd)』，欢迎大家关注。
 
 <!-- TOC -->
 
