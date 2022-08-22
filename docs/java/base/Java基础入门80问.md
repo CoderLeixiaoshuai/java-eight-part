@@ -655,7 +655,7 @@ while(tokener.hasNext(){result[i++]=toker.nextToken();}
 ```
 # 35.数组有没有length()这个方法? String有没有length()这个方法？
 
-数组没有length()这个方法，有length的属性。String有有length()这个方法。
+数组没有length()这个方法，有length的属性。String有length()这个方法。
 
 # 36.下面这条语句一共创建了多少个对象? String s="a"+"b"+"c"+"d";
 
