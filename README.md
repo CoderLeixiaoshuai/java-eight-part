@@ -54,7 +54,7 @@
 - [『Java8实战系列』05 使用Java8 Optional类优雅解决空指针问题](docs/java/java8/使用Java8%20Optional类优雅解决空指针问题.md)
 
 ## Java注解
-- [想自己写框架？不会写Java注解可不行！](docs/advanced/java-annotation/想自己写框架不会写Java注解可不行.md)
+- [想自己写框架？不会写Java注解可不行！](docs/java/annotation/%E6%83%B3%E8%87%AA%E5%B7%B1%E5%86%99%E6%A1%86%E6%9E%B6%E4%B8%8D%E4%BC%9A%E5%86%99Java%E6%B3%A8%E8%A7%A3%E5%8F%AF%E4%B8%8D%E8%A1%8C.md)
 
 # :baby_chick: Redis
 
